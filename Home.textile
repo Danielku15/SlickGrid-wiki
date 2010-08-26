@@ -13,8 +13,11 @@
 </notextile>
 
 <h1>Welcome to the SlickGrid!</h1>
-
 <h2>What it is</h2>
+<div style="float:right;padding:4px;border:1px dotted silver;background:#f0f0f0;">
+Do you use SlickGrid?<br/>
+Add your site to the [[Used By]]!
+</div>
 
 Quite simply, SlickGrid is a JavaScript grid/spreadsheet component.
 
