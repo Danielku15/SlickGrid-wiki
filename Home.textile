@@ -23,8 +23,8 @@ Some highlights:
 Documentation is a bit lacking at the moment, but there is a broad set of [[examples]] that demonstrate the most effective ways of using SlickGrid.
 There is a support group hosted by Google Groups "here":http://groups.google.com/group/slickgrid
 
-SlickGrid questions on "StackOverflow":"http://stackoverflow.com/questions/tagged/slickgrid"
-Twitter - "slickgrid":"http://stackoverflow.com/questions/tagged/slickgrid"
+SlickGrid questions on "StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
+Twitter - "slickgrid":http://stackoverflow.com/questions/tagged/slickgrid
 
 
 <h2>What makes it different</h2>
