@@ -8,7 +8,7 @@ Quite simply, SlickGrid is a JavaScript grid/spreadsheet component.
 
 Some highlights:
 
-    * Adaptive virtual scrolling (handle hundreds of thousands of rows)
+    * Adaptive virtual scrolling (handle hundreds of thousands of rows with extreme responsiveness)
     * Extremely fast rendering speed
     * Background post-rendering for richer cells
     * Configurable & customizable
@@ -17,6 +17,7 @@ Some highlights:
     * Column autosizing & force-fit
     * Pluggable cell formatters & editors
     * Support for editing and creating new rows.
+    * Advanced detached & multi-field editors with undo/redo support.
     * "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data. 
 
 <h2>Resources</h2>
