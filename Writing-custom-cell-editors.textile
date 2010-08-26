@@ -68,7 +68,8 @@ function IEditor(args) {
         // the cellBox: { top, left, bottom, right, width, height, visible }
     };
 }
-
-
-
 </pre>
+
+<H1>Compound editors</H1>
+In most cases, there will be a one-to-one relationship between the fields of your data objects and cells in the grid.
+Occasionally, though, you may want to combine several fields into one cell in order to improve the usability of your application.  A custom formatter can easily pull information from multiple fields of your data object and present it in one cell.  SlickGrid handles edition those cells by using the <code>loadValue()</code>, <code>serializeValue()</code> and <code>applyValue()</code> methods of your editor.  While it may seem more complicated than a simple <code>getValue()</code> and <code>setValue()</code>, without them, compound editors would not have been possible.
