@@ -1,6 +1,7 @@
 (Edit the page to let me know how you are using SlickGrid)
 
 <ul>
-<li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a>
-<li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a>
+<li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
+<li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
+<li><a href="http://projectdirigible.com/blog/?p=49">Project Dirigible</a> at Resolver Systems</li>
 </ul>
