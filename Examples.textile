@@ -1,8 +1,15 @@
 * "Basic use with minimal configuration":http://mleibman.github.com/SlickGrid/examples/example1-simple.html
+
 * "Adding some formatting":http://mleibman.github.com/SlickGrid/examples/example2-formatters.html
+
 * "Making it editable":http://mleibman.github.com/SlickGrid/examples/example3-editing.html
-* "Using a filtered data view to drive the grid":http://mleibman.github.com/SlickGrid/examples/example4-model.html
+
+* (most comprehensive) "Using a filtered data view to drive the grid":http://mleibman.github.com/SlickGrid/examples/example4-model.html
+
 * "Adding tree functionality (expand/collapse) to the grid":http://mleibman.github.com/SlickGrid/examples/example5-collapsing.html
+
 * "AJAX-loading data with search":http://mleibman.github.com/SlickGrid/examples/example6-ajax-loading.html
+
 * "Using pre-compiled micro-templates to render cells":http://mleibman.github.com/SlickGrid/examples/example8-alternative-display.html
+
 * "Using background post-rendering to add graphs":http://mleibman.github.com/SlickGrid/examples/example10-async-post-render.html 
