@@ -36,3 +36,23 @@ The key difference is between SlickGrid and other grid implementation I have see
 Data is complicated. It has business rules. It has non-intrinsic properties. Editing one property of an element can lead to cascading changes modifying other properties or even other elements. It has dependencies. What I'm saying, is that dealing with data is best left to the developer using the grid control. Trying to fit all of that into the grid implementation and API will only limit its applicability and add considerable bloat.
 
 SlickGrid takes a different approach. In the simplest scenario, it accesses data through an array interface (i.e. using "dataitem" to get to an item at a given position and "data.length" to determine the number of items), but the API is structured in such a way that it is very easy to make the grid react to any possible changes to the underlying data. 
+
+<h3>Responding to data source changes</h3>
+
+While this may not be immediately obvious from what you see in the 
+examples and in the code, the key use of the grid is in MVC 
+applications where the grid is wired to respond to events in the 
+Model.  In our application we have spreadsheet component of a Gantt 
+chart, and the Model is a "filtered" view of the tasks (rows) in the 
+original datasource.  Suppose you collapse or expand a parent task or 
+enter some text in a Quick Filter textbox.  The Model then 
+recalculates which rows are now visible, compares that with what was 
+visible before and fires two events - onRowCountChanged & 
+onRowsChanged.  The latter one tells all subscribed Views, such as the 
+grid, that the rows in specific positions changed.  The grid then only 
+has to invalidate/remove those rows and call grid.renderViewport() to 
+make sure that whatever is in the viewport is visible.  The 
+onRowCountChanged event triggers the recalculation of the virtual 
+canvas - grid.resizeCanvas().  Together, this pattern makes for an 
+incredibly efficient, flexible and, most importantly, scalable 
+implementation. 
