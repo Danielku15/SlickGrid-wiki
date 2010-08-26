@@ -3,5 +3,5 @@
 <ul>
 <li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
 <li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
-<li><a href="http://projectdirigible.com/blog/?tag=grid">Project Dirigible</a> at Resolver Systems</li>
+<li><a href="http://projectdirigible.com/blog/">Project Dirigible</a> at Resolver Systems</li>
 </ul>
