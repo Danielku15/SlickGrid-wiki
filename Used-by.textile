@@ -1,3 +1,6 @@
+<h2>Used By</h2>
+
+(Edit the page to let me know how you are using SlickGrid)
 <ul>
 <li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a>
 
