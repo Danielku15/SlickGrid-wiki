@@ -4,6 +4,8 @@
 
 * "Making it editable":http://mleibman.github.com/SlickGrid/examples/example3-editing.html
 
+* "Writing compound editors":http://mleibman.github.com/SlickGrid/examples/example3a-compound-editors.html
+
 * (most comprehensive) "Using a filtered data view to drive the grid":http://mleibman.github.com/SlickGrid/examples/example4-model.html
 
 * "Adding tree functionality (expand/collapse) to the grid":http://mleibman.github.com/SlickGrid/examples/example5-collapsing.html
