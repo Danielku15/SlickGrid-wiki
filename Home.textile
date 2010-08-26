@@ -10,6 +10,7 @@ Some highlights:
 
     * Adaptive virtual scrolling (handle hundreds of thousands of rows with extreme responsiveness)
     * Extremely fast rendering speed
+    * Supports jQuery UI Themes
     * Background post-rendering for richer cells
     * Configurable & customizable
     * Full keyboard navigation
