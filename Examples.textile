@@ -12,4 +12,6 @@
 
 * "Using pre-compiled micro-templates to render cells":http://mleibman.github.com/SlickGrid/examples/example8-alternative-display.html
 
+* "Row selection & reordering":http://mleibman.github.com/SlickGrid/examples/example9-row-reordering.html
+
 * "Using background post-rendering to add graphs":http://mleibman.github.com/SlickGrid/examples/example10-async-post-render.html 
