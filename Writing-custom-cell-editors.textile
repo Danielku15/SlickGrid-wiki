@@ -5,7 +5,7 @@ function IEditor(args) {
     // initialize the UI
 
 
-    /*** REQUIRED METHODS ***/
+    /*********** REQUIRED METHODS ***********/
 
     this.destroy = function() {
         // remove all data, events & dom elements created in the constructor
@@ -47,7 +47,7 @@ function IEditor(args) {
     };
 
 
-    /*** OPTIONAL METHODS ***/
+    /*********** OPTIONAL METHODS***********/
 
     this.hide = function() {
         // if implemented, this will be called if the cell being edited is scrolled out of the view
