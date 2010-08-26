@@ -15,3 +15,7 @@
 * "Row selection & reordering":http://mleibman.github.com/SlickGrid/examples/example9-row-reordering.html
 
 * "Using background post-rendering to add graphs":http://mleibman.github.com/SlickGrid/examples/example10-async-post-render.html 
+
+* "No vertical scrolling (autoHeight)":http://mleibman.github.com/SlickGrid/examples/example11-autoheight.html
+
+* "Filling the whole window":http://mleibman.github.com/SlickGrid/examples/example12-fillbrowser.html
