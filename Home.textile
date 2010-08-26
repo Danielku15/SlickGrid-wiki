@@ -1,3 +1,5 @@
+<notextile><script src="http://gist.github.com/raw/250718/eddf0324d298b86661389d1f5c1468d101be3885/github_wiki_toc.js" type="text/javascript"></script></notextile>
+
 <h1>Welcome to the SlickGrid!</h1>
 
 <h2>What it is</h2>
