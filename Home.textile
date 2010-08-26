@@ -1,3 +1,5 @@
 Welcome to the SlickGrid wiki!
 
 I am currently in the middle of migrating the project from Google Code - "slickgrid.googlecode.com":http://slickgrid.googlecode.com/
+
+There is a support group hosted by Google Groups "here":http://groups.google.com/group/slickgrid
