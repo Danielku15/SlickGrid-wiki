@@ -2,6 +2,8 @@
 
 * "Adding some formatting":http://mleibman.github.com/SlickGrid/examples/example2-formatters.html
 
+* "Highlighting and flashing cells":http://mleibman.github.com/SlickGrid/examples/example14-highlighting.html
+
 * "Making it editable":http://mleibman.github.com/SlickGrid/examples/example3-editing.html
 
 * "Writing compound editors":http://mleibman.github.com/SlickGrid/examples/example3a-compound-editors.html
