@@ -41,3 +41,9 @@
 * "No vertical scrolling (autoHeight)":http://mleibman.github.com/SlickGrid/examples/example11-autoheight.html
 
 * "Filling the whole window":http://mleibman.github.com/SlickGrid/examples/example12-fillbrowser.html
+
+* "Using fixed header row for quick filters":http://mleibman.github.com/SlickGrid/examples/example-header-row.html
+
+* "Checkbox row selectors with CheckboxSelectColumn plugin":http://mleibman.github.com/SlickGrid/examples/example-checkbox-row-select.html
+
+* "Spreadsheet:  cell range selection, copy'n'paste and Excel-style formula editor":http://mleibman.github.com/SlickGrid/examples/example-spreadsheet.html
