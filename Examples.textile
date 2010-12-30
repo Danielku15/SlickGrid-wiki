@@ -47,3 +47,5 @@
 * "Checkbox row selectors with CheckboxSelectColumn plugin":http://mleibman.github.com/SlickGrid/examples/example-checkbox-row-select.html
 
 * "Spreadsheet:  cell range selection, copy'n'paste and Excel-style formula editor":http://mleibman.github.com/SlickGrid/examples/example-spreadsheet.html
+
+* "Interactive grouping and aggregates":http://mleibman.github.com/SlickGrid/examples/example-grouping.html
