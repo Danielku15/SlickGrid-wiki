@@ -8,4 +8,5 @@
 <li><a href="http://contentior.com/">Project Contentior</a> and others at Taragana Inc.</li>
 <li><a href="http://thinkupapp.com/">ThinkUp</a> (<a href="http://github.com/ginatrapani/thinkup">on GitHub</a>) by <a href="http://expertlabs.org/">Expert Labs</a></li>
 <li><a href="http://listen.grooveshark.com" target="_blank">Grooveshark</a></li>
+<li><a href="http://automa.to" target="_blank">Automato</a></li>
 </ul>
