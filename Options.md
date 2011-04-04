@@ -1,4 +1,4 @@
-These are the config options that are used in the examples outlined here.
+These are the config options that are used in the examples provided.
 
 ## Booleans:
 * asyncEditorLoading 
