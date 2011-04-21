@@ -47,4 +47,6 @@ _gaq.push(['_trackPageview']);
 
 * "Spreadsheet: cell range selection, copy'n'paste and Excel-style formula editor":http://mleibman.github.com/SlickGrid/examples/example-spreadsheet.html
 
-* "Interactive grouping and aggregates":http://mleibman.github.com/SlickGrid/examples/example-grouping.html
+* "Interactive grouping and aggregates":http://mleibman.github.com/SlickGrid/examples/example-grouping.
+
+* "Colspan":http://mleibman.github.com/SlickGrid/examples/example-colspan.html
