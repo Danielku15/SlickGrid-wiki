@@ -7,6 +7,8 @@ model.getItem(i) // Returns the ith row
 model.getLength() // Returns the number of items
 ```
 
+## Row API
+
 If you modify the nth row, you will need to tell the grid that the row is invalid, and then call `render()` to update it:
 
 ```javascript
@@ -15,6 +17,12 @@ grid.render()
 ```
 
 You can also call `grid.invalidateRows()` to invalidate a lot of rows at once, and, if you just want to re-draw the whole grid, call `grid.invalidate()` (which doesn't seem to need a `render()` call after.)
+
+
+`grid.scrollRowIntoView(rowIndex)` - scroll the grid until a row is visible.
+```javascript
+grid.scrollRowIntoView(100)
+```
 
 ## Column API
 
