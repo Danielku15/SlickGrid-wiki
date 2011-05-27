@@ -34,14 +34,14 @@ grid.getColumnIndex('first_name')
 
 ## Cell API
 
-`grid.setColumnCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is a sort of cache key that names your set of styles and ensures you don't apply the same change twice.
+`grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is a sort of cache key that names your set of styles and ensures you don't apply the same change twice. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
 
 ```css
    .highlight{ background: yellow } 
 ```
 
 ```javascript
-grid.setColumnCssStyles("birthday_highlight", {
+grid.setCellCssStyles("birthday_highlight", {
    0: {
         birthday: "highlight", 
         age: "highlight"
@@ -53,3 +53,7 @@ grid.setColumnCssStyles("birthday_highlight", {
        }
 })
 ```
+
+`grid.addCellCssStyles(key, hash)` - The add-only sibling to `grid.setCellCssStyles(key, hash)`. Will throw an exception if you try to set the same key twice without calling `removeCellCssStyles()`. Use `setColumnCssStyles()` instead if you don't want that.
+
+`grid.removeCellCssStyles(key)` - Removes styles under `key` from the grid.
