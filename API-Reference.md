@@ -15,3 +15,11 @@ grid.render()
 ```
 
 You can also call `grid.invalidateRows()` to invalidate a lot of rows at once, and, if you just want to re-draw the whole grid, call `grid.invalidate()` (which doesn't seem to need a `render()` call after.)
+
+## Column API
+
+`grid.getColumnIndex(columnName)` - Returns the numeric index of the given column. Useful when a column index is required by the API.
+
+```javascript
+grid.getColumnIndex('first_name')
+```
