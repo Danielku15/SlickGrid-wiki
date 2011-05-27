@@ -3,8 +3,8 @@
 Instead of passing SlickGrid an array of row objects, you can pass an object that holds (and updates!) all your rows. This object, which SlickGrid calls a `Model`, only needs to respond to a simple API:
 
 ```javascript
-model.getItem(i) # Returns the ith row
-model.getLength() # Returns the number of items
+model.getItem(i) // Returns the ith row
+model.getLength() // Returns the number of items
 ```
 
 If you modify the nth row, you will need to tell the grid that the row is invalid, and then call `render()` to update it:
