@@ -51,5 +51,5 @@ grid.setColumnCssStyles("birthday_highlight", {
          birthday: "highlight",
          age: "highlight"
        }
-}
+})
 ```
