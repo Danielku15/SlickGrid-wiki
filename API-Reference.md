@@ -31,3 +31,25 @@ grid.scrollRowIntoView(100)
 ```javascript
 grid.getColumnIndex('first_name')
 ```
+
+## Cell API
+
+`grid.setColumnCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is a sort of cache key that names your set of styles and ensures you don't apply the same change twice.
+
+```css
+   .highlight{ background: yellow } 
+```
+
+```javascript
+grid.setColumnCssStyles("birthday_highlight", {
+   0: {
+        birthday: "highlight", 
+        age: "highlight"
+       },
+
+   1: {
+         birthday: "highlight",
+         age: "highlight"
+       }
+}
+```
