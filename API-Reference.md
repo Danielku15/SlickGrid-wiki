@@ -16,7 +16,7 @@ grid.invalidateRow(n)
 grid.render()
 ```
 
-You can also call `grid.invalidateRows()` to invalidate a lot of rows at once, and, if you just want to re-draw the whole grid, call `grid.invalidate()` (which doesn't seem to need a `render()` call after.)
+You can also call `grid.invalidateRows()` to invalidate a lot of rows at once, and, if you just want to re-draw the whole grid, call `grid.invalidate()` (which would do a `render()` automatically.)
 
 
 `grid.scrollRowIntoView(rowIndex)` - scroll the grid until a row is visible.
