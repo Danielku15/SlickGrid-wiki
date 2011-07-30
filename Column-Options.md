@@ -12,9 +12,9 @@ The following is an incomplete list of column options:
 **formatter : function**  
     A function that accepts the data item and returns an HTML string:  
 <pre>
-    function(row,cell,value,columnDef,dataContext){
-         return value.anInterestingProperty;
-    }
+function(row,cell,value,columnDef,dataContext){
+     return value.anInterestingProperty;
+}
 </pre>
 
 **editor: function**  
