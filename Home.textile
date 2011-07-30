@@ -3,7 +3,6 @@
 <hr/>
 <b>Update</b>:  the trunk has been switched to 2.0 alpha.  The latest stable release is 1.4.3 (tag).
 <hr/>
-
 <h2>What it is</h2>
 <div style="float:right;padding:4px;border:1px dotted silver;background:#f0f0f0;">
 Do you use SlickGrid?<br/>
@@ -64,3 +63,5 @@ Rather than listing all the browsers that SlickGrid works on, I will concentrate
 IE6 is explicitly NOT supported.  While some people have made SlickGrid work with IE6, I am not going to merge those changes in or spend any time testing on IE6 and trying to make it work.  If you have to support it, I feel your pain, but I don't want to share it.
 
 Opera seems to be having some issues with synchronized scrolling of column headers and a vertical page scrollbar appearing when scrolling the grid content vertically.  I haven't been able to figure out why in the amount of time I was willing to spend on it.  If you have an idea, let me know.
+
+"API Docs, etc." : https://github.com/mleibman/SlickGrid/wiki/_pages
