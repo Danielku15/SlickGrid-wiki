@@ -64,4 +64,6 @@ IE6 is explicitly NOT supported.  While some people have made SlickGrid work wit
 
 Opera seems to be having some issues with synchronized scrolling of column headers and a vertical page scrollbar appearing when scrolling the grid content vertically.  I haven't been able to figure out why in the amount of time I was willing to spend on it.  If you have an idea, let me know.
 
-"API Docs, etc.":https://github.com/mleibman/SlickGrid/wiki/_pages
+***
+
+*"API Docs, etc.":https://github.com/mleibman/SlickGrid/wiki/_pages*
