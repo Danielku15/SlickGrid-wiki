@@ -10,12 +10,14 @@ field : string
 
 formatter : function  
     A function that accepts the data item and returns an HTML string:  
-`    function(row,cell,value,columnDef,dataContext){
+<pre>
+    function(row,cell,value,columnDef,dataContext){
          return '<b>'+value.anInterestingProperty+'</b>';
-    }`
+    }
+</pre>
 
 editor: function  
-    A function that accepts args and returns an object with a set of required functions.   
+    A function that accepts args and returns an object with a set of required functions. (See 'writing custom editors'):https://github.com/mleibman/SlickGrid/wiki/Writing-custom-cell-editors  
 
 width : integer  
     Absolute width when the grid has forceFill set to false, effectively relative width when forceFill is true.  
