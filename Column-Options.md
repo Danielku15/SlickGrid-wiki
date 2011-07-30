@@ -9,10 +9,10 @@ field : string
     The property of each data item that will be used to supply the grid with data.  
 
 formatter : function  
-    A function that accepts the data item and returns an HTML string:
-`function(row,cell,value,columnDef,dataContext){  
-  return '<b>'+value.anInterestingProperty+'</b>';  
-}  `  
+    A function that accepts the data item and returns an HTML string:  
+`    function(row,cell,value,columnDef,dataContext){
+         return '<b>'+value.anInterestingProperty+'</b>';
+    }`
 
 editor: function  
     A function that accepts args and returns an object with a set of required functions.   
