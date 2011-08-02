@@ -13,4 +13,5 @@
 <li><a href="http://www.kripa.com" target="_blank">Kripa Inc.</a></li>
 <li><a href="http://www.monaqasat.com" target="_blank">Monaqasat.com</a></li>
 <li><a href="http://drupal.org/project/slickgrid" target="_blank">Drupal project</a></li>
+<li><a href="http://www.opzi.com" target="_blank">Opzi</a></li>
 </ul>
