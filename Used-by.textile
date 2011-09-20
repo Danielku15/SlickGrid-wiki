@@ -16,4 +16,5 @@
 <li><a href="http://www.opzi.com" target="_blank">Opzi</a></li>
 <li><a href="http://www.springbase.com" target="_blank">Springbase</a></li>
 <li><a href="http://www.bluesoft.com.br" target="_blank">Bluesoft</a></li>
+<li><a href="http://spraakbanken.gu.se/korp/" target="_blank">The Swedish Language Bank at the University of Gothenburg</a></li>
 </ul>
