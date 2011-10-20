@@ -34,9 +34,29 @@ grid.scrollRowIntoView(100)
 grid.getColumnIndex('first_name')
 ```
 
+## Grid's Selection API
+
+Get the list of selected grid rows:
+```javascript
+grid.getSelectedRows()
+```
+
+Set the rows at the following indexes as selected:
+```javascript
+grid.setSelectedRows([0,10])
+```
+
+
 ## Cell API
 
-`grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is a sort of cache key that names your set of styles and ensures you don't apply the same change twice. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
+`grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is name for this set of styles so you can reference it later - to modify it or remove it, for example. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
+
+Since all that sounds complicated, and `mleibman` can probably explain it better, here is an example.
+Suppose you have a grid with columns:
+
+["login", "name", "birthday", "age", "likes_icecream", "favorite_cake"]
+
+...and you'd like to highlight the "birthday" and "age" columns for people whose birthday is today, in this case, rows at index 0 and 9. (The first and tenth row in the grid).
 
 ```css
    .highlight{ background: yellow } 
@@ -46,7 +66,7 @@ grid.getColumnIndex('first_name')
 grid.setCellCssStyles("birthday_highlight", {
    0: {
         birthday: "highlight", 
-        age: "highlight"
+        age: "highlight" 
        },
 
    1: {
