@@ -38,7 +38,7 @@ grid.getColumnIndex('first_name')
 
 Get the list of selected grid rows:
 ```javascript
-grid.getSelectedRows()
+grid.getSelectedRows() // returns [0,1] if the first two rows are selected.
 ```
 
 Set the rows at the following indexes as selected:
