@@ -35,7 +35,7 @@ There is a support group hosted by Google Groups "here":http://groups.google.com
 SlickGrid questions on "StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 Twitter - "slickgrid":http://twitter.com/slickgrid
 
-
+There is also some old documentation "here":http://www.developerfusion.com/project/18821/slickgrid/.
 <h2>What makes it different</h2>
 
 <h3>Virtual rendering</h3>
