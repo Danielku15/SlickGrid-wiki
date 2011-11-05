@@ -144,7 +144,29 @@ And it can be figured out by browsing the `handleDblClick`, `handleKeyDown`, etc
 
 **Basic sorting**
 
-(doc pending)
+It can be achieved by listening the `onSort` method:
+
+		slickgrid.onSort.subscribe(function(e, args){ // args: sort information. 
+			
+			var field = args.sortCol.field;
+			
+			rows.sort(function(a, b){
+				var result = 
+					a[field] > b[field] ? 1 :
+					a[field] < b[field] ? -1 :
+					0
+				; 
+					
+				return args.sortAsc ? result : -result;
+				
+			});
+			
+			slickgrid.setData(rows); 
+			slickgrid.updateRowCount();
+			slickgrid.render();
+			
+		});
+
 
 **DataView**
 
