@@ -101,7 +101,7 @@ These are all the currently available options:
 
 **Events**
 
-Most events are used like this:
+Many events are used like this:
 
     slickgrid.onDblClick.subscribe(function(e){           
         var cell = slickgrid.getCellFromEvent(e);
@@ -140,7 +140,7 @@ To date, the following events are available:
     onDragEnd       
     onSelectedRowsChanged
 
-And it can be figured out by browsing the `handleDblClick`, `handleKeyDown`, etc, source, included in slick.grid.js.
+They can be figured out by browsing the `handleDblClick`, `handleKeyDown`, etc, source, included in slick.grid.js.
 
 **Basic sorting**
 
