@@ -2,7 +2,7 @@ Although the source of the [first example](http://mleibman.github.com/SlickGrid/
 
 `var slickgrid = new Slick.Grid("#node", rows, columns, options);`
 
-initializes -but doesn't display- SlickGrid, asigning its interface to the `slickgrid` var. Now we can use `slickgrid.someMethod()` in order to display the grid, pass data, listen to events...
+initializes -but doesn't display- SlickGrid, asigning its interface to the `slickgrid` var. Now we can use `slickgrid.someMethod()` in order to interact with it.
 
 **Node**
 
