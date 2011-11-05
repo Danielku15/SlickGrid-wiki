@@ -1,4 +1,4 @@
-Although the source of the [first example](http://mleibman.github.com/SlickGrid/examples/example1-simple.html) is self-explanatory, it's worth to point out the basics of SlickGrid. The following line
+Although the source of the [first example](http://mleibman.github.com/SlickGrid/examples/example1-simple.html) is self-explanatory, it's worth to point out the basics of SlickGrid. The following line:
 
 `var slickgrid = new Slick.Grid("#node", rows, columns, options);`
 
@@ -47,7 +47,7 @@ DataView prevents having to modify the data for sorting and filtering purposes.
 * _field_ - The field name used in the data row objects.
 * _id_ - An unique identifier for each column in the model, allowing to set more than one column reading the same field.
 
-The other fields that can be included are:
+Other fields include:
 
         resizable
         sortable
@@ -81,76 +81,19 @@ Example:
 
 `enableCellNavigation: true` allows keyboard navigation. The `.active` CSS property defines the appearance of the currently selected cell.
 
-These are all the currently available options:
-
-    headerHeight
-    rowHeight
-    defaultColumnWidth
-    enableAddRow
-    leaveSpaceForNewRows
-    editable
-    autoEdit
-    enableCellNavigation
-    enableCellRangeSelection
-    enableColumnReorder
-    asyncEditorLoading
-    asyncEditorLoadDelay
-    forceFitColumns
-    enableAsyncPostRender
-    asyncPostRenderDelay
-    autoHeight
-    editorLock
-    showHeaderRow
-    headerRowHeight
-    showTopPanel
-    topPanelHeight
-    formatterFactory
-    editorFactory
-    cellFlashingCssClass
-    selectedCellCssClass
-    multiSelect
-    enableTextSelectionOnCells
+[These](https://github.com/mleibman/SlickGrid/wiki/Grid-Options) are all the currently available options.
 
 **Events**
 
-Many events are used like this:
+An example:
 
-    slickgrid.onDblClick.subscribe(function(e){           
+    slickgrid.onDblClick.subscribe(function(e, args){
         var cell = slickgrid.getCellFromEvent(e);
         var row = cell.row;
         var column = slickgrid.getColumns()[cell.cell]; // object containing name, field, id, etc
     });
 
-To date, the following events are available:
-
-    onScroll        
-    onSort          
-    onHeaderContextMenu         
-    onHeaderClick   
-    onMouseEnter    
-    onMouseLeave    
-    onClick         
-    onDblClick      
-    onContextMenu   
-    onKeyDown       
-    onAddNewRow     
-    onValidationError
-    onViewportChanged
-    onColumnsReordered          
-    onColumnsResized
-    onCellChange    
-    onBeforeEditCell
-    onBeforeCellEditorDestroy   
-    onBeforeDestroy 
-    onActiveCellChanged         
-    onActiveCellPositionChanged 
-    onDragInit      
-    onDragStart     
-    onDrag          
-    onDragEnd       
-    onSelectedRowsChanged
-
-They can be figured out by browsing the `handleDblClick`, `handleKeyDown`, etc, source, included in slick.grid.js.
+To date, [these](https://github.com/mleibman/SlickGrid/wiki/Grid-Events) following events are available. They can be figured out by browsing the `handleDblClick`, `handleKeyDown`, etc, source, included in slick.grid.js.
 
 **Basic sorting**
 
