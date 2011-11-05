@@ -173,6 +173,7 @@ It can be achieved by listening the `onSort` method:
 				
 			});
 			
+			slickgrid.setData(rows);
 			slickgrid.updateRowCount();
 			slickgrid.render();
 			
