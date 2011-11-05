@@ -118,9 +118,7 @@ Many events are used like this:
     slickgrid.onDblClick.subscribe(function(e){           
         var cell = slickgrid.getCellFromEvent(e);
         var row = cell.row;
-        var column_name = slickgrid.getColumns()[cell.cell].name);
-        var column_field = slickgrid.getColumns()[cell.cell].field);
-        var column_id = slickgrid.getColumns()[cell.cell].id);
+        var column = slickgrid.getColumns()[cell.cell]; // object containing name, field, id, etc
     });
 
 To date, the following events are available:
