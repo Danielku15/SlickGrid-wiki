@@ -1,13 +1,10 @@
 <h1>Welcome to the SlickGrid!</h1>
+<b>Update</b>:  the trunk has been switched to 2.0 alpha. The latest stable release is 1.4.3 (tag).
 
-<hr/>
-<b>Update</b>:  the trunk has been switched to 2.0 alpha.  The latest stable release is 1.4.3 (tag).
-<hr/>
-<h2>What it is</h2>
-<div style="float:right;padding:4px;border:1px dotted silver;background:#f0f0f0;">
 Do you use SlickGrid?<br/>
 Add your site to the [[Used By]]!
-</div>
+
+<h2>What it is</h2>
 
 Quite simply, SlickGrid is a JavaScript grid/spreadsheet component.
 It is an advanced component and is going to be a bit more difficult to learn and configure, but once you realize its full potential, it will blow your mind!
@@ -64,6 +61,6 @@ IE6 is explicitly NOT supported.  While some people have made SlickGrid work wit
 
 Opera seems to be having some issues with synchronized scrolling of column headers and a vertical page scrollbar appearing when scrolling the grid content vertically.  I haven't been able to figure out why in the amount of time I was willing to spend on it.  If you have an idea, let me know.
 
-***
+<h2>API, docs, etc.</h2>
 
-*"API Docs, etc.":https://github.com/mleibman/SlickGrid/wiki/_pages*
+"Pages":https://github.com/mleibman/SlickGrid/wiki/_pages
