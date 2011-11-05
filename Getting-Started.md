@@ -63,7 +63,7 @@ Example:
             field: "rating"
             id: "rating_stars"
         }
-];
+    ];
 
 **Options**
 
