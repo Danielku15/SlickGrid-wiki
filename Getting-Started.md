@@ -47,21 +47,23 @@ The only exception to this is when deleting or replacing all data objects from `
 
 Example:
 
-    var columns = [{
-        name: "Address",
-        field: "address"
-        id: "address" // In most cases field and id will have the same value.
-    }, 
-    {
-        name: "Rating, in %",
-        field: "rating" // This and the following column read the same data, but can present it in a different way.
-        id: "rating_percent"
-    }, 
-    {
-        name: "Rating, in stars",
-        field: "rating"
-        id: "rating_stars"
-    }];
+    var columns = [
+        {
+            name: "Address",
+            field: "address"
+            id: "address" // In most cases field and id will have the same value.
+        }, 
+        {
+            name: "Rating, in %",
+            field: "rating" // This and the following column read the same data, but can present it in a different way.
+            id: "rating_percent"
+        }, 
+        {
+            name: "Rating, in stars",
+            field: "rating"
+            id: "rating_stars"
+        }
+];
 
 **Options**
 
