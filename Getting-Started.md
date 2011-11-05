@@ -2,13 +2,13 @@ Although the source of the [first example](http://mleibman.github.com/SlickGrid/
 
 `var slickgrid = new Slick.Grid("#node", rows, columns, options);`
 
-initializes -but doesn't display- SlickGrid, assigning its interface to the `slickgrid` var. Now we can use `slickgrid.someMethod()` in order to display the grid, pass data, listen to events...
+initializes -but doesn't display- SlickGrid, asigning its interface to the `slickgrid` var. Now we can use `slickgrid.someMethod()` in order to display the grid, pass data, listen to events...
 
 **Node**
 
 `"#node"` points to the HTML element where the grid should appear, typically being an empty `<div>`.
 
-After we've passed `node`, `rows`, `columns` and `options` to `Slick.Grid`, we can proceed to display the grid.
+Once we've passed `node`, `rows`, `columns` and `options` to `Slick.Grid`, we can proceed to display the grid:
 
 `jQuery("#node").show();`
 
@@ -26,24 +26,34 @@ After we've passed `node`, `rows`, `columns` and `options` to `Slick.Grid`, we c
         }
     ];
 
-As it is passed passed by reference to the `Slick.Grid()` method, you can add, remove and sort its data objects without having to pass them again, but just refreshing SlickGrid's data model and view:
+As it is passed passed by reference to the `Slick.Grid()` method, you can add and remove data objects to it without having to pass them again, but just refreshing SlickGrid's data model and view:
 
     slickgrid.updateRowCount();
     slickgrid.render();
 
 The only exception to this is when deleting or replacing all data objects from `rows`:
 
-    slickgrid.setData(rows); // Either a completely different array from the previously stored, or an empty array.
+    slickgrid.setData(rows); // A different, empty or sorted array.
     slickgrid.updateRowCount();
     slickgrid.render();
 
+DataView prevents having to modify the data for sorting and filtering purposes.
+
 **Columns**
 
-`columns` is an array of objects, each being a column in the model, having at least the following fields:
+`columns` is an array of objects, having at least the following fields:
 
 * _name_ - The name to be displayed in the view.
 * _field_ - The field name used in the data row objects.
 * _id_ - An unique identifier for each column in the model, allowing to set more than one column reading the same field.
+
+The other fields that can be included are:
+
+        resizable
+        sortable
+        minWidth
+        rerenderOnResize
+        headerCssClass
 
 Example:
 
@@ -51,12 +61,14 @@ Example:
         {
             name: "Address",
             field: "address"
-            id: "address" // In most cases field and id will have the same value.
+            id: "address", // In most cases field and id will have the same value.
+            sortable: true
         }, 
         {
             name: "Rating, in %",
             field: "rating" // This and the following column read the same data, but can present it in a different way.
-            id: "rating_percent"
+            id: "rating_percent",
+            resizable: false
         }, 
         {
             name: "Rating, in stars",
@@ -161,7 +173,6 @@ It can be achieved by listening the `onSort` method:
 				
 			});
 			
-			slickgrid.setData(rows); 
 			slickgrid.updateRowCount();
 			slickgrid.render();
 			
