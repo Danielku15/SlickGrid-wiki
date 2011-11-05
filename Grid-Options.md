@@ -21,7 +21,7 @@ These are the config options that are used in the examples provided.
 
 ## Others (with sample values)
 
-* cellFlashingCssClass: "flashing" _A CSS class to apply to flashing cells (flashCell())._
+* cellFlashingCssClass: "flashing" _A CSS class to apply to flashing cells via flashCell()._
 * cellHighlightCssClass: "selected" _A CSS class to apply to cells highlighted via setHighlightedCells()._
 * editCommandHandler: queueAndExecuteCommand
 * rowHeight: 140
