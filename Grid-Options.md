@@ -1,4 +1,4 @@
-As included in the example or described in stable releases.
+As included in the examples or described in stable releases.
 
 ## Booleans:
 * asyncEditorLoading 
