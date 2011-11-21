@@ -17,6 +17,8 @@ _gaq.push(['_trackPageview']);
 
 * "Adding some formatting":http://mleibman.github.com/SlickGrid/examples/example2-formatters.html
 
+* "Handling events":http://mleibman.github.com/SlickGrid/examples/example7-events.html
+
 * "Highlighting and flashing cells":http://mleibman.github.com/SlickGrid/examples/example14-highlighting.html
 
 * "Making it editable":http://mleibman.github.com/SlickGrid/examples/example3-editing.html
