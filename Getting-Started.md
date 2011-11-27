@@ -8,10 +8,6 @@ initializes -but doesn't display- SlickGrid, asigning its interface to the `slic
 
 `"#node"` points to the HTML element where the grid should appear, typically being an empty `<div>`.
 
-Once we've passed `node`, `rows`, `columns` and `options` to `Slick.Grid`, we can proceed to display the grid:
-
-`jQuery("#node").show();`
-
 **Rows**
 
 `rows` is an array of data objects. Example:
@@ -116,8 +112,7 @@ It can be achieved by listening the `onSort` method:
 			
 			slickgrid.setData(rows);
 			slickgrid.updateRowCount();
-			slickgrid.render();
-			
+			slickgrid.render();			
 		});
 
 
