@@ -20,4 +20,5 @@
 <li><a href="http://www.om-manager.com" target="_blank">OM Labs - Used in the backend for the ticket system</a></li>
 <li><a href="http://www.surgeforward.com/" target="_blank">Surge Consulting Group</a></li>
 <li><a href="http://www.timeglider.com/" target="_blank">Timeglider</a></li>
+<li><a href="http://www.wakoopa.com/" target="_blank">Wakoopa</a></li>
 </ul>
