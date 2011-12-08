@@ -6,7 +6,7 @@ Add your site to the [[Used By]]!
 
 <h2>What it is</h2>
 
-Quite simply, SlickGrid is a JavaScript grid/spreadsheet component.
+Quite simply, SlickGrid is a JavaScript (jQuery plugin) grid/spreadsheet component.
 It is an advanced component and is going to be a bit more difficult to learn and configure, but once you realize its full potential, it will blow your mind!
 
 Some highlights:
