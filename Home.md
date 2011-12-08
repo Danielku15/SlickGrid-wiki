@@ -1,0 +1,66 @@
+<h1>Welcome to the SlickGrid!</h1>
+<b>Update</b>:  the trunk has been switched to 2.0 alpha. The latest stable release is 1.4.3 (tag).
+
+Do you use SlickGrid?<br/>
+Add your site to the [[Used By]]!
+
+<h2>What it is</h2>
+
+Quite simply, SlickGrid is a JavaScript (jQuery plugin) grid/spreadsheet component.
+It is an advanced component and is going to be a bit more difficult to learn and configure, but once you realize its full potential, it will blow your mind!
+
+Some highlights:
+
+    * Adaptive virtual scrolling (handle hundreds of thousands of rows with extreme responsiveness)
+    * Extremely fast rendering speed
+    * Supports jQuery UI Themes
+    * Background post-rendering for richer cells
+    * Configurable & customizable
+    * Full keyboard navigation
+    * Column resize/reorder/show/hide
+    * Column autosizing & force-fit
+    * Pluggable cell formatters & editors
+    * Support for editing and creating new rows.
+    * Grouping, filtering, custom aggregators, and more!
+    * Advanced detached & multi-field editors with undo/redo support.
+    * "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data. 
+
+<h2>Resources</h2>
+Documentation is a bit lacking at the moment, but there is a broad set of [[examples]] that demonstrate the most effective ways of using SlickGrid.
+There is a support group hosted by Google Groups "here":http://groups.google.com/group/slickgrid
+
+SlickGrid questions on "StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
+Twitter - "slickgrid":http://twitter.com/slickgrid
+
+There is also some old documentation "here":http://www.developerfusion.com/project/18821/slickgrid/.
+<h2>What makes it different</h2>
+
+<h3>Virtual rendering</h3>
+
+SlickGrid utilizes virtual rendering to enable you to easily work with hundreds of thousands of items without any drop in performance. In fact, there is no difference in performance between working with a grid with 10 rows versus a 100'000 rows. This is achieved through virtual rendering where only what's visible on the screen plus a small buffer is rendered. As the user scrolls, DOM nodes are continuously being created and removed. These operations are highly tuned to provide optimal performance under all browsers. The grid also adapts to the direction and speed of scroll to minimize the number of rows that need to be swapped out and to dynamically switch between synchronous and asynchronous rendering.
+
+It does a few other things to maximize performance, such as dynamically generating and updating CSS rules, so that resizing a column does not change the grid DOM tree and only causes one reflow, and loading cell editors asynchronously to maximize keyboard navigation speed.
+
+<h3>Grid vs Data</h3>
+
+The key difference is between SlickGrid and other grid implementation I have seen is that they focus too much on being able to understand and work with data (search, sort, parse, ajax load, etc.) and not enough on being a better "grid" (or, in case of editable grids, a spreadsheet). It's great if all you want to do is "spruce up" an HTML TABLE or slap a front end onto a simple list, but too inflexible for anything else.
+
+Data is complicated. It has business rules. It has non-intrinsic properties. Editing one property of an element can lead to cascading changes modifying other properties or even other elements. It has dependencies. What I'm saying, is that dealing with data is best left to the developer using the grid control. Trying to fit all of that into the grid implementation and API will only limit its applicability and add considerable bloat.
+
+SlickGrid takes a different approach. In the simplest scenario, it accesses data through an array interface (i.e. using "dataitem" to get to an item at a given position and "data.length" to determine the number of items), but the API is structured in such a way that it is very easy to make the grid react to any possible changes to the underlying data. 
+
+<h3>Responding to data source changes</h3>
+
+While this may not be immediately obvious from what you see in the examples and in the code, the key use of the grid is in MVC applications where the grid is wired to respond to events in the Model.  In our application we have spreadsheet component of a Gantt chart, and the Model is a "filtered" view of the tasks (rows) in the original datasource.  Suppose you collapse or expand a parent task or enter some text in a Quick Filter textbox.  The Model then recalculates which rows are now visible, compares that with what was visible before and fires two events - onRowCountChanged & onRowsChanged.  The latter one tells all subscribed Views, such as the grid, that the rows in specific positions changed.  The grid then only has to invalidate/remove those rows and call grid.renderViewport() to make sure that whatever is in the viewport is visible.  The onRowCountChanged event triggers the recalculation of the virtual canvas - grid.resizeCanvas().  Together, this pattern makes for an incredibly efficient, flexible and, most importantly, scalable implementation. 
+
+
+<h2>Unsupported browsers</h2>
+Rather than listing all the browsers that SlickGrid works on, I will concentrate on the ones that don't.  
+
+IE6 is explicitly NOT supported.  While some people have made SlickGrid work with IE6, I am not going to merge those changes in or spend any time testing on IE6 and trying to make it work.  If you have to support it, I feel your pain, but I don't want to share it.
+
+Opera seems to be having some issues with synchronized scrolling of column headers and a vertical page scrollbar appearing when scrolling the grid content vertically.  I haven't been able to figure out why in the amount of time I was willing to spend on it.  If you have an idea, let me know.
+
+<h2>API, docs, etc.</h2>
+
+"Pages":https://github.com/mleibman/SlickGrid/wiki/_pages
