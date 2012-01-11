@@ -1,7 +1,6 @@
 As included in the examples or described in stable releases.
 
 ## Booleans:
-* asyncEditorLoading 
 * autoEdit _Cell will not automatically go into edit mode when selected._
 * autoHeight 
 * editable            
@@ -15,7 +14,6 @@ As included in the examples or described in stable releases.
 * leaveSpaceForNewRows
 * enableCellRangeSelection
 * asyncEditorLoading _Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed._
-* forceFitColumns
 * multiSelect
 * enableTextSelectionOnCells
 
@@ -25,15 +23,12 @@ As included in the examples or described in stable releases.
 * cellHighlightCssClass: "selected" _A CSS class to apply to cells highlighted via setHighlightedCells()._
 * editCommandHandler: queueAndExecuteCommand
 * rowHeight: 140
-* rowHeight: 64
 * topPanelHeight: 25
 * headerHeight: 25
-* rowHeight: 25
 * defaultColumnWidth: 80
 * asyncEditorLoadDelay: 100 _Delay after which cell editor is loaded. Ignored unless asyncEditorLoading is true._
 * asyncPostRenderDelay: 60 _Delay after which async post renderer delegate is called._
 * editorLock: _A Slick.EditorLock instance to use for controlling concurrent data edits._
 * headerRowHeight: 25
-* topPanelHeight: 25
 * formatterFactory: _A factory object responsible to creating a formatter for a given cell. Must implement getFormatter(column)._
 * editorFactory: _A factory object responsible to creating an editor for a given cell. Must implement getEditor(column)._
