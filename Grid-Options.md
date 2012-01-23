@@ -16,6 +16,7 @@ As included in the examples or described in stable releases.
 * asyncEditorLoading _Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed._
 * multiSelect
 * enableTextSelectionOnCells
+* explicitInitialization (http://mleibman.github.com/SlickGrid/examples/example-explicit-initialization.html)
 
 ## Others (with sample values)
 
