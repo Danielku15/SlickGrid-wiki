@@ -25,7 +25,6 @@ As included in the examples or described in stable releases.
 * editCommandHandler: queueAndExecuteCommand
 * rowHeight: 140
 * topPanelHeight: 25
-* headerHeight: 25
 * defaultColumnWidth: 80
 * asyncEditorLoadDelay: 100 _Delay after which cell editor is loaded. Ignored unless asyncEditorLoading is true._
 * asyncPostRenderDelay: 60 _Delay after which async post renderer delegate is called._
