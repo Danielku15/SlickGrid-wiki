@@ -27,6 +27,7 @@ SlickGrid exposes the following events:
 * onDragEnd
 * onSelectedRowsChanged
 * onInvalidatedRows
+* onCellCssStylesChanged
 
 You can subscribe to the above events using a syntax similar to:
 
