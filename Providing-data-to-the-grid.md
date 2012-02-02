@@ -39,6 +39,8 @@ The data is passed to the grid via the constructor and can also be accessed usin
 
 ### Column-level properties
 
+* `focusable` (boolean) - Whether or not any cells in the row can be set as "active".
+* `selectable` (boolean) - Whether or not a row or any cells in it can be selected.
 * `formatter` (Function) - A custom cell formatter.
 * `editor` (Function) - A custom cell editor.
 * `colspan` (number|string) - Number of columns this cell will span.  Can also contain "*" to indicate that the cell should span the rest of the row.
