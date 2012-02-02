@@ -56,4 +56,6 @@ When looking up a property, the grid checks in the following order:
 5. Grid options.
 5. Grid defaults.
 
+## Examples
 
+See [colspan example](http://mleibman.github.com/SlickGrid/examples/example-colspan.html).
