@@ -17,6 +17,7 @@ As included in the examples or described in stable releases.
 * multiSelect
 * enableTextSelectionOnCells
 * explicitInitialization (http://mleibman.github.com/SlickGrid/examples/example-explicit-initialization.html)
+* multiColumnSort (http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html)
 
 ## Others (with sample values)
 
