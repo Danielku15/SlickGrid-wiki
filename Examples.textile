@@ -56,3 +56,5 @@ _gaq.push(['_trackPageview']);
 * "Optimizing DataView for 500'000 rows":http://mleibman.github.com/SlickGrid/examples/example-optimizing-dataview.html
 
 * "Explicit initialization":http://mleibman.github.com/SlickGrid/examples/example-explicit-initialization.html
+
+* "Multi-column sorting":http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html
