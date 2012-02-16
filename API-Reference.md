@@ -79,3 +79,14 @@ grid.setCellCssStyles("birthday_highlight", {
 `grid.addCellCssStyles(key, hash)` - The add-only sibling to `grid.setCellCssStyles(key, hash)`. Will throw an exception if you try to set the same key twice without calling `removeCellCssStyles()`. Use `setColumnCssStyles()` instead if you don't want that.
 
 `grid.removeCellCssStyles(key)` - Removes styles under `key` from the grid.
+
+## Custom Field Accessor
+By default field values are access via `item[columnDef.field]`. To have a custom field accessor, overwrite the default `dataItemColumnValueExtractor` option.
+
+```
+  var options = {
+	dataItemColumnValueExtractor: function(item, colDef) {
+	  item.get(colDef.id);
+	}
+  };
+```
