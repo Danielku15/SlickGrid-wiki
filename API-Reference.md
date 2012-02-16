@@ -86,7 +86,7 @@ By default field values are access via `item[columnDef.field]`. To have a custom
 ```
   var options = {
 	dataItemColumnValueExtractor: function(item, colDef) {
-	  item.get(colDef.id);
+	  return item.get(colDef.id);
 	}
   };
 ```
