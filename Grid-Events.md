@@ -35,3 +35,7 @@ You can subscribe to the above events using a syntax similar to:
         //event handling code.
     });
 
+Event handlers can also be removed with
+
+    gridInstance.onXYZEvent.unsubscribe(fn);
+
