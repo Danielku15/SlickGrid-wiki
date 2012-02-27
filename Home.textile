@@ -1,5 +1,4 @@
 <h1>Welcome to the SlickGrid!</h1>
-<b>Update</b>:  the trunk has been switched to 2.0 alpha. The latest stable release is 1.4.3 (tag).
 
 Do you use SlickGrid?<br/>
 Add your site to the [[Used By]]!
