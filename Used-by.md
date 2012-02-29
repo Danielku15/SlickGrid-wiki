@@ -22,4 +22,5 @@
 <li><a href="http://www.timeglider.com/" target="_blank">Timeglider</a></li>
 <li><a href="http://www.wakoopa.com/" target="_blank">Wakoopa</a></li>
 <li><a href="http://www.jostens.com/" target="_blank">Jostens</a></li>
+<li><a href="http://www.infor.com/" target="_blank">Infor</a></li>
 </ul>
