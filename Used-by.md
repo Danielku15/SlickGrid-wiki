@@ -23,5 +23,5 @@
 <li><a href="http://www.wakoopa.com/" target="_blank">Wakoopa</a></li>
 <li><a href="http://www.jostens.com/" target="_blank">Jostens</a></li>
 <li><a href="http://www.infor.com/" target="_blank">Infor</a></li>
-<li><a href="http://www.dbsight.net" target="_blank">DBSight Inc. Used as a scaffold to generate search result page.</a></li>
+<li><a href="http://www.dbsight.net" target="_blank">DBSight Inc. </a> Used in a scaffold to generate search result page.</li>
 </ul>
