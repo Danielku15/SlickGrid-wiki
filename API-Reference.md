@@ -33,6 +33,32 @@ grid.scrollRowIntoView(100)
 ```javascript
 grid.getColumnIndex('first_name')
 ```
+Column options:
+
+
+**Booleans**
+
+
+##
+* sortable
+* resizable
+* rerenderOnResize
+* focusable
+* selectable
+
+
+**Other**
+
+##
+* id _A unique identifier for the column within the grid_
+* name _The display text_
+* field _The name of the data object property to pull content from_
+* cssClass 
+* headerCssClass
+* width
+* minWidth
+* maxWidth
+* toolTip
 
 ## Grid's Selection API
 
