@@ -1,10 +1,5 @@
 NOTE:  This is a user-contributed section.
 
-## Grid Data API:
-
-If calling `grid.setData()` multiple times (for instance in an AJAX scenario), make sure to call `grid.resizeCanvas()` to update the height of the view port to the current length of data.
-
-
 ## Model API:
 
 Instead of passing SlickGrid an array of row objects, you can pass an object that holds (and updates!) all your rows. This object, which SlickGrid calls a `Model`, only needs to respond to a simple API:
