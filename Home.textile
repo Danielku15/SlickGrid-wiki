@@ -3,6 +3,8 @@
 Do you use SlickGrid?<br/>
 Add your site to the [[Used By]]!
 
+Want to show your appreciation?  Hit "Donate!":https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=michael%2eleibman%40gmail%2ecom&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted :)
+
 <h2>What it is</h2>
 
 Quite simply, SlickGrid is a JavaScript grid/spreadsheet component.
