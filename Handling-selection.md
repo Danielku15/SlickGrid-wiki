@@ -35,6 +35,7 @@ The event must be fired with the following data in event args:
 
 Below is a simplistic example of a single cell selection model that only reacts to mouse clicks:
 
+```javascript
     function SingleCellSelectionModel() {
       var self = this;
 
@@ -58,4 +59,4 @@ Below is a simplistic example of a single cell selection model that only reacts 
         });
       };
     }
-
+```
