@@ -67,5 +67,5 @@ Opera seems to be having some issues with synchronized scrolling of column heade
 * "Getting Started":https://github.com/mleibman/SlickGrid/wiki/Getting-Started
 * "Examples":https://github.com/mleibman/SlickGrid/wiki/Examples
 * "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
-
+* [[Handling selection]]
 * "All Pages":https://github.com/mleibman/SlickGrid/wiki/_pages
