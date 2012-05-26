@@ -8,7 +8,7 @@ Make sure you have access to the `toggleRowSelection(row);` function
 
     function handleClick(e, args) {
         //check if we just clicked a checkbox
-        if (subscription.grid.getColumns()[args.cell].id === "_checkbox_selector"){
+        if (grid.getColumns()[args.cell].id === "_checkbox_selector"){
             if (grid.getSelectionModel() != rowSelect){
                 grid.setSelectedRows([]);
                 grid.setSelectionModel(rowSelect);
@@ -24,8 +24,8 @@ Make sure you have access to the `toggleRowSelection(row);` function
             e.stopPropagation();
             e.stopImmediatePropagation();
         } else {
-            if (subscription.grid.getSelectionModel() != cellSelect){
-                subscription.grid.setSelectionModel(cellSelect);
+            if (grid.getSelectionModel() != cellSelect){
+                grid.setSelectionModel(cellSelect);
             }
         }
     }
@@ -35,12 +35,12 @@ Make sure you have access to the `toggleRowSelection(row);` function
 this is the `toggleRowSelection(row)` I use (copied from the rowselection example)
 ```javascript
     function toggleRowSelection(row) {
-        if (subscription.selectedRowsLookup[row]) {
-            subscription.grid.setSelectedRows($.grep(subscription.grid.getSelectedRows(), function (n) {
+        if (selectedRowsLookup[row]) {
+            grid.setSelectedRows($.grep(grid.getSelectedRows(), function (n) {
                 return n != row
             }));
         } else {
-            subscription.grid.setSelectedRows(subscription.grid.getSelectedRows().concat(row));
+            grid.setSelectedRows(grid.getSelectedRows().concat(row));
         }
     }
 ```
