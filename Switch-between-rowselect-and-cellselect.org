@@ -33,7 +33,7 @@ Make sure you have access to the `toggleRowSelection(row);` function
 
 
 this is the `toggleRowSelection(row)` I use (copied from the rowselection example)
-
+```javascript
     function toggleRowSelection(row) {
         if (subscription.selectedRowsLookup[row]) {
             subscription.grid.setSelectedRows($.grep(subscription.grid.getSelectedRows(), function (n) {
@@ -43,3 +43,4 @@ this is the `toggleRowSelection(row)` I use (copied from the rowselection exampl
             subscription.grid.setSelectedRows(subscription.grid.getSelectedRows().concat(row));
         }
     }
+```
