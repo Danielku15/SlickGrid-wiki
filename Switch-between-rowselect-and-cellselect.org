@@ -1,6 +1,6 @@
 This can be used when you have checkbox selection and want to use the checkboxes for rowselection and and go back to cellselection when you click a cell. 
 
-Make sure you have access to the `toggleRowSelection(row);` function
+Make sure you have access to the ``toggleRowSelection(row);`` function
 
 ```javascript
     var rowSelect = new Slick.RowSelectionModel({selectActiveRow: true});
@@ -32,7 +32,7 @@ Make sure you have access to the `toggleRowSelection(row);` function
 ```
 
 
-this is the `toggleRowSelection(row)` I use (copied from the rowselection example)
+this is the ``toggleRowSelection(row)`` I use (copied from the rowselection example)
 ```javascript
     function toggleRowSelection(row) {
         if (selectedRowsLookup[row]) {
