@@ -41,7 +41,7 @@ Now our keydown implementation
             $(cp).val(val);
             $(cp).focus();
             $(cp).select();
-			e.srcElement.focus();
+            e.srcElement.focus();
         } else if (e.which == 86) {
             //paste
             $(cp).focus();
@@ -64,7 +64,7 @@ Now our keydown implementation
                 grid.invalidate();
                 grid.render();
             }, 10);
-			e.srcElement.focus();
+            e.srcElement.focus();
             return false;
         } else if (e.which == 88){
             //cut
@@ -90,8 +90,7 @@ Now our keydown implementation
             $(cp).val(val);
             $(cp).focus();
             $(cp).select();
-			e.srcElement.focus();
+            e.srcElement.focus();
         }
     }
 ```
-
