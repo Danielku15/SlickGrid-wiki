@@ -24,7 +24,7 @@ initializes -but doesn't display- SlickGrid, asigning its interface to the `slic
 
 Providing data to the grid is explained in more detail [here](https://github.com/mleibman/SlickGrid/wiki/Providing-data-to-the-grid)
 
-As it is passed passed by reference to the `Slick.Grid()` method, you can add and remove data objects to it without having to pass them again, but just refreshing SlickGrid's data model and view:
+As it is passed by reference to the `Slick.Grid()` method, you can add and remove data objects to it without having to pass them again, by just refreshing SlickGrid's data model and view:
 
     slickgrid.updateRowCount();
     slickgrid.render();
