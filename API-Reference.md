@@ -1,4 +1,3 @@
-
 # NOTE:  This is a user-contributed section, so it may not be accurate!!!
 
 
@@ -55,6 +54,7 @@ Column options:
 * id _A unique identifier for the column within the grid_
 * name _The display text_
 * field _The name of the data object property to pull content from_
+* editor _The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See slick.editors.js
 * cssClass 
 * headerCssClass
 * width
