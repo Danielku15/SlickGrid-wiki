@@ -97,7 +97,7 @@ grid.setCellCssStyles("birthday_highlight", {
         age: "highlight" 
        },
 
-   1: {
+   9: {
          birthday: "highlight",
          age: "highlight"
        }
