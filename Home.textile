@@ -71,3 +71,9 @@ Opera seems to be having some issues with synchronized scrolling of column heade
 * "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
 * [[Handling selection]]
 * "All Pages":https://github.com/mleibman/SlickGrid/wiki/_pages
+
+<h2>Thanks</h2>
+
+<a href="http://www.jetbrains.com/webstorm/" style="position: relative;display:block; width:127px; height:37px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;"><img src="http://www.jetbrains.com/webstorm/documentation/webstorm_banners/webstorm1/webstorm125x37_turquoise.gif" alt="Developed with" border="0"/></a>
+
+Big thanks to JetBrains who have supported SlickGrid and other open-source projects by providing a free license for their awesome WebStorm IDE.
