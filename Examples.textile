@@ -58,3 +58,5 @@ _gaq.push(['_trackPageview']);
 * "Explicit initialization":http://mleibman.github.com/SlickGrid/examples/example-explicit-initialization.html
 
 * "Multi-column sorting":http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html
+
+* "Column header buttons":http://mleibman.github.com/SlickGrid/examples/example-plugin-headerbuttons.html
