@@ -77,3 +77,18 @@ Opera seems to be having some issues with synchronized scrolling of column heade
 <a href="http://www.jetbrains.com/webstorm/" style="position: relative;display:block; width:127px; height:37px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;"><img src="http://www.jetbrains.com/webstorm/documentation/webstorm_banners/webstorm1/webstorm125x37_turquoise.gif" alt="Developed with" border="0"/></a>
 
 Big thanks to JetBrains who have supported SlickGrid and other open-source projects by providing a free license for their awesome WebStorm IDE.
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-71721-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
