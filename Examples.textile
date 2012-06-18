@@ -45,7 +45,7 @@ _gaq.push(['_trackPageview']);
 
 * "Using fixed header row for quick filters":http://mleibman.github.com/SlickGrid/examples/example-header-row.html
 
-* "Checkbox row selectors with CheckboxSelectColumn plugin":http://mleibman.github.com/SlickGrid/examples/example-checkbox-row-select.html
+* "Plugin:  Checkbox row selectors with CheckboxSelectColumn plugin":http://mleibman.github.com/SlickGrid/examples/example-checkbox-row-select.html
 
 * "Spreadsheet: cell range selection, copy'n'paste and Excel-style formula editor":http://mleibman.github.com/SlickGrid/examples/example-spreadsheet.html
 
@@ -59,4 +59,6 @@ _gaq.push(['_trackPageview']);
 
 * "Multi-column sorting":http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html
 
-* "Column header buttons":http://mleibman.github.com/SlickGrid/examples/example-plugin-headerbuttons.html
+* "Plugin: Column header buttons":http://mleibman.github.com/SlickGrid/examples/example-plugin-headerbuttons.html
+
+* "Plugin: Column header menu":http://mleibman.github.com/SlickGrid/examples/example-plugin-headermenu.html
