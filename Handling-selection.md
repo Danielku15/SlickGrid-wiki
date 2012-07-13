@@ -54,9 +54,7 @@ Below is a simplistic example of a single cell selection model that only reacts 
           return;
         }
 
-        self.onSelectedRangesChanged.notify({
-          ranges: [new Slick.Range(cell.row, cell.cell, cell.row, cell.cell)]
-        });
+        self.onSelectedRangesChanged.notify([new Slick.Range(cell.row, cell.cell, cell.row, cell.cell)]);
       };
     }
 ```
