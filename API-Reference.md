@@ -77,6 +77,8 @@ grid.setSelectedRows([0,10])
 
 ## Cell API
 
+`grid.addCellCssStyles(key, hash)` - The add-only sibling to `grid.setCellCssStyles(key, hash)`. Will throw an exception if you try to set the same key twice without calling `removeCellCssStyles()`. Use `setColumnCssStyles()` instead if you don't want that.
+
 `grid.canCellBeActive(row, cell)` - returns a boolean.
 
 `grid.canCellBeSelected(row, cell)` - returns a boolean.
@@ -90,6 +92,8 @@ grid.setSelectedRows([0,10])
 `grid.getActiveCellPosition()` - 
 
 `grid.getCellEditor()` - gets the cell editor for the currently active cell.
+
+`grid.removeCellCssStyles(key)` - Removes styles under `key` from the grid.
 
 `grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is name for this set of styles so you can reference it later - to modify it or remove it, for example. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
 
@@ -118,9 +122,7 @@ grid.setCellCssStyles("birthday_highlight", {
 })
 ```
 
-`grid.addCellCssStyles(key, hash)` - The add-only sibling to `grid.setCellCssStyles(key, hash)`. Will throw an exception if you try to set the same key twice without calling `removeCellCssStyles()`. Use `setColumnCssStyles()` instead if you don't want that.
 
-`grid.removeCellCssStyles(key)` - Removes styles under `key` from the grid.
 
 ## Custom Field Accessor
 By default field values are access via `item[columnDef.field]`. To have a custom field accessor, overwrite the default `dataItemColumnValueExtractor` option.
