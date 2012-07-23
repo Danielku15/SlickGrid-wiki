@@ -77,7 +77,17 @@ grid.setSelectedRows([0,10])
 
 ## Cell API
 
-`grid.getActiveCell()` - gets an object representing the coordinates of the currently active cell {row: x, cell: y}
+`grid.canCellBeActive(row, cell)` - returns a boolean.
+
+`grid.canCellBeSelected(row, cell)` - returns a boolean.
+ 
+`grid.editActiveCell(editor)` - 
+
+`grid.flashCell(row, cell, speed)` - flashes the cell twice by toggling the CSS class 4 times. Waits _speed_ ms between toggles.
+
+`grid.getActiveCell()` - gets an object representing the coordinates of the currently active cell {row: activeRow, cell: activeCell}
+
+`grid.getActiveCellPosition()` - 
 
 `grid.getCellEditor()` - gets the cell editor for the currently active cell.
 
