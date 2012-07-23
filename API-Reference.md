@@ -77,6 +77,10 @@ grid.setSelectedRows([0,10])
 
 ## Cell API
 
+`grid.getActiveCell()` - gets an object representing the coordinates of the currently active cell {row: x, cell: y}
+
+`grid.getCellEditor()` - gets the cell editor for the currently active cell.
+
 `grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is name for this set of styles so you can reference it later - to modify it or remove it, for example. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
 
 Since all that sounds complicated, and `mleibman` can probably explain it better, here is an example.
