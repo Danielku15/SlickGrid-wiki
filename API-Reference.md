@@ -95,6 +95,10 @@ grid.setSelectedRows([0,10])
 
 `grid.removeCellCssStyles(key)` - Removes styles under `key` from the grid.
 
+`grid.resetActiveCell()` -
+
+`grid.setActiveCell(row, cell)` -
+
 `grid.setCellCssStyles(key, hash)` - Sets CSS classes to specific grid cells. `key` is name for this set of styles so you can reference it later - to modify it or remove it, for example. `hash` is a per-row-index, per-column-name nested hash of CSS classes to apply.
 
 Since all that sounds complicated, and `mleibman` can probably explain it better, here is an example.
@@ -121,6 +125,8 @@ grid.setCellCssStyles("birthday_highlight", {
        }
 })
 ```
+
+`grid.updateCell(row, cell)` -
 
 
 
