@@ -129,23 +129,6 @@ grid.setCellCssStyles("birthday_highlight", {
 `grid.updateCell(row, cell)` -
 
 
-
-## cellEditor API
-
-`cellEditor.applyValue(item, state)` - 
-
-`cellEditor.destroy()` - 
-
-`cellEditor.focus(input)` - 
-
-`cellEditor.isValueChanged()` - 
-
-`cellEditor.loadValue(item)` - 
-
-`cellEditor.serializeValue()` - 
-
-`cellEditor.validate()` - 
-
 ## Custom Field Accessor
 By default field values are access via `item[columnDef.field]`. To have a custom field accessor, overwrite the default `dataItemColumnValueExtractor` option.
 
