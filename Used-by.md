@@ -27,4 +27,5 @@
 <li><a href="http://www.landboss.com" target="_blank">Landboss</a></li>
 <li><a href="http://www.cyrnel.com" target="_blank">Cyrnel</a></li>
 <li><a href="https://www.appboy.com" target="_blank">Appboy</a> Used to display different user segments of a mobile application for marketing purposes.</li>
+<li><a href="http://reclinejs.com/" target="_blank">Recline.js</a> A simple but powerful library for building data applications in pure Javascript and HTML.</li>
 </ul>
