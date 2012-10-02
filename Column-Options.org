@@ -1,0 +1,18 @@
+Options which you can apply to the columns objects.
+
+| Option | Default | Description |
+|--------+---------+-------------+
+| cssClass | "" ||
+| defaultSortAsc | true ||
+| editor | null ||
+| field | "" ||
+| formatter | null ||
+| headerCssClass | null ||
+| id | "" ||
+| maxWidth | null ||
+| minWidth | 30 ||
+| name | "" ||
+| rerenderOnResize | false ||
+| resizable | true ||
+| sortable | false ||
+| toolTip | "" ||
