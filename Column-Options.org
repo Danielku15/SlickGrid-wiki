@@ -5,14 +5,17 @@ Options which you can apply to the columns objects.
 | cssClass | "" ||
 | defaultSortAsc | true ||
 | editor | null ||
-| field | "" ||
-| formatter | null ||
+| field | "" | The property name in the data object to pull content from |
+| focusable |||
+| formatter | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/mleibman/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
 | headerCssClass | null ||
-| id | "" ||
+| id | "" | A unique identifier for the column within the grid |
 | maxWidth | null ||
 | minWidth | 30 ||
-| name | "" ||
+| name | "" | The text to display on the column heading |
 | rerenderOnResize | false ||
 | resizable | true ||
+| selectable | ||
 | sortable | false ||
 | toolTip | "" ||
+| width |||
