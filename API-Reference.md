@@ -34,7 +34,7 @@ grid.scrollRowIntoView(100)
 ```javascript
 grid.getColumnIndex('first_name')
 ```
-Column options:
+[Column options](https://github.com/mleibman/SlickGrid/wiki/Column-Options):
 
 
 **Booleans**
