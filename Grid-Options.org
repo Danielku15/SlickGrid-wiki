@@ -24,7 +24,7 @@ As included in the examples or described in stable releases.
 | enableRowReordering | null| **WARNING**: Not contained in SlickGrid 2.1, may be deprecated |
 | enableTextSelectionOnCells | false||
 | explicitInitialization | false | See: [[http://mleibman.github.com/SlickGrid/examples/example-explicit-initialization.html][Example: Explicit Initialization]] |
-| forceFitColumns | false | Force column sizes to fit into the viewport (avoid horizontal scrolling). |
+| forceFitColumns | false | Force column sizes to fit into the container (preventing horizontal scrolling). Effectively sets column width to be 1/Number of Columns which on small containers may not be desirable |
 | forceSyncScrolling | false ||
 | formatterFactory | null | A factory object responsible to creating a formatter for a given cell. Must implement getFormatter(column). |
 | fullWidthRows | false | Will expand the table row divs to the full width of the container, table cell divs will remain aligned to the left |
