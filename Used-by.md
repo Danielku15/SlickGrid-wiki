@@ -1,6 +1,7 @@
 (Edit the page to let me know how you are using SlickGrid)
 
 <ul>
+<li><a href="https://www.fastfig.com" target="_blank">FastFig</a></li>
 <li><a href="https://www.mfthours.com" target="_blank">MFTHours</a></li>
 <Li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
 <li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
