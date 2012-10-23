@@ -130,7 +130,7 @@ grid.setCellCssStyles("birthday_highlight", {
 
 
 ## Custom Field Accessor
-By default field values are access via `item[columnDef.field]`. To have a custom field accessor, overwrite the default `dataItemColumnValueExtractor` option.
+By default field values are accessed via `item[columnDef.field]`. To have a custom field accessor, overwrite the default `dataItemColumnValueExtractor` option.
 
 ```
   var options = {
