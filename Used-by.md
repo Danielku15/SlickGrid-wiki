@@ -33,4 +33,6 @@
 <li><a href="http://reclinejs.com/" target="_blank">Recline.js</a> A simple but powerful library for building data applications in pure Javascript and HTML.</li>
 <li><a href="http://www.officepools.com" target="_blank">Officepools.com - Hockey Pool Manager</a></li>
 <li><a href="http://www.centro.net" target="_blank">Centro.net - interactive media plan builder</a></li>
+<li><a href="http://www.doublemap.com" target="_blank">Doublemap</a> - Used to view and edit bus schedules and administrative reports</li>
+</ul>
 </ul>
