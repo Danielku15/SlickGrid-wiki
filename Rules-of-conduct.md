@@ -5,6 +5,7 @@ I didn't want to write this page and was hoping that people would just understan
 GitHub Issues are for bug reports and bug reports only.
 
 This is NOT the venue to:
+
 1. Ask questions about whether a particular feature is supported.
 2. Make feature requests.
 3. Ask for help in using SlickGrid.
@@ -15,6 +16,7 @@ Please post these questions in the SlickGrid group (http://groups.google.com/gro
 ## Be specific when filing bugs.
 
 When reporting bugs, please be specific:
+
 1. Include the version of SlickGrid you're using.  Keep in mind there are many forks of SlickGrid on GitHub.  If you're using one of them, please file the bug directly with the fork owner.
 2. Include the repro steps and the code, expected behavior & actual behavior.
 3. If possible, reduce the problem to a simple repro test case and post it on jsfiddle.net
