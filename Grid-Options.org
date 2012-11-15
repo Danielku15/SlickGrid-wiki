@@ -16,7 +16,7 @@ As included in the examples or described in stable releases.
 | editCommandHandler | queueAndExecuteCommand | _Not listed as a default under options in slick.grid.js_ |
 | editorFactory | null | A factory object responsible to creating an editor for a given cell. Must implement getEditor(column). |
 | editorLock | Slick.GlobalEditorLock | A Slick.EditorLock instance to use for controlling concurrent data edits. |
-| enableAddRow | false | If true, a blank row will be displayed at the bottom - typing values in that row will add a new one. |
+| enableAddRow | false | If true, a blank row will be displayed at the bottom - typing values in that row will add a new one. Must subscribe to onAddNewRow to save values. |
 | enableAsyncPostRender | false | If true, async post rendering will occur and asyncPostRender delegates on columns will be called. |
 | enableCellRangeSelection | null| **WARNING**: Not contained in SlickGrid 2.1, may be deprecated |
 | enableCellNavigation | true | Appears to enable cell virtualisation for optimised speed with large datasets |
