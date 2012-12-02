@@ -32,7 +32,7 @@ As included in the examples or described in stable releases.
 | leaveSpaceForNewRows | false ||
 | multiColumnSort | false | See: [[http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html][Example: Multi-Column Sort]] |
 | multiSelect | true ||
-| rowHeight|25||
+| rowHeight|140||
 | selectedCellCssClass | "selected" ||
 | showHeaderRow | false||
 | topPanelHeight|25||
