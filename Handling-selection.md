@@ -1,4 +1,4 @@
-Selecting cells in SlickGrid handled by a *selection model*.
+Selecting cells in SlickGrid is handled by a *selection model*.
 
 Selection models are controllers responsible for handling user interactions and notifying subscribers of the changes in the selection.
 Selection is represented as an array of Slick.Range objects.  
