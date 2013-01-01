@@ -10,7 +10,7 @@ This is NOT the venue to:
 2. Make feature requests.
 3. Ask for help in using SlickGrid.
 
-Please post these questions in the SlickGrid group (http://groups.google.com/group/slickgrid) or on StackOverflow (http://stackoverflow.com/questions/tagged/slickgrid - don't forget to tag your questions).  As always, please search both the group and StackOverflow to see if you question has already been asked and answered.
+Please post these feature requests, questions and help requests in the SlickGrid group (http://groups.google.com/group/slickgrid) or post questions or help requests on StackOverflow (http://stackoverflow.com/questions/tagged/slickgrid - don't forget to tag your questions).  As always, please search both the group and StackOverflow to see if you question has already been asked and answered.
 
 
 ## Be specific when filing bugs.
