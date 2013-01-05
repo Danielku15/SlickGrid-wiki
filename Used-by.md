@@ -1,10 +1,6 @@
 (Edit the page to let me know how you are using SlickGrid)
 
 <ul>
-<li><a href="http://cleartax.in" target="_blank">ClearTax: Tax Return filing for India</a></li>
-<li><a href="http://www.fastfig.com" target="_blank">FastFig</a></li>
-<li><a href="https://www.mfthours.com" target="_blank">MFTHours</a></li>
-<Li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
 <li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
 <li><a href="http://www.foundor.com" target="_blank">Foundor</a></li>
 <li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
@@ -37,5 +33,9 @@
 <li><a href="http://www.doublemap.com" target="_blank">Doublemap</a> - Used to view and edit bus schedules and administrative reports</li>
 <li><a href="http://www.anbase.ru" target="_blank">Anbase</a> - SaaS CRM for realestate. SlickGrid is the main component of client-side application. It's used to represent orders </li>
 <li><a href="http://www.systranlinks.com" target="_blank">SYSTRANLinks</a> - website localization solution</li>
+<li><a href="http://cleartax.in" target="_blank">ClearTax: Tax Return filing for India</a></li>
+<li><a href="http://www.fastfig.com" target="_blank">FastFig</a></li>
+<li><a href="https://www.mfthours.com" target="_blank">MFTHours</a></li>
+<Li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
 </ul>
 </ul>
