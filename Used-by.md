@@ -36,6 +36,8 @@
 <li><a href="http://cleartax.in" target="_blank">ClearTax: Tax Return filing for India</a></li>
 <li><a href="http://www.fastfig.com" target="_blank">FastFig</a></li>
 <li><a href="https://www.mfthours.com" target="_blank">MFTHours</a></li>
-<Li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
+<li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
+<li><a href="https://www.spotxchange.com" target="_blank">SpotXchange</a></li>
+<li><a href="https://www.skipit.com" target="_blank">SkipIt</a></li>
 </ul>
 </ul>
