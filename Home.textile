@@ -30,7 +30,7 @@ Some highlights:
 
 <h2>Resources</h2>
 Documentation is a bit lacking at the moment, but there is a broad set of [[examples]] that demonstrate the most effective ways of using SlickGrid.
-There is a support group hosted by Google Groups "here":http://groups.google.com/group/slickgrid
+There is a support group hosted by Google Groups "here":https://groups.google.com/forum/#!forum/slickgrid
 
 SlickGrid questions on "StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 Twitter - "slickgrid":http://twitter.com/slickgrid
