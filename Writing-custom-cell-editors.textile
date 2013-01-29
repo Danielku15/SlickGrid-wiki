@@ -72,6 +72,17 @@ function IEditor(args) {
 }
 </pre>
 
+<h3>Constructor arguments</h3>
+Editor constructor receive <code>args</code> object which has next fields:
+* <code>column</code> &mdash; column definition object
+* <code>container</code> &mdash; DOM-object for cell container
+* <code>grid</code> &mdash; grid instance
+* <code>gridPosition</code> &mdash; object describing grid position 
+* <code>item</code> &mdash; data item for eddited row
+* <code>position</code> &mdash; object describing cell position 
+* <code>cancelChanges()</code> &mdash; grid method to discard changes
+* <code>commitChanges()</code> &mdash; grid method to store changes
+
 <H2>Compound editors</H2>
 In most cases, there will be a one-to-one relationship between the fields of your data objects and cells in the grid.
 Occasionally, though, you may want to combine several fields into one cell in order to improve the usability of your application.  A custom formatter can easily pull information from multiple fields of your data object and present it in one cell.  SlickGrid handles edition those cells by using the <code>loadValue()</code>, <code>serializeValue()</code> and <code>applyValue()</code> methods of your editor.  While it may seem more complicated than a simple <code>getValue()</code> and <code>setValue()</code>, without them, compound editors would not have been possible.
