@@ -7,6 +7,7 @@ Instead of passing SlickGrid an array of row objects, you can pass an object tha
 
 ```javascript
 model.getItem(i) // Returns the ith row
+model.getItemMetadata(i) // Returns the column metadata for the ith row.
 model.getLength() // Returns the number of items
 ```
 
