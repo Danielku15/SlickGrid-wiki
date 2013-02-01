@@ -39,5 +39,6 @@
 <li><a href="http://flightdeckapp.com" target="_blank">Flightdeck</a></li>
 <li><a href="https://www.spotxchange.com" target="_blank">SpotXchange</a></li>
 <li><a href="https://www.skipit.com" target="_blank">SkipIt</a></li>
+<li><a href="http://www.k2informatics.ch/" target="_blank">K2 Informatics GmbH</a></li>
 </ul>
 </ul>
