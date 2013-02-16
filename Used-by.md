@@ -41,7 +41,7 @@
 <li><a href="https://www.skipit.com" target="_blank">SkipIt</a></li>
 <li><a href="http://www.k2informatics.ch/" target="_blank">K2 Informatics GmbH</a> - Used together with JQuery UI dialog to display tabular data from Databases.</li>
 <li><a href="http://www.tsolucio.com/" target="_blank">JPL TSolucio, S.L.</a> - Enhancing vtiger CRM (<a href="http://crmevolutivo.com/doku.php/es:mapenhancements" target="_blank">Map Extension</a>, <a href="http://crmevolutivo.com/doku.php/es:evvtusernav" target="_blank">User Navigation</a>) and other open source applications.</li>
-<li><a href="https://www.graphicized.com" target="_blank">Graphicized</a></li>
+<li><a href="http://www.graphicized.com" target="_blank">Graphicized</a></li>
 
 </ul>
 </ul>
