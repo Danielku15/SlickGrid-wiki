@@ -5,7 +5,7 @@ Options which you can apply to the columns objects.
 | cssClass | "" | Accepts a string as a class name, applies that class to every row cell in the column. |
 | defaultSortAsc | true | When set to /true/, the first user click on the header will do a descending sort. When set to /false/, the first user click on the header will do an ascending sort. |
 | editor | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/mleibman/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
-| field | "" | The property name in the data object to pull content from |
+| field | "" | The property name in the data object to pull content from. (This is assumed to be on the root of the data object.) |
 | focusable |||
 | formatter | null | |
 | headerCssClass | null | Accepts a string as a class name, applies that class to the cell for the column header. |
