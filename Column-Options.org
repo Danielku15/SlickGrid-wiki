@@ -13,7 +13,7 @@ Options which you can apply to the columns objects.
 | maxWidth | null | Set the maximum allowable width of this column, in pixels. |
 | minWidth | 30 | Set the minimum allowable width of this column, in pixels. |
 | name | "" | The text to display on the column heading. |
-| rerenderOnResize | false ||
+| rerenderOnResize | false | If set to true, whenever this column is resized, the entire table view will rerender. |
 | resizable | true ||
 | selectable | ||
 | sortable | false ||
