@@ -9,10 +9,10 @@ Options which you can apply to the columns objects.
 | focusable || When set to /false/, clicking on a cell in this column will not select the row for that cell. (While /focusable/ itself has no default, the default behavior for columns is equivalent to a /true/ value.) |
 | formatter | null | This accepts a function of the form /function(row, cell, value, columnDef, dataContext)/ and returns a formatted version of the data in each cell of this column. For example, setting /formatter/ to /function(r, c, v, cd, dc) { return "Hello!"; }/ would overwrite every value in the column with "Hello!" See /defaultFormatter/ in [[https://github.com/mleibman/SlickGrid/blob/master/slick.grid.js][slick.grid.js]] for an example formatter. |
 | headerCssClass | null | Accepts a string as a class name, applies that class to the cell for the column header. |
-| id | "" | A unique identifier for the column within the grid |
-| maxWidth | null ||
-| minWidth | 30 ||
-| name | "" | The text to display on the column heading |
+| id | "" | A unique identifier for the column within the grid. |
+| maxWidth | null | Set the maximum allowable width of this column, in pixels. |
+| minWidth | 30 | Set the minimum allowable width of this column, in pixels. |
+| name | "" | The text to display on the column heading. |
 | rerenderOnResize | false ||
 | resizable | true ||
 | selectable | ||
