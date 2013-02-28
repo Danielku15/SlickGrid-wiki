@@ -8,7 +8,7 @@ Options which you can apply to the columns objects.
 | field | "" | The property name in the data object to pull content from |
 | focusable |||
 | formatter | null | |
-| headerCssClass | null ||
+| headerCssClass | null | Accepts a string as a class name, applies that class to the cell for the column header. |
 | id | "" | A unique identifier for the column within the grid |
 | maxWidth | null ||
 | minWidth | 30 ||
