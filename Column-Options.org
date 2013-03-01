@@ -6,7 +6,7 @@ Options which you can apply to the columns objects.
 | defaultSortAsc | true | When set to /true/, the first user click on the header will do a descending sort. When set to /false/, the first user click on the header will do an ascending sort. |
 | editor | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/mleibman/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
 | field | "" | The property name in the data object to pull content from. (This is assumed to be on the root of the data object.) |
-| focusable || When set to /false/, clicking on a cell in this column will not select the row for that cell. (While /focusable/ itself has no default, the default behavior for columns is equivalent to a /true/ value.) |
+| focusable | true | When set to /false/, clicking on a cell in this column will not select the row for that cell. |
 | formatter | null | This accepts a function of the form /function(row, cell, value, columnDef, dataContext)/ and returns a formatted version of the data in each cell of this column. For example, setting /formatter/ to /function(r, c, v, cd, dc) { return "Hello!"; }/ would overwrite every value in the column with "Hello!" See /defaultFormatter/ in [[https://github.com/mleibman/SlickGrid/blob/master/slick.grid.js][slick.grid.js]] for an example formatter. |
 | headerCssClass | null | Accepts a string as a class name, applies that class to the cell for the column header. |
 | id | "" | A unique identifier for the column within the grid. |
@@ -15,7 +15,7 @@ Options which you can apply to the columns objects.
 | name | "" | The text to display on the column heading. |
 | rerenderOnResize | false | If set to true, whenever this column is resized, the entire table view will rerender. |
 | resizable | true | If /false/, column can no longer be resized. |
-| selectable | ||
+| selectable | | If /false/, when a row is selected, the CSS class for selected cells ("selected" by default) is not applied to this column. |
 | sortable | false ||
 | toolTip | "" ||
 | width |||
