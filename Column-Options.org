@@ -15,7 +15,7 @@ Options which you can apply to the columns objects.
 | name | "" | The text to display on the column heading. |
 | rerenderOnResize | false | If set to true, whenever this column is resized, the entire table view will rerender. |
 | resizable | true | If /false/, column can no longer be resized. |
-| selectable | | If /false/, when a row is selected, the CSS class for selected cells ("selected" by default) is not applied to this column. |
-| sortable | false ||
-| toolTip | "" ||
+| selectable | | If /false/, when a row is selected, the CSS class for selected cells ("selected" by default) is not applied to the cell in this column. |
+| sortable | false | If /true/, the column will be sortable by clicking on the header. |
+| toolTip | "" | If set to a non-empty string, a tooltip will appear on hover containing the string. |
 | width |||
