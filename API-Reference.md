@@ -35,33 +35,23 @@ grid.scrollRowIntoView(100)
 ```javascript
 grid.getColumnIndex('first_name')
 ```
-[Column options](https://github.com/mleibman/SlickGrid/wiki/Column-Options):
 
+When you initialize SlickGrid, you can pass it an array of column options, one for each column. For example:
 
-**Booleans**
+```javascript
+var columns = [
+  {id: "userId", name: "id", field: "userId"},
+  {id: "userName", name: "Name", field: "userName", sortable: false},
+  {id: "favorites", name: "Favorites", field: "favorites", cssClass: "myCustomFavoritesStyling"}
+];
 
+// ... continue with SlickGrid setup ...
 
-##
-* sortable
-* resizable
-* rerenderOnResize
-* focusable
-* selectable
+grid = new Slick.Grid("#myGrid", dataView, columns, options);
 
+```
 
-**Other**
-
-##
-* id _A unique identifier for the column within the grid_
-* name _The display text_
-* field _The name of the data object property to pull content from_
-* editor _The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See slick.editors.js
-* cssClass 
-* headerCssClass
-* width
-* minWidth
-* maxWidth
-* toolTip
+* **[Complete list of annotated column options](https://github.com/mleibman/SlickGrid/wiki/Column-Options)**
 
 ## Grid's Selection API
 
