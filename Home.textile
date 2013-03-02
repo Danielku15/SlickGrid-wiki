@@ -1,7 +1,6 @@
 <h1>Welcome to the SlickGrid!</h1>
 
-Do you use SlickGrid?<br/>
-Add your site to the [[Used By]]!
+Do you use SlickGrid? Add your site to the [[Used By]]!
 
 "!http://api.coderwall.com/mleibman/endorsecount.png!":http://coderwall.com/mleibman
 
