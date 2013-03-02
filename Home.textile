@@ -29,13 +29,20 @@ Some highlights:
     * "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data. 
 
 <h2>Resources</h2>
-Documentation is a bit lacking at the moment, but there is a broad set of [[examples]] that demonstrate the most effective ways of using SlickGrid.
-There is a support group hosted by Google Groups "here":https://groups.google.com/forum/#!forum/slickgrid
 
-SlickGrid questions on "StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
-Twitter - "slickgrid":http://twitter.com/slickgrid
+<h3>Documentation</h3>
+* "Getting Started":https://github.com/mleibman/SlickGrid/wiki/1.-Getting-Started - A brief introduction to some of SlickGrid's basic concepts.
+* "Examples":https://github.com/mleibman/SlickGrid/wiki/Examples - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
+* "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
+* [[Handling selection]]
+* "All pages on this wiki":https://github.com/mleibman/SlickGrid/wiki/_pages
+* "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 
-There is also some old documentation "here":http://www.developerfusion.com/project/18821/slickgrid/.
+<h3>Contact/Support</h3>
+* "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
+* "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues - For filing bugs /only/. Please see the [[Rules of Conduct]] for more information on filing a bug.
+* "@slickgrid on Twitter":http://twitter.com/slickgrid
+
 <h2>What makes it different</h2>
 
 <h3>Virtual rendering</h3>
@@ -63,14 +70,6 @@ Rather than listing all the browsers that SlickGrid works on, I will concentrate
 IE6 is explicitly NOT supported.  While some people have made SlickGrid work with IE6, I am not going to merge those changes in or spend any time testing on IE6 and trying to make it work.  If you have to support it, I feel your pain, but I don't want to share it.
 
 Opera seems to be having some issues with synchronized scrolling of column headers and a vertical page scrollbar appearing when scrolling the grid content vertically.  I haven't been able to figure out why in the amount of time I was willing to spend on it.  If you have an idea, let me know.
-
-<h2>API, docs, etc.</h2>
-
-* "Getting Started":https://github.com/mleibman/SlickGrid/wiki/1.-Getting-Started
-* "Examples":https://github.com/mleibman/SlickGrid/wiki/Examples
-* "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
-* [[Handling selection]]
-* "All Pages":https://github.com/mleibman/SlickGrid/wiki/_pages
 
 <h2>Thanks</h2>
 
