@@ -36,7 +36,7 @@ grid.scrollRowIntoView(100)
 grid.getColumnIndex('first_name')
 ```
 
-When you initialize SlickGrid, you can pass it an array of column options, one for each column. For example:
+When you initialize SlickGrid, you can pass it an array of column options, one for each column. These options allow you to customize the grid's look and behavior on a column-by-column basis. For example:
 
 ```javascript
 var columns = [
