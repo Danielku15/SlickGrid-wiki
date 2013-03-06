@@ -18,6 +18,8 @@ SlickGrid exposes the following events:
 * onCellChange
 * onBeforeEditCell
 * onBeforeCellEditorDestroy
+* onHeaderCellRendered
+* onBeforeHeaderCellDestroy
 * onBeforeDestroy
 * onActiveCellChanged
 * onActiveCellPositionChanged
