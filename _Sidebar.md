@@ -9,7 +9,7 @@ Resources
 * [[Examples]]
 
 Learning
-* [[Getting Started|1. Getting Started]]
+* [[Getting Started]]
 * [[Handling Selection]]
 * [[Providing Data to the Grid]]
 * [[Writing Custom Cell Editors]]
