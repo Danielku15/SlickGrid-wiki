@@ -2,15 +2,6 @@
 Resources
 * [API Reference](https://github.com/mleibman/SlickGrid/wiki/API-Reference)
  * [[Grid|Slick.Grid]]
- * [[Data.DataView|Slick.Data.DataView]]
- * [[Data.RemoteModel|Slick.Data.RemoteModel]]
- * [[Event|Slick.Event]]
- * [[EventData|Slick.EventData]]
- * [[EditorLock|Slick.EditorLock]]
- * [[GlobalEditorLock|Slick.GlobalEditorLock]]
- * [[Range|Slick.Range]]
- * [[CellRangeDecorator|Slick.CellRangeDecorator]]
- * [[CellRangeSelector|Slick.CellRangeSelector]]
 * [Grid Options](https://github.com/mleibman/SlickGrid/wiki/Grid-Options)
 * [Column Options](https://github.com/mleibman/SlickGrid/wiki/Column-Options)
 * [Grid Events](https://github.com/mleibman/SlickGrid/wiki/Grid-Events)
