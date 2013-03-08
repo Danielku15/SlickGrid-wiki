@@ -30,7 +30,7 @@ Some highlights:
 <h2>Resources</h2>
 
 <h3>Documentation</h3>
-* [[Getting Started]]" - A brief introduction to some of SlickGrid's basic concepts.
+* [[Getting Started]] - A brief introduction to some of SlickGrid's basic concepts.
 * "Examples":https://github.com/mleibman/SlickGrid/wiki/Examples - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
 * "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
 * [[Handling selection]]
