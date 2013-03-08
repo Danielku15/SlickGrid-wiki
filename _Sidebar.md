@@ -1,8 +1,8 @@
 ## <font color="green">Navigation</font>
 Resources
-* [API Reference](https://github.com/mleibman/SlickGrid/wiki/API-Reference)
+* [[API Reference|API-Reference]]
  * [[Grid|Slick.Grid]]
-* [Grid Options](https://github.com/mleibman/SlickGrid/wiki/Grid-Options)
+* [[Grid Options|Grid-Options]]
 * [Column Options](https://github.com/mleibman/SlickGrid/wiki/Column-Options)
 * [Grid Events](https://github.com/mleibman/SlickGrid/wiki/Grid-Events)
 * [Dataview Events](https://github.com/mleibman/SlickGrid/wiki/Dataview-Events)
