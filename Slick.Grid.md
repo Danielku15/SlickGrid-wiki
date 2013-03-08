@@ -106,7 +106,6 @@ Example usage, taken from [the basic Slickgrid example](http://mleibman.github.c
     }
 
     grid = new Slick.Grid("#myGrid", data, columns, options);
-  })
 ```
 
 # <a name="header-core" href="Slick.Grid#wiki-header-core">#</a> Core
