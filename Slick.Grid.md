@@ -5,11 +5,11 @@
 * <a href="#wiki-header-constructor">**Constructor**</a>
   * <a href="#wiki-constructor">new Slick.Grid</a>
 * <a href="#wiki-header-core">**Core**</a>
+  * <a href="#wiki-init">init</a>
   * <a href="#wiki-getData">getData</a>
+  * <a href="#wiki-setData">setData</a>
   * <a href="#wiki-getDataItem">getDataItem</a>
   * <a href="#wiki-getSelectionModel">getSelectionModel</a>
-  * <a href="#wiki-init">init</a>
-  * <a href="#wiki-setData">setData</a>
   * <a href="#wiki-setOptions">setOptions</a>
 * <a href="#wiki-header-columns">**Columns**</a>
   * <a href="#wiki-autosizeColumns">autosizeColumns</a>
@@ -110,6 +110,10 @@ Example usage, taken from [the basic Slickgrid example](http://mleibman.github.c
 
 # <a name="header-core" href="Slick.Grid#wiki-header-core">#</a> Core
 
+<a name="init" href="Slick.Grid#wiki-init">#</a> grid.<b>init</b>(<i></i>)
+
+Initializes the grid. Called after plugins are registered. Normally, this is called by the constructor, so you don't need to call it. However, in certain cases you may need to delay the initialization until some other process has finished. In that case, set the `explicitInitialization` option to `true` and call the `grid.init()` manually.
+
 <a name="getData" href="Slick.Grid#wiki-getData">#</a> grid.<b>getData</b>(<i></i>)
 
 Returns an array of every data object, unless you're using `DataView` in whcih case it returns a DataView object.
@@ -123,6 +127,15 @@ Returns the databinding item at a given position.
 // Get the id of the 15th item
 var id15 = grid.getDataItem(14).id;
 ```
+
+<a name="setData" href="Slick.Grid#wiki-setData">#</a> grid.<b>setData</b>(<i>newData, scrollToTop</i>)
+
+>`data` - New databinding source. This can either be a regular JavaScript array or a custom object exposing `getItem(index)` and `getLength()` functions.
+
+>`scrollToTop` - If true, the grid will reset the vertical scroll position to the top of the grid. 
+
+Sets a new source for databinding and removes all rendered rows.  Note that this doesn't render the new rows - you can follow it with a call to `render()` to do that.
+
 <a name="getDataLength" href="Slick.Grid#wiki-getDataLength">#</a> grid.<b>getDataLength</b>(<i></i>)
 
 Returns the size of the databinding source.
@@ -147,18 +160,6 @@ Returns an array of row indices corresponding to the currently selected rows.
 <a name="getSelectionModel" href="Slick.Grid#wiki-getSelectionModel">#</a> grid.<b>getSelectionModel</b>(<i></i>)
 
 Returns the current SelectionModel. [See here for more information about SelectionModels](https://github.com/mleibman/SlickGrid/wiki/Handling-selection).
-
-<a name="init" href="Slick.Grid#wiki-init">#</a> grid.<b>init</b>(<i></i>)
-
-Initializes the grid. Called after plugins are registered.
-
-<a name="setData" href="Slick.Grid#wiki-setData">#</a> grid.<b>setData</b>(<i>newData, scrollToTop</i>)
-
->`data` - New databinding source. This can either be a regular JavaScript array or a custom object exposing `getItem(index)` and `getLength()` functions.
-
->`scrollToTop` - If true, the grid will reset the vertical scroll position to the top of the grid. 
-
-Sets a new source for databinding and removes all rendered rows.  Note that this doesn't render the new rows - you can follow it with a call to `render()` to do that.
 
 <a name="setOptions" href="Slick.Grid#wiki-setOptions">#</a> grid.<b>setOptions</b>(<i>options</i>)
 
