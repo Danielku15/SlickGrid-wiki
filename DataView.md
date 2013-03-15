@@ -46,10 +46,15 @@ dataView.onRowsChanged.subscribe(function (e, args) {
 });
 ```
 
-Now we're ready to initialize it with some data:
+Now we're ready to initialize it with some data.
+One important requirement that DataView imposes on the data it consumes is that every item has a unique identifier.  DataView uses it to uniquely identify items and compare them to each other.  By default, DataView uses the `id` property of the data item, but you can specify a different one by passing it in via an optional second argument in the `setData(data, [objectIdProperty])`.  The `id` value must be serializable to a string.
 
 ```javascript
-var data = ['Java', 'JavaScript', 'C#', 'Python'];
+var data = [
+  {'id': 1, 'lang': 'Java'},
+  {'id': 2, 'lang': 'JavaScript'},
+  {'id': 3, 'lang': 'C#'},
+  {'id': 4, 'lang': 'Python'}];
 
 // This will fire the change events and update the grid.
 dataView.setItems(data);
@@ -65,7 +70,7 @@ Sorting is pretty simple:
 grid.onSort.subscribe(function(e, args) {
   // We'll use a simple comparer function here.
   var comparer = function(a, b) {
-    return a > b;
+    return a[args.sortCol] > b[args.sortCol];
   }
 
   // Delegate the sorting to DataView.
@@ -91,5 +96,4 @@ There's also a `fastSort(field, isAscending)` method on the DataView to do a fas
 ## Advanced topics
 
 ## API reference
-
 
