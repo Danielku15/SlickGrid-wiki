@@ -23,6 +23,7 @@ Here's a rough list of features that DataView adds to the grid:
 
 DataView also enables very efficient updates in response to the changing data.  Whenever something changes, it detects which rows need updating, and passes them in the 'onRowCountChanged` and `onRowsChanged` events that it fires, so instead of rerendering the entire grid, you can simply invalidate the updated rows.
 
+
 ## Getting started
 
 To use the DataView, include `slick.dataview.js`:
@@ -51,14 +52,17 @@ One important requirement that DataView imposes on the data it consumes is that 
 
 ```javascript
 var data = [
-  {'id': 1, 'lang': 'Java'},
-  {'id': 2, 'lang': 'JavaScript'},
-  {'id': 3, 'lang': 'C#'},
-  {'id': 4, 'lang': 'Python'}];
+  {'id': 'l1', 'lang': 'Java'},
+  {'id': 'l2', 'lang': 'JavaScript'},
+  {'id': 'l3', 'lang': 'C#'},
+  {'id': 'l4', 'lang': 'Python'}];
 
 // This will fire the change events and update the grid.
 dataView.setItems(data);
 ```
+
+You can call `getItems()` to get the data array back.
+
 
 ## Sorting
 
@@ -83,11 +87,50 @@ Note that calling `sort()` on the DataView modifies the original `data` array th
 
 There's also a `fastSort(field, isAscending)` method on the DataView to do a fast lexicographic search that is especially handy for older versions of IE.
 
+
 ## Updating data
+
+Since DataView can't automatically detect when you're changing the data, you'll need to make these updates via the DataView.  These updates will be applied directly to the original `data` array.
+
+```javascript
+// Delete item with id 'l3' ('C#').
+dataView.deleteItem('l3');
+
+// Append item to the end.
+dataView.addItem({'id': 'l5', 'lang': 'CoffeeScript'});
+
+// Insert item at the beginning.
+dataView.insertItem(0, {'id': 'l6', 'lang': 'TypeScript'});
+
+// Update an existing item.
+var item = dataView.getItemById('l4');
+item['lang'] = 'Clojure';
+dataView.updateItem('l4', item);
+```
+
+Each one of these updates will fire change events and the grid will get updated automatically.
+
 
 ## Batching updates
 
+Notice that in the example above, each update will result in the DataView recalculating its data and firing change events, resulting in the grid rerendering affected rows.  If you need to make multiple changes, you should batch them up to avoid unnecessary operations:
+
+```javascript
+// Suspend recalculations until endUpdate() is called.
+dataView.startUpdate();
+
+dataView.addItem(...);
+dataView.addItem(...);
+dataView.sort(...);
+
+// Indicate that we're done updating.
+dataView.endUpdate();
+```
+
+
 ## Filtering
+
+
 
 ## Paging
 
