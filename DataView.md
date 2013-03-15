@@ -28,16 +28,59 @@ DataView also enables very efficient updates in response to the changing data.  
 To use the DataView, include `slick.dataview.js`:
 
 ```javascript
+// Create the DataView.
 var dataView = new Slick.Data.DataView();
 
+// Pass it as a data provider to SlickGrid.
+var grid = new Slick.Grid(containerEl, dataView, columns, options);
+
+// Make the grid respond to DataView change events.
+dataView.onRowCountChanged.subscribe(function (e, args) {
+  grid.updateRowCount();
+  grid.render();
+});
+
+dataView.onRowsChanged.subscribe(function (e, args) {
+  grid.invalidateRows(args.rows);
+  grid.render();
+});
 ```
 
+Now we're ready to initialize it with some data:
+
+```javascript
+var data = ['Java', 'JavaScript', 'C#', 'Python'];
+
+// This will fire the change events and update the grid.
+dataView.setItems(data);
+```
+
+## Sorting
+
+Sorting is pretty simple:
+
+```javascript
+// Subscribe to the grid's onSort event.
+// It only gets fired for sortable columns, so make sure your column definition has `sortable = true`.
+grid.onSort.subscribe(function(e, args) {
+  // We'll use a simple comparer function here.
+  var comparer = function(a, b) {
+    return a > b;
+  }
+
+  // Delegate the sorting to DataView.
+  // This will fire the change events and update the grid.
+  dataView.sort(comparer, args.sortAsc);
+});
+```
+
+Note that calling `sort()` on the DataView modifies the original `data` array that was passed in to `setItems(data)`!
+
+There's also a `fastSort(field, isAscending)` method on the DataView to do a fast lexicographic search that is especially handy for older versions of IE.
 
 ## Updating data
 
 ## Batching updates
-
-## Sorting
 
 ## Filtering
 
@@ -45,8 +88,8 @@ var dataView = new Slick.Data.DataView();
 
 ## Grouping
 
+## Advanced topics
 
 ## API reference
-
 
 
