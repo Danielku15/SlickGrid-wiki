@@ -64,6 +64,15 @@ dataView.setItems(data);
 You can call `getItems()` to get the data array back.
 
 
+## Mapping rows vs items
+
+
+
+ 
+
+
+
+
 ## Sorting
 
 Sorting is pretty simple:
@@ -129,6 +138,7 @@ dataView.endUpdate();
 
 
 ## Filtering
+
 
 
 
