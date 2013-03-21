@@ -66,10 +66,118 @@ You can call `getItems()` to get the data array back.
 
 ## Mapping rows vs items
 
+Ok, let's reiterate - DataView takes in a data array as an input, manipulates it, and presents the results to the grid by acting as a data provider, i.e. exposing the data provider methods `getItem(index)`, `getLength()` and `getItemMetadata(index)`.  In handling grid events, it's important to always keep in mind that the row indexes the grid refers to are, in fact, the indexes into the output of the DataView!  For example, if you're handling a grid `onClick` event and it's giving you a row index, to look up the data item, you need to call `dataView.getItem(rowIndex)` and *not* `data[rowIndex]`.
 
+In general, whenever we talk about *rows*, we mean the data as the grid sees it, so, if you're using a DataView, that would the the *output* of the DataView (`dataView.getItem(index)`).  Whenever we talk about *items*, we mean the *input* of the DataView (`data[index]` or `dataView.getItems()[index]`).  You'll notice that it is somewhat confusing that `getItem(index)` returns a *row* while `getItems()` returns *items*.  Unfortunately, it's this way for historical reasons.  `getItem(index)` is part of the  data provider interface.  In retrospect, it would be better if the DataView exposed a `getDataProvider()` method.
+
+Since each item has a unique id, they are often used to keep track of items/rows and to map one to another.
+DataView exposes several methods in order to map rows to items:
+
+* `getItems()` - Returns the original data array.
+* `getIdxById(id)` - Returns the index of an item with a given id.
+* `getRowById(id)` - Returns the index of a row with a given id.
+* `getItemById(id)` - Returns the item with a given id.
+* `getItemByIdx(index)` - Returns the item at a given index.  Equivalent to `getItems()[index]`.
+* `mapIdsToRows(idArray)` - Maps an array of ids into row indexes.
+* `mapRowsToIds(rowArray)` - Maps an array of row indexes into ids.
+
+These methods are exposed by the DataView as part of the data provider interface:
+
+* `getItem(index)` - Returns the item at a given index.
+* `getItemMetadata(index)` - Returns the item metadata at a given index.
+* `getLength()` - Returns the number of items.
 
  
+## Synchronizing selection & cell CSS styles
 
+One of the most common questions about DataView is how to synchronize the selection or cell CSS styles state on DataView changes.  Let's say that the user selected a row.  If they then change the filter on the DataView to hide some items, the grid gets a call to invalidate all changed rows, including the selected one, but it doesn't know that the item that was displayed there has moved somewhere else.  What we need to do, is to store the ids of items that were selected, and to update the selection on the grid any time the DataView is modified.
+
+Luckily, there is a helper method on the DataView that can take care of that:
+
+* `syncGridSelection(grid, preserveHidden)` - Synchronizes `grid`'s selected rows with the DataView by subscribing to the grid's `onSelectedRowsChanged` event as well as the DataView's `onRowsChanged` & `onRowCountChanged` events.  If `preserveHidden` is true, it will preserve selected items even if they are not visible as rows.  For example, if you select an item, change the DataView filter so that that item is no longer presented to the grid and then change it back, the item will remain selected.  If `preserveHidden` is false, all selected items that can't be mapped onto rows are dropped.
+
+The implementation is really simple, and I'll include it here for the reference:
+
+```javascript
+function syncGridSelection(grid, preserveHidden) {
+  var self = this;
+  var selectedRowIds = self.mapRowsToIds(grid.getSelectedRows());;
+  var inHandler;
+
+  function update() {
+    if (selectedRowIds.length > 0) {
+      inHandler = true;
+      var selectedRows = self.mapIdsToRows(selectedRowIds);
+      if (!preserveHidden) {
+        selectedRowIds = self.mapRowsToIds(selectedRows);
+      }
+      grid.setSelectedRows(selectedRows);
+      inHandler = false;
+    }
+  }
+
+  grid.onSelectedRowsChanged.subscribe(function(e, args) {
+    if (inHandler) { return; }
+    selectedRowIds = self.mapRowsToIds(grid.getSelectedRows());
+  });
+
+  this.onRowsChanged.subscribe(update);
+
+  this.onRowCountChanged.subscribe(update);
+}
+```
+
+**NOTE:**  This only works with the RowSelectionModel.  CellSelectionModel isn't supported yet (I'm open to pull requests!).
+
+
+There is a similar helper method to synchronize the cell CSS styles:
+
+```javascript
+function syncGridCellCssStyles(grid, key) {
+  var hashById;
+  var inHandler;
+
+  // since this method can be called after the cell styles have been set,
+  // get the existing ones right away
+  storeCellCssStyles(grid.getCellCssStyles(key));
+
+  function storeCellCssStyles(hash) {
+    hashById = {};
+    for (var row in hash) {
+      var id = rows[row][idProperty];
+      hashById[id] = hash[row];
+    }
+  }
+
+  function update() {
+    if (hashById) {
+      inHandler = true;
+      ensureRowsByIdCache();
+      var newHash = {};
+      for (var id in hashById) {
+        var row = rowsById[id];
+        if (row != undefined) {
+          newHash[row] = hashById[id];
+        }
+      }
+      grid.setCellCssStyles(key, newHash);
+      inHandler = false;
+    }
+  }
+
+  grid.onCellCssStylesChanged.subscribe(function(e, args) {
+    if (inHandler) { return; }
+    if (key != args.key) { return; }
+    if (args.hash) {
+      storeCellCssStyles(args.hash);
+    }
+  });
+
+  this.onRowsChanged.subscribe(update);
+
+  this.onRowCountChanged.subscribe(update);
+}
+```
 
 
 
@@ -149,4 +257,3 @@ dataView.endUpdate();
 ## Advanced topics
 
 ## API reference
-
