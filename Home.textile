@@ -35,9 +35,9 @@ Some highlights:
 * "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
 * [[Handling selection]]
 * "All pages on this wiki":https://github.com/mleibman/SlickGrid/wiki/_pages
-* "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 
 <h3>Contact/Support</h3>
+* "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 * "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
 * "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues - For filing bugs /only/. Please see the [[Rules of Conduct]] for more information on filing a bug.
 * "@slickgrid on Twitter":http://twitter.com/slickgrid
