@@ -78,7 +78,7 @@ The editor constructor receives an <code>args</code> object which has the follow
 * <code>container</code> &mdash; DOM-object for cell container
 * <code>grid</code> &mdash; grid instance
 * <code>gridPosition</code> &mdash; object describing grid position 
-* <code>item</code> &mdash; data item for eddited row
+* <code>item</code> &mdash; data item for edited row
 * <code>position</code> &mdash; object describing cell position 
 * <code>cancelChanges()</code> &mdash; grid method to discard changes
 * <code>commitChanges()</code> &mdash; grid method to store changes
