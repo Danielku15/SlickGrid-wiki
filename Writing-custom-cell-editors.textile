@@ -73,7 +73,7 @@ function IEditor(args) {
 </pre>
 
 <h3>Constructor arguments</h3>
-Editor constructor receive <code>args</code> object which has next fields:
+The editor constructor receives an <code>args</code> object which has the following fields:
 * <code>column</code> &mdash; column definition object
 * <code>container</code> &mdash; DOM-object for cell container
 * <code>grid</code> &mdash; grid instance
