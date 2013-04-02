@@ -116,7 +116,7 @@ Initializes the grid. Called after plugins are registered. Normally, this is cal
 
 <a name="getData" href="Slick.Grid#wiki-getData">#</a> grid.<b>getData</b>(<i></i>)
 
-Returns an array of every data object, unless you're using `DataView` in whcih case it returns a DataView object.
+Returns an array of every data object, unless you're using `DataView` in which case it returns a DataView object.
 
 <a name="getDataItem" href="Slick.Grid#wiki-getDataItem">#</a> grid.<b>getDataItem</b>(<i>index</i>)
 
