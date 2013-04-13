@@ -83,7 +83,7 @@ DataView exposes several methods in order to map rows to items:
 
 These methods are exposed by the DataView as part of the data provider interface:
 
-* `getItem(index)` - Returns the item at a given index.
+* `getItem(index)` - Returns the item at a given index. Note that getItem() operate on filtered one's, whereas getItems() return the original data array.
 * `getItemMetadata(index)` - Returns the item metadata at a given index.
 * `getLength()` - Returns the number of items.
 
