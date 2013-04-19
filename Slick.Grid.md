@@ -649,7 +649,7 @@ Returns an array of objects representing columns that have a sort glyph in the h
 ```
 <a name="getTopPanel" href="Slick.Grid#wiki-getTopPanel">#</a> grid.<b>getTopPanel</b>(<i></i>)
 
-Returns the DIV element of the top panel. The panel is hidden by default, but you can show it by initializing the grid with `showTopPanel` set to `true`, or by calling `grid.setTopePanelVisibility(true)`.
+Returns the DIV element of the top panel. The panel is hidden by default, but you can show it by initializing the grid with `showTopPanel` set to `true`, or by calling `grid.setTopPanelVisibility(true)`.
 ```javascript
 // Create a subheader and attach it to the top panel
 $("<div>Here is a subheader!</div>")
