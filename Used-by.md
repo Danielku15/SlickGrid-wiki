@@ -43,4 +43,5 @@
 <li><a href="http://www.tsolucio.com/" target="_blank">JPL TSolucio, S.L.</a> - Enhancing vtiger CRM (<a href="http://crmevolutivo.com/doku.php/es:mapenhancements" target="_blank">Map Extension</a>, <a href="http://crmevolutivo.com/doku.php/es:evvtusernav" target="_blank">User Navigation</a>) and other open source applications.</li>
 <li><a href="http://www.graphicized.com" target="_blank">Graphicized</a></li>
 <li><a href="http://aiic.net/directories/interpreters/byLanguagePairs/from/1/into/2/english-french" target="_blank">AIIC</a>: Used to browse result sets</li>
+<li><a href="https://github.com/berndku/webtracemonitor" target="_blank">Web Trace Monitor</a> - Used together with SignalR to visualize realtime trace messages</li>
 </ul>
