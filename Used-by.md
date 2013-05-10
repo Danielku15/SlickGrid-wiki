@@ -44,4 +44,5 @@
 <li><a href="http://www.graphicized.com" target="_blank">Graphicized</a></li>
 <li><a href="http://aiic.net/directories/interpreters/byLanguagePairs/from/1/into/2/english-french" target="_blank">AIIC</a>: Used to browse result sets</li>
 <li><a href="https://github.com/berndku/webtracemonitor" target="_blank">Web Trace Monitor</a> - Used together with SignalR to visualize realtime trace messages</li>
+<li><a href="http://www.easykenak.gr" target="_blank">easykenak</a> - Issue energy certificates compatible with greek legislation</li>
 </ul>
