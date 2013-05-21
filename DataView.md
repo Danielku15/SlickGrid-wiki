@@ -195,7 +195,7 @@ grid.onSort.subscribe(function(e, args) {
 
   // We'll use a simple comparer function here.
   var comparer = function(a, b) {
-    return a[args.sortCol] > b[args.sortCol];
+    return a[args.sortCol.id] > b[args.sortCol.id];
   }
 
   // Delegate the sorting to DataView.
