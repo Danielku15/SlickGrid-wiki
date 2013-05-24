@@ -32,7 +32,7 @@ As included in the examples or described in stable releases.
 | leaveSpaceForNewRows | false ||
 | multiColumnSort | false | See: [[http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html][Example: Multi-Column Sort]] |
 | multiSelect | true ||
-| rowHeight|140||
+| rowHeight|25||
 | selectedCellCssClass | "selected" ||
 | showHeaderRow | false||
 | syncColumnCellResize | false | If true, the column being resized will change its width as the mouse is dragging the resize handle. If false, the column will resize after mouse drag ends. |
