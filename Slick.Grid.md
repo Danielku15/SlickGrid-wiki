@@ -122,7 +122,7 @@ Returns an array of every data object, unless you're using `DataView` in which c
 
 >`index` - Item index.
 
-Returns the databinding item at a given position.
+Returns the databinding item at a given position AFTER any grid filters have been applied.
 ```javascript
 // Get the id of the 15th item
 var id15 = grid.getDataItem(14).id;
@@ -138,7 +138,7 @@ Sets a new source for databinding and removes all rendered rows.  Note that this
 
 <a name="getDataLength" href="Slick.Grid#wiki-getDataLength">#</a> grid.<b>getDataLength</b>(<i></i>)
 
-Returns the size of the databinding source.
+Returns the size of the databinding source AFTER any grid filters have been applied.
 ```javascript
 // Create an array of just the ids from every data item
 var ids = [];
