@@ -2,13 +2,13 @@
 
 Resources
 * [[API Reference]]
- * [[Grid|Slick.Grid]]
+* [[Grid|Slick.Grid]]
 * [[Grid Options]]
 * [[Column Options]]
 * [[Grid Events]]
 * [[Dataview Events]]
 * [[Examples]]
-* [[Plugins & Third-party packages]
+* [[Plugins & Third-party packages]]
 
 Learning
 * [[Getting Started]]
