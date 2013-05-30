@@ -1,4 +1,5 @@
 ## <font color="green">Navigation</font>
+
 Resources
 * [[API Reference]]
  * [[Grid|Slick.Grid]]
@@ -7,6 +8,7 @@ Resources
 * [[Grid Events]]
 * [[Dataview Events]]
 * [[Examples]]
+* [[Plugins & Third-party packages]
 
 Learning
 * [[Getting Started]]
