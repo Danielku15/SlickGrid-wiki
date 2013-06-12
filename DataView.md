@@ -190,12 +190,12 @@ Sorting is pretty simple:
 // It only gets fired for sortable columns, so make sure your column definition has `sortable = true`.
 grid.onSort.subscribe(function(e, args) {
   // args.multiColumnSort indicates whether or not this is a multi-column sort.
-  // If it is, the sort column and direction will be in args.sortCol & args.sortAsc.
-  // If not, args.sortCols will have an array of {sortCol:..., sortAsc:...} objects.
+  // If it is, the sort column and direction will be in args.sortCols & args.sortAsc.
+  // If not, args.sortCols will have an array of {sortCols:..., sortAsc:...} objects.
 
   // We'll use a simple comparer function here.
   var comparer = function(a, b) {
-    return a[args.sortCol.field] > b[args.sortCol.field];
+    return a[args.sortCols.field] > b[args.sortCols.field];
   }
 
   // Delegate the sorting to DataView.
