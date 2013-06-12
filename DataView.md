@@ -190,8 +190,8 @@ Sorting is pretty simple:
 // It only gets fired for sortable columns, so make sure your column definition has `sortable = true`.
 grid.onSort.subscribe(function(e, args) {
   // args.multiColumnSort indicates whether or not this is a multi-column sort.
-  // If it is, the sort column and direction will be in args.sortCol & args.sortAsc.
-  // If not, args.sortCols will have an array of {sortCol:..., sortAsc:...} objects.
+  // If it is, args.sortCols will have an array of {sortCol:..., sortAsc:...} objects.
+  // If not, the sort column and direction will be in args.sortCol & args.sortAsc.
 
   // We'll use a simple comparer function here.
   var comparer = function(a, b) {
