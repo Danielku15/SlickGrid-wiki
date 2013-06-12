@@ -238,7 +238,7 @@ Notice that in the example above, each update will result in the DataView recalc
 
 ```javascript
 // Suspend recalculations until endUpdate() is called.
-dataView.startUpdate();
+dataView.beginUpdate();
 
 dataView.addItem(...);
 dataView.addItem(...);
