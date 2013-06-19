@@ -21,7 +21,7 @@ Here's a rough list of features that DataView adds to the grid:
 * Multi-level grouping with totals.
 * Expand/collapse groups.
 
-DataView also enables very efficient updates in response to the changing data.  Whenever something changes, it detects which rows need updating, and passes them in the 'onRowCountChanged` and `onRowsChanged` events that it fires, so instead of rerendering the entire grid, you can simply invalidate the updated rows.
+DataView also enables very efficient updates in response to the changing data.  Whenever something changes, it detects which rows need updating, and passes them in the `onRowCountChanged` and `onRowsChanged` events that it fires, so instead of rerendering the entire grid, you can simply invalidate the updated rows.
 
 
 ## Getting started
