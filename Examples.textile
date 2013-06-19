@@ -25,7 +25,9 @@ _gaq.push(['_trackPageview']);
 
 * "Writing compound editors":http://mleibman.github.com/SlickGrid/examples/example3a-compound-editors.html
 
-* "Implementing Undo":http://mleibman.github.com/SlickGrid/examples/example3b-editing-with-undo.html
+* "Implementing undo":http://mleibman.github.com/SlickGrid/examples/example3b-editing-with-undo.html
+
+* "Using a CompositeEditor to implement detached item edit form":http://mleibman.github.com/SlickGrid/examples/example-composite-editor-item-details.html
 
 * (most comprehensive) "Using a filtered data view to drive the grid":http://mleibman.github.com/SlickGrid/examples/example4-model.html
 
@@ -43,6 +45,8 @@ _gaq.push(['_trackPageview']);
 
 * "Filling the whole window":http://mleibman.github.com/SlickGrid/examples/example12-fillbrowser.html
 
+* "Sorting by an index, getItem method":http://mleibman.github.com/SlickGrid/examples/example13-getItem-sorting.html
+
 * "Using fixed header row for quick filters":http://mleibman.github.com/SlickGrid/examples/example-header-row.html
 
 * "Plugin:  Checkbox row selectors with CheckboxSelectColumn plugin":http://mleibman.github.com/SlickGrid/examples/example-checkbox-row-select.html
@@ -59,6 +63,10 @@ _gaq.push(['_trackPageview']);
 
 * "Multi-column sorting":http://mleibman.github.com/SlickGrid/examples/example-multi-column-sort.html
 
+* "Using dataItemColumnValueExtractor option to specify a custom column value extractor":http://mleibman.github.com/SlickGrid/examples/example-custom-column-value-extractor.html
+
 * "Plugin: Column header buttons":http://mleibman.github.com/SlickGrid/examples/example-plugin-headerbuttons.html
 
 * "Plugin: Column header menu":http://mleibman.github.com/SlickGrid/examples/example-plugin-headermenu.html
+
+* "Plugin: Auto tooltips":http://mleibman.github.com/SlickGrid/examples/example-autotooltips.html
