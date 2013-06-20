@@ -13,7 +13,7 @@ Resources
 Learning
 * [[Getting Started]]
 * [[Handling Selection]]
-* [[Providing Data to the Grid]]
+* [[Data-Driven Grid Customization|Providing Data to the Grid]]
 * [[Writing Custom Cell Editors]]
 
 Tests
