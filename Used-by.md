@@ -1,6 +1,9 @@
 (Edit the page to let me know how you are using SlickGrid)
 
 <ul>
+<li><a href="http://www.partyark.co.uk" target="_blank">Party Ark Ltd</a> - we use SlickGrid
+for our manager screens, where it's the best performing grid for very large amounts of records
+loaded by JSON.</li>
 <li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
 <li><a href="http://www.foundor.com" target="_blank">Foundor</a></li>
 <li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
