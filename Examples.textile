@@ -29,6 +29,8 @@ _gaq.push(['_trackPageview']);
 
 * "Using a CompositeEditor to implement detached item edit form":http://mleibman.github.com/SlickGrid/examples/example-composite-editor-item-details.html
 
+* "Implementing a totals row via a data provider":http://mleibman.github.io/SlickGrid/examples/example-totals-via-data-provider.html
+
 * (most comprehensive) "Using a filtered data view to drive the grid":http://mleibman.github.com/SlickGrid/examples/example4-model.html
 
 * "Adding tree functionality (expand/collapse) to the grid":http://mleibman.github.com/SlickGrid/examples/example5-collapsing.html
