@@ -11,7 +11,7 @@ This is the API reference for SlickGrid.
 * <a href="Slick.Grid#wiki-header-rendering">Rendering</a> - Rendering methods
 * <a href="Slick.Grid#wiki-header-headers">Headers</a> - Column header methods
 
-### [[Slick.Data.DataView]]
+### [[DataView]]
 
 ### [[Slick.Data.RemoteModel]]
 
