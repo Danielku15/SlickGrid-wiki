@@ -6,7 +6,7 @@ Resources
 * [[Grid Options]]
 * [[Column Options]]
 * [[Grid Events]]
-* [[Dataview Events]]
+* [[Dataview]]
 * [[Examples]]
 * [[Plugins & Third-party packages]]
 
