@@ -6,7 +6,7 @@ As included in the examples or described in stable releases.
 | asyncEditorLoadDelay|100|Delay after which cell editor is loaded. Ignored unless asyncEditorLoading is true.|
 | asyncPostRenderDelay | 50 ||
 | autoEdit | true | Cell will not automatically go into edit mode when selected.|
-| autoHeight | false ||
+| autoHeight | false | This disables vertical scrolling. |
 | cellFlashingCssClass|"flashing"|A CSS class to apply to flashing cells via flashCell().|
 | cellHighlightCssClass|"selected"|A CSS class to apply to cells highlighted via setHighlightedCells().|
 | dataItemColumnValueExtractor | null ||
