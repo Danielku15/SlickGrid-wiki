@@ -16,7 +16,7 @@ DataView works by taking in your data and acting as a data provider that you pas
 Here's a rough list of features that DataView adds to the grid:
 
 * Paging.
-* Mutli-column sorting.
+* Multi-column sorting.
 * Search.
 * Multi-level grouping with totals.
 * Expand/collapse groups.
