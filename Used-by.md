@@ -53,4 +53,5 @@ loaded by JSON.</li>
 <li><a href="http://www.thinknum.com/cashflowmodel" target="_blank">ThinkNum</a> uses it as the base of our spreadsheet app for building cash flow models online</li>
 <li><a href="http://www.casasoft.com.mt" title="Web design and development from Malta and Europe - Web Applications, Rich Interface Applications (RIA), Interactive HTML5 &amp; Flash Development, Content Management Systems (CMS)" target="_blank">CasaSoft (Malta)</a> - Used for our custom made Content Management System (CMS)</li>
 <li><a href="http://https://github.com/webnotes/erpnext">ERPNext</a> - Used to show large reports.</li>
+<li><a href="http://www.spreadgit.com">Spreadgit</a> - we use SlickGrid to visualise Excel spreadsheets and diffs.</li>
 </ul>
