@@ -89,7 +89,7 @@ Example:
 
 **Events**
 
-SlickGrid has its own simple implementation of events.  To subscribe to an event, call `event.subscribe()` and pass in a function that will take two parameters - and `event` object that contains the browser event, if any, and an additional `args` object that contains data passed from the grid.
+SlickGrid has its own simple implementation of events.  To subscribe to an event, call `event.subscribe()` and pass in a function that will take two parameters - an `event` object that contains the browser event, if any, and an additional `args` object that contains data passed from the grid.
 
 An example:
 
