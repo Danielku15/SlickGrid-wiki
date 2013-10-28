@@ -33,7 +33,7 @@ Some highlights:
 * jQuery
 * jQueryUI Sortable (optional, only if column reordering is enabled)
 * jquery.event.drag - http://threedubmedia.com/code/event/drag
-* jqeury.event.drop - http://threedubmedia.com/code/event/drop
+* jquery.event.drop - http://threedubmedia.com/code/event/drop
 
 <h3>Documentation</h3>
 * [[Getting Started]] - A brief introduction to some of SlickGrid's basic concepts.
