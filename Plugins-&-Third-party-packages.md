@@ -1,5 +1,10 @@
 (List your plugins / extensions / third-party packages here.)
 
+## External Copy manager (copy/paste from Excel)
+
+http://labs.nereo.com/slick.html
+
+
 ## AutoFilter and Fill Down Plugins
 
 ### Filter
