@@ -6,8 +6,9 @@ Resources
 * [[Grid Options]]
 * [[Column Options]]
 * [[Grid Events]]
-* [[Dataview]]
+* [[DataView]]
 * [[Examples]]
+* [[Providing data to the grid]]
 * [[Plugins & Third-party packages]]
 
 Learning
