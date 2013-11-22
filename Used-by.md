@@ -56,5 +56,4 @@ loaded by JSON.</li>
 <li><a href="http://www.spreadgit.com">Spreadgit</a> - we use SlickGrid to visualise Excel spreadsheets and diffs.</li>
 <li><a href="http://www.tyseo.net">Tyseo</a> - To show Google Analytics data.</li>
 <li><a href="http://www.etsy.com">Etsy</a> - <a href="http://bit.ly/1amUycG">Internal BI tool</a></li>
-<li>Tetragy <a href="https://stat.tetragy.com">Quadstat</a> - Statistical data set <a href="https://stat.tetragy.com/node/1750">editor</a></li>
 </ul>
