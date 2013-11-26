@@ -48,7 +48,7 @@ dataView.onRowsChanged.subscribe(function (e, args) {
 ```
 
 Now we're ready to initialize it with some data.
-One important requirement that DataView imposes on the data it consumes is that every item has a unique identifier.  DataView uses it to uniquely identify items and compare them to each other.  By default, DataView uses the `id` property of the data item, but you can specify a different one by passing it in via an optional second argument in the `setData(data, [objectIdProperty])`.  The `id` value must be serializable to a string.
+One important requirement that DataView imposes on the data it consumes is that every item has a unique identifier.  DataView uses it to uniquely identify items and compare them to each other.  By default, DataView uses the `id` property of the data item, but you can specify a different one by passing it in via an optional second argument in the `setItems(data, [objectIdProperty])`.  The `id` value must be serializable to a string.
 
 ```javascript
 var data = [
