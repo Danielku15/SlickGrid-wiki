@@ -7,7 +7,7 @@ SlickGrid is very flexible in how it consumes the data.  The data is passed to t
 * `getItemMetadata(index)` - returns the metadata for the item at a given index (optional)
 
 
-DataView (`Slick.Data.DataView` included in `slick.dataview.js`) is one such data provider and it is part of the SlickGrid package.
+DataView (`Slick.Data.DataView` included in [slick.dataview.js](../blob/master/slick.dataview.js)) is one such data provider and it is part of the SlickGrid package.
  
 If all of the data is available on the client (i.e. in a JavaScript array), DataView can provide many useful features that the grid itself doesn't have. (This fact that the grid lacks these features is by design - SlickGrid tries to keep the core lean and simple while encouraging modular design and data abstraction in its API.)
 
