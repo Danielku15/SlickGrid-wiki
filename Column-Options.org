@@ -6,7 +6,7 @@ Options which you can apply to the columns objects.
 | behavior | null | Used by the the slick.rowMoveManager.js plugin for moving rows. Has no effect without the plugin installed.
 | cannotTriggerInsert | null | In the "Add New" row, determines whether clicking cells in this column can trigger row addition. If true, clicking on the cell in this column in the "Add New" row will not trigger row addition.
 | cssClass | "" | Accepts a string as a class name, applies that class to every row cell in the column. |
-| defaultSortAsc | true | When set to /true/, the first user click on the header will do a descending sort. When set to /false/, the first user click on the header will do an ascending sort. |
+| defaultSortAsc | true | When set to /true/, the first user click on the header will do a ascending sort. When set to /false/, the first user click on the header will do an descending sort. |
 | editor | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/mleibman/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
 | field | "" | The property name in the data object to pull content from. (This is assumed to be on the root of the data object.) |
 | focusable | true | When set to /false/, clicking on a cell in this column will not select the row for that cell. The cells in this column will also be skipped during tab navigation.|
