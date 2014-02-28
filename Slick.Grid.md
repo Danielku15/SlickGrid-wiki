@@ -15,6 +15,7 @@
   * <a href="#wiki-autosizeColumns">autosizeColumns</a>
   * <a href="#wiki-getColumnIndex">getColumnIndex</a>
   * <a href="#wiki-getColumns">getColumns</a>
+  * <a href="#wiki-setColumns">setColumns</a>
   * <a href="#wiki-setSortColumn">setSortColumn</a>
   * <a href="#wiki-setSortColumns">setSortColumns</a>
   * <a href="#wiki-updateColumnHeader">updateColumnHeader</a>
