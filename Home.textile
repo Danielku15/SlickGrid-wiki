@@ -1,5 +1,8 @@
 <h1>Welcome to the SlickGrid!</h1>
 
+*UPDATE:  March 5th, 2014 - I have too many things going on in my life right now to really give SlickGrid support and development the time and attention it deserves.  I am not stopping it, but I will most likely be unresponsive for some time.  Sorry.*
+
+
 Do you use SlickGrid? Add your site to the [[Used By]]!
 
 "!http://api.coderwall.com/mleibman/endorsecount.png!":http://coderwall.com/mleibman
