@@ -166,7 +166,7 @@ Returns the current SelectionModel. [See here for more information about Selecti
 
 > `options` - An object with configuration options.
 
-Extends grid options with a given hash. If an there is an active edit, the grid will attempt to commit the changes and only continue if the attempt succeeds.
+Extends grid options with a given hash. If there is an active edit, the grid will attempt to commit the changes and only continue if the attempt succeeds.
 ```javascript
 // set a new CSS class for selected cells
 grid.setOptions( { selectedCellCssClass: "newSelection" } );
@@ -220,7 +220,7 @@ sortable ? console.log("It's sortable!") : console.log("It's not sortable!");
 
 >`columnDefinitions` - An array of column definitions.
 
-Sets grid columns.  Column headers will be recreated and all rendered rows will be removed.  To rerender the grid (if necessary), call `render()`.
+Sets grid columns.  Column headers will be recreated and all rendered rows will be removed.  To re-render the grid (if necessary), call `render()`.
 ```javascript
 // Change the name of the first column to "First"
 var data = grid.getColumns();
