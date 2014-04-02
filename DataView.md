@@ -32,6 +32,13 @@ To use the DataView, include `slick.dataview.js`:
 // Create the DataView.
 var dataView = new Slick.Data.DataView();
 
+//Create columns
+var columns = [
+  {id: "column1", name: "ID", field: "id"},
+  {id: "column2", name: "Language", field: "lang"},
+  {id: "column3", name: "Year", field: "year"}
+];
+
 // Pass it as a data provider to SlickGrid.
 var grid = new Slick.Grid(containerEl, dataView, columns, options);
 
@@ -52,10 +59,10 @@ One important requirement that DataView imposes on the data it consumes is that 
 
 ```javascript
 var data = [
-  {'id': 'l1', 'lang': 'Java'},
-  {'id': 'l2', 'lang': 'JavaScript'},
-  {'id': 'l3', 'lang': 'C#'},
-  {'id': 'l4', 'lang': 'Python'}];
+  {'id': 'l1', 'lang': 'Java', 'year': 1995},
+  {'id': 'l2', 'lang': 'JavaScript', 'year': 1995},
+  {'id': 'l3', 'lang': 'C#', 'year': 2000},
+  {'id': 'l4', 'lang': 'Python', 'year': 1991}];
 
 // This will fire the change events and update the grid.
 dataView.setItems(data);
