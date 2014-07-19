@@ -1,8 +1,9 @@
 (Edit the page to let me know how you are using SlickGrid)
 
 <ul>
-<li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
 <li><a href="http://vidadigital.com.mx/es/servicio/fabrica/software/cotizar/desarrollo/aplicacion/web/" target="_blank">Cotizar desarrollo de aplicación web</a> por Vida Digital</li>
+<li><a href="http://www.daptiv.com" target="_blank">Daptiv Inc.</a></li>
+
 <li><a href="http://www.foundor.com" target="_blank">Foundor</a></li>
 <li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
 <li><a href="http://rentpost.com" target="_blank">RentPost</a></li>
