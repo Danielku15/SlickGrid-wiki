@@ -61,5 +61,5 @@ loaded by JSON.</li>
 <li><a href="http://carbondata.us">Carbon Data</a> - Used to view each sheet in the data pipeline.</li>
 <li><a href="http://jstorrent.com">JSTorrent</a> - Used to display all rows of data in the chrome app</li>
 <li><a href="http://competera.net">Competera</a> - Used to show internal BI reports</li>
-<li><a href="https://sole.hsc.wvu.edu/">SOLE - Secure Online Learning Environment</a> - Used to display student grades in the gradebook module</li>
+<li><a href="https://sole.hsc.wvu.edu/">SOLE - Secure Online Learning Environment</a> - Used to display student grades in the gradebook module (Demo video <a href="http://screencast.com/t/deFmbkLVgf">here</a>)</li>
 </ul>
