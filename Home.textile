@@ -46,7 +46,9 @@ Some highlights:
 * "All pages on this wiki":https://github.com/mleibman/SlickGrid/wiki/_pages
 
 <h3>Contact/Support</h3>
-**"GitHub Issues are for bug reports only. Please use the appropriate discussion forum.":https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct**
+**GitHub Issues are for bug reports only. Please use the appropriate forum.**
+"Please see Rules of conduct":https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct
+
 * Asking questions
 ** "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
 ** "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
@@ -54,6 +56,13 @@ Some highlights:
 
 * Reporting bugs
 ** "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues
+
+When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
+
+1. Include the version of SlickGrid.
+2. Include the reproduction steps. Describe about expected behavior & actual behavior.
+(If possible, post code on "jsfiddle.net":http://jsfiddle.net/).
+3. Use proper English that everybody can understand.
 
 <h2>What makes it different</h2>
 
