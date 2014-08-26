@@ -46,10 +46,14 @@ Some highlights:
 * "All pages on this wiki":https://github.com/mleibman/SlickGrid/wiki/_pages
 
 <h3>Contact/Support</h3>
-* "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
-* "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
-* "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues - For filing bugs /only/. Please see the [[Rules of Conduct]] for more information on filing a bug.
-* "@slickgrid on Twitter":http://twitter.com/slickgrid
+**"GitHub Issues are for bug reports only. Please use the appropriate discussion forum.":https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct**
+* Asking questions
+** "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
+** "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
+** "@slickgrid on Twitter":http://twitter.com/slickgrid
+
+* Reporting bugs
+** "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues
 
 <h2>What makes it different</h2>
 
