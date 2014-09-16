@@ -75,26 +75,28 @@ You can call `getItems()` to get the data array back.
 
 Ok, let's reiterate - DataView takes in a data array as an input, manipulates it, and presents the results to the grid by acting as a data provider, i.e. exposing the data provider methods `getItem(index)`, `getLength()` and `getItemMetadata(index)`.  In handling grid events, it's important to always keep in mind that the row indexes the grid refers to are, in fact, the indexes into the output of the DataView!  For example, if you're handling a grid `onClick` event and it's giving you a row index, to look up the data item, you need to call `dataView.getItem(rowIndex)` and *not* `data[rowIndex]`.
 
-In general, whenever we talk about *rows*, we mean the data as the grid sees it, so, if you're using a DataView, that would the *output* of the DataView (`dataView.getItem(index)`).  Whenever we talk about *items*, we mean the *input* of the DataView (`data[index]` or `dataView.getItems()[index]`).  You'll notice that it is somewhat confusing that `getItem(index)` returns a *row* while `getItems()` returns *items*.  Unfortunately, it's this way for historical reasons.  `getItem(index)` is part of the  data provider interface.  In retrospect, it would be better if the DataView exposed a `getDataProvider()` method.
+In general, whenever we talk about *rows*, we mean the data as the grid sees it, so, if you're using a DataView, that would be the *output* of the DataView (`dataView.getItem(index)`).  Whenever we talk about *items*, we mean the *input* of the DataView (`data[index]` or `dataView.getItems()[index]`).  You'll notice that it is somewhat confusing that `getItem(index)` returns a *row* while `getItems()` returns *items*.  Unfortunately, it's this way for historical reasons.  `getItem(index)` is part of the  data provider interface.  In retrospect, it would be better if the DataView exposed a `getDataProvider()` method.
 
-Since each item has a unique id, they are often used to keep track of items/rows and to map one to another.
-DataView exposes several methods in order to map rows to items:
+### DataView Methods
 
-* `getItems()` - Returns the original data array.
-* `getIdxById(id)` - Returns the index of an item with a given id.
-* `getRowById(id)` - Returns the index of a row with a given id.
-* `getItemById(id)` - Returns the item with a given id.
-* `getItemByIdx(index)` - Returns the item at a given index.  Equivalent to `getItems()[index]`.
-* `mapIdsToRows(idArray)` - Maps an array of ids into row indexes.
-* `mapRowsToIds(rowArray)` - Maps an array of row indexes into ids.
+Since each item has a unique id, they are often used to keep track of ids/items/rows/indices and to map one to another.
 
 These methods are exposed by the DataView as part of the data provider interface:
 
-* `getItem(index)` - Returns the item at a given index.
-* `getItemMetadata(index)` - Returns the item metadata at a given index.
-* `getLength()` - Returns the number of items.
+* `getItems()` - Returns the original data array.
+* `getItem(row)` - With a row index of an item in the grid, return the item.
+* `getItemMetadata(idx)` - Returns the item metadata at a given index.
+* `getLength()` - Returns the number of rows in the grid.
 
- 
+DataView exposes several methods in order to map ids to items to rows in the grid to indices in the original data array:
+
+* `getItemById(id)` - With an item's id, return the item.
+* `getIdxById(id)` - With an item's id, return the index of the item in the original data array.
+* `getRowById(id)` - With an item's id, return the row of the item in the grid.
+* `getItemByIdx(idx)` - With an index of an item in the original data array, return the item. Equivalent to `getItems()[index]`.
+* `mapIdsToRows(idArray)` - Maps an array of item ids into rows in the grid.
+* `mapRowsToIds(rowArray)` - Maps an array of rows in the grid into item ids.
+
 ## Synchronizing selection & cell CSS styles
 
 One of the most common questions about DataView is how to synchronize the selection or cell CSS styles state on DataView changes.  Let's say that the user selected a row.  If they then change the filter on the DataView to hide some items, the grid gets a call to invalidate all changed rows, including the selected one, but it doesn't know that the item that was displayed there has moved somewhere else.  What we need to do, is to store the ids of items that were selected, and to update the selection on the grid any time the DataView is modified.
