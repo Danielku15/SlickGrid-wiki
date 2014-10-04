@@ -63,5 +63,5 @@ loaded by JSON.</li>
 <li><a href="http://competera.net">Competera</a> - Used to show internal BI reports</li>
 <li><a href="https://sole.hsc.wvu.edu/">SOLE - Secure Online Learning Environment</a> - Used to display student grades in the gradebook module (Demo video <a href="http://screencast.com/t/deFmbkLVgf">here</a>)</li>
 <li><a href="http://www.unitysis.com/">Unitysis</a> - Used in our accounting system</li>
-<li><a href="https://github.com/rammpeter/Panorama"> - Panorama: tool for monitoring performance of Oracle databases</a></li>
+<li><a href="https://github.com/rammpeter/Panorama">Panorama</a> - tool for monitoring performance of Oracle databases</li>
 </ul>
