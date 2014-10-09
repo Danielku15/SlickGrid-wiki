@@ -7,6 +7,7 @@
 <li><a href="http://www.foundor.com" target="_blank">Foundor</a></li>
 <li><a href="http://odata.stackexchange.com" target="_blank">Stack Overflow</a></li>
 <li><a href="http://rentpost.com" target="_blank">RentPost</a></li>
+<li><a href="http://www.galleryserverpro.com" target="_blank">Gallery Server</a></li>
 <li><a href="http://projectdirigible.com/">Project Dirigible</a> at Resolver Systems</li>
 <li><a href="http://contentior.com/">Project Contentior</a> and others at Taragana Inc.</li>
 <li><a href="http://thinkupapp.com/">ThinkUp</a> (<a href="http://github.com/ginatrapani/thinkup">on GitHub</a>) by <a href="http://expertlabs.org/">Expert Labs</a></li>
