@@ -66,5 +66,5 @@ loaded by JSON.</li>
 <li><a href="http://www.unitysis.com/">Unitysis</a> - Used in our accounting system</li>
 <li><a href="https://github.com/rammpeter/Panorama">Panorama</a> - tool for monitoring performance of Oracle databases</li>
 <li><a href="https://stat.tetragy.com/operation/scatterplot">Quadstat statistics software</a> - features data preview via SlickGrid</li>
-<li><a href="http://www.blisshq.com/mp3-tag-editor.html">bliss</a> - a music library organiser designed for installation on music servers, NASes etc</li>
+<li><a href="http://www.blisshq.com/mp3-tag-editor.html">bliss</a> - a music library organiser designed for installation on music servers, NASes etc. We use SlickGrid in the Tags page.</li>
 </ul>
