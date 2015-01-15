@@ -48,23 +48,23 @@ Preserving present row_ids while clicking on the check boxes. In igv.slick.check
 
 After sorting operation is completed [ e.g onRenderCompleted  ] successfully, search for present position of preserved row_ids by iterating the grid rows and then update selected rows with the present position found. Refer to the following code snippets which will elaborate the code life cycle.
 
-`     function CheckboxSelectColumn(options) {
-       // Existing Code
-       function init(grid) {
+`      function CheckboxSelectColumn(options) {
+        // Existing Code
+        function init(grid) {
             _grid = grid;
             // Subscribing handleSort API which will be
             // triggered on onSort operation of grid column
             _grid.onSort.subscribe(handleSort);
-       }
+        }
     
-       var handleSort = function (e, args){
+        var handleSort = function (e, args){
           // Subscribing handleCheckBox API which will be
           // triggered when rendering operation of grid is completed
           // after sorting.
           args.grid.onRenderCompleted.subscribe(handleCheckBox);
-       }
+        }
  
-       var handleCheckBox = function (e, args){
+        var handleCheckBox = function (e, args){
            var grid = args.grid;
            var selectedRows = grid.getSelectedRows();
            var newPosition = [];
