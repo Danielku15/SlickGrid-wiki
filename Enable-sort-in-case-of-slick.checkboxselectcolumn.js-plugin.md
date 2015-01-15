@@ -5,34 +5,39 @@ This behavior can be achieved by the in the following modifications:
 * Update selected rows with the present position found in the previous step.
 
 **Detail Approach**
+
 Introducing a slick event such as onRenderCompleted in slick.grid.js which will assure grid rendering completed. To support this feature it will be required to do trigger an action when render() method has completed its task hence need to add the following line to the render() method just below renderRows(rendered);
 
-`//Add a new event handler to the public API:
-"onRenderCompleted":            new Slick.Event(),
+`[slick.grid.js]     
  
-//Add the following line to the render() method just below renderRows(rendered);
-function render() {
-    ...
-    renderRows(rendered);
-    trigger(self.onRenderCompleted, {}); // fire when rendering is done
-    ...
-}`
+      //Add a new event handler to the public API:
+      "onRenderCompleted": new Slick.Event(),
+      //Add the following line to the render() method just below renderRows(rendered);
+      function render() {
+        ...
+        renderRows(rendered);
+        trigger(self.onRenderCompleted, {}); // fire when rendering is done
+        ...
+      }`
 
 Preserving present row_ids while clicking on the check boxes. In igv.slick.checkboxselectcolumn.js , handleClick API gets triggered onClick operation on the grid and inside handleClick API preserving present row_ids operation gets executed if and only if clicking on a row select check-box. Refer to the following code snippets which will elaborate the code life cycle.
 
-`function CheckboxSelectColumn(options) {
-   // Introducing new variables
-   var preserveSelectedRow = [];
-   var preserveSelectedRowID = [];
+`[slick.checkboxselectcolumn.js]     
+
+
+      function CheckboxSelectColumn(options) {
+      // Introducing new variables
+      var preserveSelectedRow = [];
+      var preserveSelectedRowID = [];
   
-   // Existing Code
-   function init(grid) {
+      // Existing Code
+      function init(grid) {
            _grid = grid;
            _grid.onClick.subscribe(handleClick);
        }
    
-   // preserving present row_ids operation gets executed if and only if clicking on a row select checkbox
-   function handleClick(e, args) {
+      // preserving present row_ids operation gets executed if and only if clicking on a row select checkbox
+      function handleClick(e, args) {
        if(_grid.getColumns()[args.cell].id === _options.columnId && $(e.target).is(":checkbox")) {
            Var i;
            // Preserving Selected Rows
@@ -43,12 +48,15 @@ Preserving present row_ids while clicking on the check boxes. In igv.slick.check
                preserveSelectedRowID.push(_grid.getDataItem(preserveSelectedRow[i]).id);
            }
        }
-   }
-}`
+      }
+    }`
 
 After sorting operation is completed [ e.g onRenderCompleted  ] successfully, search for present position of preserved row_ids by iterating the grid rows and then update selected rows with the present position found. Refer to the following code snippets which will elaborate the code life cycle.
 
-`      function CheckboxSelectColumn(options) {
+`[slick.checkboxselectcolumn.js]      
+
+
+       function CheckboxSelectColumn(options) {
         // Existing Code
         function init(grid) {
             _grid = grid;
