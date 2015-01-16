@@ -6,7 +6,7 @@ This behavior can be achieved by the in the following modifications:
 
 **Detail Approach**
 
-Introducing a slick event such as onRenderCompleted in slick.grid.js which will assure grid rendering completed. To support this feature it will be required to do trigger an action when render() method has completed its task hence need to add the following line to the render() method just below renderRows(rendered);
+Declare a slick event such as onRenderCompleted in slick.grid.js which will assure grid rendering completed. To support this feature it will be required to do trigger an action when render() method has completed its task hence need to add the following line to the render() method just below renderRows(rendered);
 
 `[slick.grid.js]     
  
