@@ -26,7 +26,7 @@ Preserving present row_ids while clicking on the check boxes. In igv.slick.check
 
 
       function CheckboxSelectColumn(options) {
-      // Introducing new variables
+      // Declare new variables
       var preserveSelectedRow = [];
       var preserveSelectedRowID = [];
   
