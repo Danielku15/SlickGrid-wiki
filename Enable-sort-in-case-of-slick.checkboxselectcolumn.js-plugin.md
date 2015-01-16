@@ -20,7 +20,7 @@ Declare a slick event such as onRenderCompleted in slick.grid.js which will assu
         ...
       }`
 
-Preserving present row_ids while clicking on the check boxes. In igv.slick.checkboxselectcolumn.js , handleClick API gets triggered onClick operation on the grid and inside handleClick API preserving present row_ids operation gets executed if and only if clicking on a row select check-box. Refer to the following code snippets which will elaborate the code life cycle.
+Preserving present row_ids while clicking on the check boxes. In slick.checkboxselectcolumn.js , handleClick API gets triggered onClick operation on the grid and inside handleClick API preserving present row_ids operation gets executed if and only if clicking on a row select check-box. Refer to the following code snippets which will elaborate the code life cycle.
 
 `[slick.checkboxselectcolumn.js]     
 
