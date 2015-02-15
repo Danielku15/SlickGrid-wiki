@@ -68,3 +68,5 @@ loaded by JSON.</li>
 <li><a href="https://stat.tetragy.com/operation/scatterplot">Quadstat statistics software</a> - features data preview via SlickGrid</li>
 <li><a href="http://www.blisshq.com/mp3-tag-editor.html">bliss</a> - a music library organiser designed for installation on music servers, NASes etc. We use SlickGrid in the Tags page.</li>
 </ul>
+<li><a href="http://www.ps2alerts.com">PS2Alerts</a>Planetside 2 Alerts - Tracking planetside alert statistics. Used on the alert statistics pages themselves.</li>
+</ul>
