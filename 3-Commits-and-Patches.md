@@ -11,9 +11,20 @@ Essential Patches
 
 These patches are for bugs or known issues with mleibman/SlickGrid master
 
-1. [01-lib-patch.patch](01-lib-patch.patch) Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
+<a href="01-lib-patch.patch" target="_blank">01-lib-patch.patch</a> 
+<a href="SlickGrid-6Pac-Mar-2015-lib-update.zip" target="_blank">library files</a>
+Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
+- apply the patch
+- extract the ZIP file
+- replace the repo /css directory with the /css directory from the ZIP file
+- add the files in the ZIP file /lib directory to the repo /lib directory 
 
-<a href="01-lib-patch.patch" target="_blank">test</a>
+***
+
+<a href="02-dataview-bug.patch" target="_blank">02-dataview-bug.patch</a> Fix bug in dataview causing model benchmark test to throw an error
+
+
+
 
 Recommended Patches
 -------------------
@@ -21,4 +32,3 @@ Recommended Patches
 These patches provide small, useful and non-breaking enhancements to mleibman/SlickGrid master
 
 1. [SlickGrid-6pac-rec-01.pat](SlickGrid-6pac-rec-01.pat) Allow initialisation of SlickGrid when the parent element is hidden
-
