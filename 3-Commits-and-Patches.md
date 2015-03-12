@@ -35,11 +35,11 @@ Minification can remove semicolons, add or remove braces, stc. RegEx is never go
 Filter functions can also be declared in a separate non-minified script clock or file.
 
 Issues:
-	mleibman#301
-	mleibman#244
-	mleibman#1032
-	mleibman#1053
-	http://stackoverflow.com/questions/27702628/script-minified-with-bundling-dont-work-in-asp-net-mvc-3-when-debugging-is-disa
+	- mleibman#301
+	- mleibman#244
+	- mleibman#1032
+	- mleibman#1053
+	- http://stackoverflow.com/questions/27702628/script-minified-with-bundling-dont-work-in-asp-net-mvc-3-when-debugging-is-disa
 
 <a href="09-fix-ajax.patch" target="_blank">09-fix-ajax.patch</a> Fix Issue #963 ajax example not working
 - add Rand Scullard's pull request mleibman#975 as the new example-6-ajax-loading.html
