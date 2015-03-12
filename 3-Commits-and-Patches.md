@@ -11,8 +11,9 @@ Essential Patches
 
 These patches are for bugs or known issues with mleibman/SlickGrid master
 
-1. [SlickGrid-6pac-ess-01.pat](SlickGrid-6pac-ess-01.pat) Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
+1. [01-lib-patch.patch](01-lib-patch.patch) Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 
+<a href="01-lib-patch.patch" target="_blank">test</a>
 
 Recommended Patches
 -------------------
