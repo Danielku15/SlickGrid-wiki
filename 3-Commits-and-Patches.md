@@ -27,7 +27,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 <a href="08-dataview-regex.patch" target="_blank">08-dataview-regex.patch</a> update DataView compiled-expression regex to deal with some forms of minification.
 
 Minification can remove semicolons, add or remove braces, stc. RegEx is never going to be able to solve all use cases so filter functions should be designed with compilation in mind.
-Filter functions can also be declared in a separate non-minified script clock or file.
+Filter functions can also be declared in a separate non-minified script block or file.
 
 Issues:
 - mleibman#301
