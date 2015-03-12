@@ -1,0 +1,15 @@
+diff --git a/slick.dataview.js b/slick.dataview.js
+index f1c1b5e..5c261cf 100644
+--- a/slick.dataview.js
++++ b/slick.dataview.js
+@@ -529,8 +529,8 @@
+         // make sure all the subgroups are calculated
+         var i = group.groups.length;
+         while (i--) {
+-          if (!group.groups[i].initialized) {
+-            calculateTotals(group.groups[i]);
++          if (!group.groups[i].totals.initialized) {
++            calculateTotals(group.groups[i].totals);
+           }
+         }
+       }

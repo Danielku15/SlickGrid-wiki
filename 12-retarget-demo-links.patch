@@ -1,0 +1,377 @@
+diff --git a/examples/example-autotooltips.html b/examples/example-autotooltips.html
+index 932bd5d..91712fe 100644
+--- a/examples/example-autotooltips.html
++++ b/examples/example-autotooltips.html
+@@ -27,7 +27,7 @@ grid.render();</pre>
+ 
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-autotooltips.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-autotooltips.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example-checkbox-row-select.html b/examples/example-checkbox-row-select.html
+index acd77bf..d1e0a9a 100644
+--- a/examples/example-checkbox-row-select.html
++++ b/examples/example-checkbox-row-select.html
+@@ -27,7 +27,7 @@
+     </ul>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-checkbox-row-select.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-checkbox-row-select.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+ 
+   </div>
+diff --git a/examples/example-colspan.html b/examples/example-colspan.html
+index 0590851..0fcef19 100644
+--- a/examples/example-colspan.html
++++ b/examples/example-colspan.html
+@@ -18,7 +18,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-colspan.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-colspan.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example-composite-editor-item-details.html b/examples/example-composite-editor-item-details.html
+index 24a0233..7e82f30 100644
+--- a/examples/example-composite-editor-item-details.html
++++ b/examples/example-composite-editor-item-details.html
+@@ -73,7 +73,7 @@
+ 
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-composite-editor-item-details.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-composite-editor-item-details.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-custom-column-value-extractor.html b/examples/example-custom-column-value-extractor.html
+index e32f61a..1f73d0c 100644
+--- a/examples/example-custom-column-value-extractor.html
++++ b/examples/example-custom-column-value-extractor.html
+@@ -20,7 +20,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-custom-column-value-extractor.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-custom-column-value-extractor.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example-explicit-initialization.html b/examples/example-explicit-initialization.html
+index 15c8a6f..8243421 100644
+--- a/examples/example-explicit-initialization.html
++++ b/examples/example-explicit-initialization.html
+@@ -27,7 +27,7 @@
+       </p>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-explicit-initialization.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-explicit-initialization.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example-grouping.html b/examples/example-grouping.html
+index 2b352da..8f53c42 100644
+--- a/examples/example-grouping.html
++++ b/examples/example-grouping.html
+@@ -82,7 +82,7 @@
+     </ul>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-grouping.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-grouping.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-header-row.html b/examples/example-header-row.html
+index 97b23e6..2a54bf1 100644
+--- a/examples/example-header-row.html
++++ b/examples/example-header-row.html
+@@ -37,7 +37,7 @@
+     </ul>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-header-row.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-header-row.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-multi-column-sort.html b/examples/example-multi-column-sort.html
+index 6e259f7..bccde56 100644
+--- a/examples/example-multi-column-sort.html
++++ b/examples/example-multi-column-sort.html
+@@ -20,7 +20,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-multi-column-sort.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-multi-column-sort.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example-optimizing-dataview.html b/examples/example-optimizing-dataview.html
+index 760dbec..aa4fa07 100644
+--- a/examples/example-optimizing-dataview.html
++++ b/examples/example-optimizing-dataview.html
+@@ -63,7 +63,7 @@
+     </p>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-optimizing-dataview.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-optimizing-dataview.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-plugin-headerbuttons.html b/examples/example-plugin-headerbuttons.html
+index d4ed4a1..0db0e10 100644
+--- a/examples/example-plugin-headerbuttons.html
++++ b/examples/example-plugin-headerbuttons.html
+@@ -33,7 +33,7 @@
+     </p>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-plugin-headerbuttons.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-plugin-headerbuttons.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-plugin-headermenu.html b/examples/example-plugin-headermenu.html
+index 9429c32..12acd99 100644
+--- a/examples/example-plugin-headermenu.html
++++ b/examples/example-plugin-headermenu.html
+@@ -56,7 +56,7 @@
+     </p>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-plugin-headermenu.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-plugin-headermenu.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-spreadsheet.html b/examples/example-spreadsheet.html
+index 792c688..5e1ea78 100644
+--- a/examples/example-spreadsheet.html
++++ b/examples/example-spreadsheet.html
+@@ -31,7 +31,7 @@
+     </ul>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-spreadsheet.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-spreadsheet.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example-totals-via-data-provider.html b/examples/example-totals-via-data-provider.html
+index 664f226..9717403 100644
+--- a/examples/example-totals-via-data-provider.html
++++ b/examples/example-totals-via-data-provider.html
+@@ -27,7 +27,7 @@
+   </div>
+     <h2>View Source:</h2>
+     <ul>
+-        <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example-totals-via-data-provider.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++        <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example-totals-via-data-provider.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+     </ul>
+ </div>
+ 
+diff --git a/examples/example1-simple.html b/examples/example1-simple.html
+index 49861b9..e3f20f5 100644
+--- a/examples/example1-simple.html
++++ b/examples/example1-simple.html
+@@ -20,7 +20,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example1-simple.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example1-simple.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example10-async-post-render.html b/examples/example10-async-post-render.html
+index f190045..1f234bb 100644
+--- a/examples/example10-async-post-render.html
++++ b/examples/example10-async-post-render.html
+@@ -54,7 +54,7 @@
+   </p>
+     <h2>View Source:</h2>
+     <ul>
+-        <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example10-async-post-render.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++        <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example10-async-post-render.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+     </ul>
+ </div>
+ 
+diff --git a/examples/example11-autoheight.html b/examples/example11-autoheight.html
+index 0a09ea3..57b84ec 100644
+--- a/examples/example11-autoheight.html
++++ b/examples/example11-autoheight.html
+@@ -41,7 +41,7 @@
+   </ul>
+     <h2>View Source:</h2>
+     <ul>
+-        <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example11-autoheight.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++        <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example11-autoheight.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+     </ul>
+ </div>
+ 
+diff --git a/examples/example12-fillbrowser.html b/examples/example12-fillbrowser.html
+index 6689d02..819a0e9 100644
+--- a/examples/example12-fillbrowser.html
++++ b/examples/example12-fillbrowser.html
+@@ -52,7 +52,7 @@
+   </ul>
+     <h2>View Source:</h2>
+     <ul>
+-        <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example12-fillbrowser.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++        <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example12-fillbrowser.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+     </ul>
+ </div>
+ 
+diff --git a/examples/example13-getItem-sorting.html b/examples/example13-getItem-sorting.html
+index 2e08a4b..0a7d90a 100644
+--- a/examples/example13-getItem-sorting.html
++++ b/examples/example13-getItem-sorting.html
+@@ -51,7 +51,7 @@
+   </ul>
+     <h2>View Source:</h2>
+     <ul>
+-        <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example13-getItem-sorting.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++        <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example13-getItem-sorting.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+     </ul>
+ </div>
+ 
+diff --git a/examples/example14-highlighting.html b/examples/example14-highlighting.html
+index 65bc891..6ffefdc 100644
+--- a/examples/example14-highlighting.html
++++ b/examples/example14-highlighting.html
+@@ -49,7 +49,7 @@
+     <button onclick="findCurrentServer()">Find current server</button>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example14-highlighting.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example14-highlighting.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example2-formatters.html b/examples/example2-formatters.html
+index 780cf51..a3b2ea8 100644
+--- a/examples/example2-formatters.html
++++ b/examples/example2-formatters.html
+@@ -33,7 +33,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example2-formatters.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example2-formatters.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example3-editing.html b/examples/example3-editing.html
+index a53f099..e3887fe 100644
+--- a/examples/example3-editing.html
++++ b/examples/example3-editing.html
+@@ -36,7 +36,7 @@
+     <button onclick="grid.setOptions({autoEdit:false})">Auto-edit OFF</button>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example3-editing.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example3-editing.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example3a-compound-editors.html b/examples/example3a-compound-editors.html
+index 768310b..f0405b4 100644
+--- a/examples/example3a-compound-editors.html
++++ b/examples/example3a-compound-editors.html
+@@ -28,7 +28,7 @@
+     </ul>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example3a-compound-editors.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example3a-compound-editors.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+ 
+ 
+diff --git a/examples/example3b-editing-with-undo.html b/examples/example3b-editing-with-undo.html
+index e8471ca..ec3a70a 100644
+--- a/examples/example3b-editing-with-undo.html
++++ b/examples/example3b-editing-with-undo.html
+@@ -32,7 +32,7 @@
+     <button onclick="undo()"><img src="../images/arrow_undo.png" align="absmiddle"> Undo</button>
+       <h2>View Source:</h2>
+       <ul>
+-          <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example3b-editing-with-undo.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++          <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+       </ul>
+   </div>
+ </div>
+diff --git a/examples/example4-model.html b/examples/example4-model.html
+index f686cd0..6137f44 100644
+--- a/examples/example4-model.html
++++ b/examples/example4-model.html
+@@ -79,7 +79,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example4-model.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example4-model.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+ 
+     </div>
+diff --git a/examples/example5-collapsing.html b/examples/example5-collapsing.html
+index 4df02f4..0aa4ced 100644
+--- a/examples/example5-collapsing.html
++++ b/examples/example5-collapsing.html
+@@ -57,7 +57,7 @@
+ 
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example5-collapsing.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example5-collapsing.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example7-events.html b/examples/example7-events.html
+index ca2b3ea..3b24bdb 100644
+--- a/examples/example7-events.html
++++ b/examples/example7-events.html
+@@ -49,7 +49,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example7-events.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example7-events.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </td>
+   </tr>
+diff --git a/examples/example8-alternative-display.html b/examples/example8-alternative-display.html
+index 70c7f62..f480a5d 100644
+--- a/examples/example8-alternative-display.html
++++ b/examples/example8-alternative-display.html
+@@ -75,7 +75,7 @@
+       </ul>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example8-alternative-display.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example8-alternative-display.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+ 
+     </td>
+diff --git a/examples/example9-row-reordering.html b/examples/example9-row-reordering.html
+index d9b69d8..5be2dda 100644
+--- a/examples/example9-row-reordering.html
++++ b/examples/example9-row-reordering.html
+@@ -74,7 +74,7 @@
+       </div>
+         <h2>View Source:</h2>
+         <ul>
+-            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example9-row-reordering.html" target="_sourcewindow"> View the source for this example on Github</a></li>
++            <li><A href="https://github.com/6pac/SlickGrid/blob/master/examples/example9-row-reordering.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+         </ul>
+     </div>
+   </div>
