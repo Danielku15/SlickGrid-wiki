@@ -1,13 +1,15 @@
 As stated on his repo, and the home page here, MLeibman is too busy to maintain SlickGrid at present.
 
-This aims to be a viable alternative master repo while MLeibman is busy. It builds on the current state of the mleibman/SlickGrid master branch, keeping libraries up to date and applying small, safe patches and enhancements.
+Like all active users of SlickGrid, I have my own customisations which are probably not suitable for the average user. 
 
-These patches will head off some of the problems experienced by new adopters in the last year or so.
+What is needed at the moment is a dedicated 'alternative master' where the main build is kept up to date and has core enhancements applied, but that does not turn into a personalised build.
+It's a very popular and widely forked project, so there are still a lot of Issues and Pull Requests coming in. However the quality of these varies wildly. Moderation is necessary.
+
+The goals:
+- apply carefully screened bugfixes and enhancements to a fork of the base mleibman/SlickGrid master repo 
+- keep the base SlickGrid build up date to reflect the latest dependencies
+- position this repo as an 'alternative master'
+- maintain a patch list of the commits to allow forked SlickGrid repos to apply the changes piecemeal where possible
 
 
-It's a very popular and widely forked project, so there are still a lot of Issues and Pull Requests coming in. However the quality of these varies wildly.
-
-In this page I'm trying to collect a series of carefully screened patches that can be applied to the base mleibman/SlickGrid master repo to do small, atomic bugfixes and enhancements. I and many others have created major forks of SlickGrid that will never be able to be merged back into the codebase. For us it is an advantage to have these small patches to keep us up to date. Hopefully for new users, the new repo will fix many of the small problems that are being flagged.
-
-To this end, I'm providing each GIT patch for download, plus maintaining the 6pac/SlickGrid master repo as a fork of mleibman/SlickGrid master with all the patches applied. Thus 6pac/SlickGrid should be an up-to-date, ready-to-download version of the latest SlickGrid master. Or, you can apply the individual patches to your own repo. Your choice.
 
