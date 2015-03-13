@@ -8,10 +8,10 @@ It's a very popular and widely forked project, so there are still a lot of Issue
 So to this end, I have forked [6pac/SlickGrid](https://github.com/6pac/SlickGrid)
 
 The goals:
-- apply carefully screened bugfixes and enhancements to a fork of the base mleibman/SlickGrid master repo 
+- apply carefully screened bugfixes and enhancements to a fork of the most recent base mleibman/SlickGrid master repo 
 - keep the base SlickGrid build up date to reflect the latest dependencies
 - position this repo as an 'alternative master'
-- maintain a patch list of the commits to allow forked SlickGrid repos to apply the changes piecemeal where possible
+- maintain a patch list of the commits to allow the owners of forked SlickGrid repos to apply the changes piecemeal where possible
 
 
 
