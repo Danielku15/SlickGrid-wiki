@@ -1,7 +1,7 @@
 # SlickGrid Community Activity
 
 Before putting this repo together I trawled around a bit looking for activity on all the forked repos out there.
-There were a number of people and groups of people who had done major work, often synchronising between each other's forks.
+I was surprised at the amount of activity - there were a number of people and groups of people who had done major work, often synchronising between each other's forks.
 
 Some examples are: 
 
