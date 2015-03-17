@@ -11,6 +11,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 - extract the ZIP file
 - replace the repo /css directory with the /css directory from the ZIP file
 - add the files in the ZIP file /lib directory to the repo /lib directory 
+
 ***
 <a href="02-dataview-bug.patch" target="_blank">02-dataview-bug.patch</a> Fix bug in dataview causing model benchmark test to throw an error
 ***
@@ -35,9 +36,11 @@ Issues:
 - mleibman#1032
 - mleibman#1053
 - http://stackoverflow.com/questions/27702628/script-minified-with-bundling-dont-work-in-asp-net-mvc-3-when-debugging-is-disa
+
 ***
 <a href="09-fix-ajax.patch" target="_blank">09-fix-ajax.patch</a> Fix Issue #963 ajax example not working
 - add Rand Scullard's pull request mleibman#975 as the new example-6-ajax-loading.html
+
 ***
 <a href="10-ajax-yahoo.patch" target="_blank">10-ajax-yahoo.patch</a> additional version of ajax loading page, using Yahoo news and YQL as a source. the format of the grid rows is more in keeping with the newsfeed style of the original
 ***
