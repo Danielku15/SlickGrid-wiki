@@ -5,6 +5,8 @@ However, if you have forked your repo and made changes, then you may want to app
 
 This page lists one patch per commit.
 
+***
+
 <a href="01-lib-patch.patch" target="_blank">01-lib-patch.patch</a> <a href="01-lib-patch.zip" target="_blank">01-lib-patch.zip</a>
 Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 - apply the patch
