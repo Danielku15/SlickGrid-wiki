@@ -46,6 +46,7 @@ Issues:
 ***
 <a href="11-hidden-init-css.patch" target="_blank">11-hidden-init-css.patch</a> Allow initialisation of hidden Grid
 - add css manipulation so that grid initialises successfully if the parent element is hidden
+
 ***
 <a href="12-retarget-demo-links.patch" target="_blank">12-retarget-demo-links.patch</a> update go-to-source links to 6pac repo master branch
 ***
