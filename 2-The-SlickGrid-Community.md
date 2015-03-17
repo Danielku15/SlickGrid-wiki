@@ -9,4 +9,4 @@ Some examples are:
 
 [GerHobbelt](https://github.com/GerHobbelt/SlickGrid/commits/k0stya-rowspan) who is a whopping 1000 or so commits ahead of the fork point.
 
-I think a lot of SlickGrid users would be interested in the bigger picture behind major active forks, so if you'd like to give an overview of what your branch does, and any goals you might have, please get in touch and I'll post it here.
+I think a lot of SlickGrid users would be interested in the bigger picture behind major active forks, so if you'd like to give an overview of what your fork does, and any goals you might have, please get in touch and I'll post it here.
