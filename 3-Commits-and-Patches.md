@@ -12,7 +12,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 - replace the repo /css directory with the /css directory from the ZIP file
 - add the files in the ZIP file /lib directory to the repo /lib directory 
 
-!! if you apply this patch also apply patch 13 to avoid memory leaks with sparkline !!
+_**if you apply this patch also apply patch 13 to avoid memory leaks with sparkline **_
 ***
 <a href="02-dataview-bug.patch" target="_blank">02-dataview-bug.patch</a> Fix bug in dataview causing model benchmark test to throw an error
 ***
@@ -24,7 +24,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 ***
 <a href="06-single-stylesheet.patch" target="_blank">06-single-stylesheet.patch</a> use a single stylesheet when multiple grids are instantiated, rather than creating one for each grid. thanks to bdwidhalm: mleibman#955
 
-!! this patch has been reverted - if you apply it also apply patch 14 !!
+_**this patch has been reverted - if you apply it also apply patch 14**_
 ***
 <a href="07-fix-grouping-bug.patch" target="_blank">07-fix-grouping-bug.patch</a> fix grouping bug (fix issue #841 & #896 mleibman#898)
 ***
