@@ -24,7 +24,7 @@ _**if you apply this patch also apply patch 13 to avoid memory leaks with sparkl
 ***
 <a href="06-single-stylesheet.patch" target="_blank">06-single-stylesheet.patch</a> use a single stylesheet when multiple grids are instantiated, rather than creating one for each grid. thanks to bdwidhalm: mleibman#955
 
-_**this patch has been reverted - if you apply it also apply patch 14**_
+_**this patch has been modified and largely reverted - if you apply it also apply patch 14**_
 ***
 <a href="07-fix-grouping-bug.patch" target="_blank">07-fix-grouping-bug.patch</a> fix grouping bug (fix issue #841 & #896 mleibman#898)
 ***
