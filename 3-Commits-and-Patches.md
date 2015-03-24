@@ -23,7 +23,8 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 <a href="05-default-comparer.patch" target="_blank">05-default-comparer.patch</a> Make default group comparer function more robust - see pull request: fix sort order in Chrome #1019
 ***
 <a href="06-single-stylesheet.patch" target="_blank">06-single-stylesheet.patch</a> use a single stylesheet when multiple grids are instantiated, rather than creating one for each grid. thanks to bdwidhalm: mleibman#955
-!! this patch has been reverted - also apply patch 14 !!
+
+!! this patch has been reverted - if you apply it also apply patch 14 !!
 ***
 <a href="07-fix-grouping-bug.patch" target="_blank">07-fix-grouping-bug.patch</a> fix grouping bug (fix issue #841 & #896 mleibman#898)
 ***
