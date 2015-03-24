@@ -11,7 +11,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 - extract the ZIP file
 - replace the repo /css directory with the /css directory from the ZIP file
 - add the files in the ZIP file /lib directory to the repo /lib directory 
-
+!! if you apply this patch also apply patch 13 to avoid memory leaks with sparkline !!
 ***
 <a href="02-dataview-bug.patch" target="_blank">02-dataview-bug.patch</a> Fix bug in dataview causing model benchmark test to throw an error
 ***
@@ -22,6 +22,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 <a href="05-default-comparer.patch" target="_blank">05-default-comparer.patch</a> Make default group comparer function more robust - see pull request: fix sort order in Chrome #1019
 ***
 <a href="06-single-stylesheet.patch" target="_blank">06-single-stylesheet.patch</a> use a single stylesheet when multiple grids are instantiated, rather than creating one for each grid. thanks to bdwidhalm: mleibman#955
+!! this patch has been reverted - also apply patch 14 !!
 ***
 <a href="07-fix-grouping-bug.patch" target="_blank">07-fix-grouping-bug.patch</a> fix grouping bug (fix issue #841 & #896 mleibman#898)
 ***
@@ -52,6 +53,6 @@ Issues:
 ***
 <a href="13-revert-slickline-to-v1.patch" target="_blank">13-revert-slickline-to-v1.patch</a> revert slickline to v1.x to avoid memory leaks with 2.x architecture (see issue 855)
 ***
-<a href="14-revert-single-stylesheet.patch" target="_blank">14-revert-single-stylesheet.patch</a> revenrt single stylesheet patch due to various reasons
+<a href="14-revert-single-stylesheet.patch" target="_blank">14-revert-single-stylesheet.patch</a> revert single stylesheet patch due to various reasons
 ***
 
