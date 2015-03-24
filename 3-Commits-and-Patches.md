@@ -11,6 +11,7 @@ Update to jquery-1.11.2 and jquery-ui-1.11.3 (latest version as at Feb 2015)
 - extract the ZIP file
 - replace the repo /css directory with the /css directory from the ZIP file
 - add the files in the ZIP file /lib directory to the repo /lib directory 
+
 !! if you apply this patch also apply patch 13 to avoid memory leaks with sparkline !!
 ***
 <a href="02-dataview-bug.patch" target="_blank">02-dataview-bug.patch</a> Fix bug in dataview causing model benchmark test to throw an error
