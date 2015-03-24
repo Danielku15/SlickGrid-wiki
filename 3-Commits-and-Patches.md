@@ -50,4 +50,8 @@ Issues:
 ***
 <a href="12-retarget-demo-links.patch" target="_blank">12-retarget-demo-links.patch</a> update go-to-source links to 6pac repo master branch
 ***
+<a href="13-revert-slickline-to-v1.patch" target="_blank">13-revert-slickline-to-v1.patch</a> revert slickline to v1.x to avoid memory leaks with 2.x architecture (see issue 855)
+***
+<a href="14-revert-single-stylesheet.patch" target="_blank">14-revert-single-stylesheet.patch</a> revenrt single stylesheet patch due to various reasons
+***
 
