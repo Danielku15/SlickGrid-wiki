@@ -52,9 +52,12 @@ Issues:
 
 ***
 <a href="12-retarget-demo-links.patch" target="_blank">12-retarget-demo-links.patch</a> update go-to-source links to 6pac repo master branch
+-**These 12 patches take the MLeibman master to the 6pac/Slickgrid v2.2.0**_
 ***
 <a href="13-revert-slickline-to-v1.patch" target="_blank">13-revert-slickline-to-v1.patch</a> revert slickline to v1.x to avoid memory leaks with 2.x architecture (see issue 855)
+_**this patch takes release 2.2.0 to 2.2.1**_
 ***
 <a href="14-revert-single-stylesheet.patch" target="_blank">14-revert-single-stylesheet.patch</a> revert single stylesheet patch due to various reasons
+_**this patch takes release 2.2.1 to 2.2.2**_
 ***
 
