@@ -64,3 +64,4 @@ _**this patch takes release 2.2.0 to 2.2.1**_
 _**this patch takes release 2.2.1 to 2.2.2**_
 ***
 
+** if anyone has scrolled down this far, please let me know if you are using these patches rather than just downloading the latest complete repo. They are a pain to maintain as the small changes add up. I will continue to make patches available for significant specific bug fixes, as I think most people will be patching for specific issues in order to minimise impact on their existing codebase **
