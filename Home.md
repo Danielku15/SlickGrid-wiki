@@ -1,6 +1,6 @@
 # SlickGrid Alternative Master Repo
 
-SlickGrid 2.2.3 Out Now! [download the latest SlickGrid release](https://github.com/6pac/SlickGrid/releases)
+SlickGrid 2.2.4 Out Now! [download the latest SlickGrid release](https://github.com/6pac/SlickGrid/releases)
 
 Props to MLeibman's for the fantastic SlickGrid project! We all get busy from time to time, and since the post
 
