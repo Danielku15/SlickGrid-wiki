@@ -8,7 +8,7 @@ Props to MLeibman's for the fantastic SlickGrid project! We all get busy from ti
 
 things have been pretty quiet on the admin side of things at the mleibman/SlickGrid repo.
 
-This aims to be a viable alternative master repo while MLeibman is busy. It builds on the current state of the mleibman/SlickGrid master branch, keeping libraries up to date and applying small, safe patches and enhancements.
+This aims to be a viable alternative master repo while MLeibman is busy. It builds on the current state of the mleibman/SlickGrid master branch, keeping libraries up to date and applying small, safe core patches and enhancements _without_ turning into a personalised build. 
 
 These patches will head off some of the problems experienced by new adopters in the last year or so.
 
