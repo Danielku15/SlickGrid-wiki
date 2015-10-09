@@ -5,7 +5,7 @@ I was surprised at the amount of activity - there were a number of people and gr
 
 Some examples are: 
 
-[SimpleGy](https://github.com/SimplGy/SlickGrid/commits/master) who has been working of a 'pinned columns' implementation
+[SimpleGy](https://github.com/SimplGy/SlickGrid/commits/master) who has been working on a 'pinned columns' implementation
 
 [GerHobbelt](https://github.com/GerHobbelt/SlickGrid/commits/gh-pages) who is a whopping 1000 or so commits ahead of the fork point. (link points at the bleeding edge there)
 
