@@ -36,7 +36,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Implementing a totals row via a data provider](http://6pac.github.io/SlickGrid/examples/example-totals-via-data-provider.html)
 
-* (most comprehensive) "Using a filtered data view to drive the grid](http://6pac.github.com/SlickGrid/examples/example4-model.html)
+* [(most comprehensive) Using a filtered data view to drive the grid](http://6pac.github.com/SlickGrid/examples/example4-model.html)
 
 * [Optimizing DataView for 500'000 rows](http://6pac.github.com/SlickGrid/examples/example-optimizing-dataview.html)
 
@@ -54,7 +54,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 ## Grouping
 
-* [Interactive grouping and aggregates](http://6pac.github.com/SlickGrid/examples/example-grouping.
+* [Interactive grouping and aggregates](http://6pac.github.com/SlickGrid/examples/example-grouping.html)
 
 * [Adding tree functionality (expand/collapse) to the grid](http://6pac.github.com/SlickGrid/examples/example5-collapsing.html)
 
