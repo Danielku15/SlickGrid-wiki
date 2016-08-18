@@ -1,4 +1,4 @@
-This repo has greatly expanded the set of Examples from the 6pac repo
+This repo has significantly expanded the set of Examples from the mleibman repo
 
 ## Basic Use
 
