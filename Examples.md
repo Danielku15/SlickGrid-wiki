@@ -2,9 +2,9 @@ This repo has greatly expanded the set of Examples from the MLeibman repo
 
 ## Basic Use
 
-* "Basic use with minimal configuration":http://mleibman.github.com/SlickGrid/examples/example1-simple.html
+* [Basic use with configuration](http://mleibman.github.com/SlickGrid/examples/example1-simple.html)
 
-* "Adding some formatting":http://mleibman.github.com/SlickGrid/examples/example2-formatters.html
+* [Adding some formatting](http://mleibman.github.com/SlickGrid/examples/example2-formatters.html)
 
 * "Handling events and context menu":http://mleibman.github.com/SlickGrid/examples/example7-events.html
 
