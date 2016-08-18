@@ -2,7 +2,7 @@ This repo has greatly expanded the set of Examples from the MLeibman repo
 
 ## Basic Use
 
-* [Basic use with configuration](http://mleibman.github.com/SlickGrid/examples/example1-simple.html)
+* [Basic use with configuration](http://6pac.github.com/SlickGrid/examples/example1-simple.html)
 
 * [Adding some formatting](http://mleibman.github.com/SlickGrid/examples/example2-formatters.html)
 
