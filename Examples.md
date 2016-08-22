@@ -82,7 +82,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [jQuery Autocomplete editor](http://6pac.github.com/SlickGrid/examples/example-autocomplete-editor.html)
 
-* [Select2 javascript drop-down editor](http://6pac.github.com/SlickGrid/examples/example-select-editor.html)
+* [Select2 javascript drop-down editor](http://6pac.github.com/SlickGrid/examples/example-select2-editor.html)
 
 ## Plugins
 
