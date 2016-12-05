@@ -12,4 +12,4 @@ The toolkit nature of SlickGrid is actually its strength: it's expected that eve
 This is the reason that, although your modifications may be very useful, they may not always make it into the main repo. The plugin architecture is there to help keep options modular, but it can't always be used. Changes have to be carefully screened to make sure they are not locking the project into specific use cases.
 
 This is also the reason that we are not going to try to release a deployment version of the code.  
-This repo will always be source, it will always require you to create a build process to assemble the parts you want and get them into your project, and that's the way it should be.
+This repo will always be source, it will always require you to create a build process to assemble the components you want and get them into your project, and that's the way it should be.
