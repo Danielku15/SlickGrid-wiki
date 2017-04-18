@@ -1,7 +1,7 @@
 As included in the examples or described in stable releases:
 
 | Option | Default | Description |
-|--------+---------+-------------|
+|------- | ------- | ----------- |
 | asyncEditorLoading | false | Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed.|
 | asyncEditorLoadDelay|100|Delay after which cell editor is loaded. Ignored unless asyncEditorLoading is true.|
 | asyncPostRenderDelay | 50 ||
@@ -23,14 +23,14 @@ As included in the examples or described in stable releases:
 | enableColumnReorder | true||
 | enableRowReordering | null| **WARNING**: Not contained in SlickGrid 2.1, may be deprecated |
 | enableTextSelectionOnCells | false||
-| explicitInitialization | false | See: [[http://6pac.github.com/SlickGrid/examples/example-explicit-initialization.html][Example: Explicit Initialization]] |
+| explicitInitialization | false | See: [Example: Explicit Initialization](http://6pac.github.com/SlickGrid/examples/example-explicit-initialization.html) |
 | forceFitColumns | false | Force column sizes to fit into the container (preventing horizontal scrolling). Effectively sets column width to be 1/Number of Columns which on small containers may not be desirable |
 | forceSyncScrolling | false ||
 | formatterFactory | null | A factory object responsible to creating a formatter for a given cell. Must implement getFormatter(column). |
 | fullWidthRows | false | Will expand the table row divs to the full width of the container, table cell divs will remain aligned to the left |
 | headerRowHeight | 25 ||
 | leaveSpaceForNewRows | false ||
-| multiColumnSort | false | See: [[http://6pac.github.com/SlickGrid/examples/example-multi-column-sort.html][Example: Multi-Column Sort]] |
+| multiColumnSort | false | See: [Example: Multi-Column Sort](http://6pac.github.com/SlickGrid/examples/example-multi-column-sort.html) |
 | multiSelect | true ||
 | rowHeight|25||
 | selectedCellCssClass | "selected" ||
