@@ -18,7 +18,7 @@ Resources
 * [[Column Options]]
 * [[Grid Events]]
 * [[DataView]]
-* [[Examples]]
+* [[DataView Events]]
 * [[Providing data to the grid]]
 * [[Plugins & Third-party packages]]
 

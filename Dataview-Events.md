@@ -1,11 +1,9 @@
 
-| Event | Description |
-|-------+-------------|
+| Event  | Description |
+|------- | ------------|
 | onPagingInfoChanged | |
 | onRowCountChanged | |
 | onRowsChanged | |
-
-
 
 <h3>Responding to data source changes</h3>
 
