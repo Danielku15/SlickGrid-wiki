@@ -58,12 +58,12 @@ Some highlights:
 [Please see Rules of conduct](https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct)
 
 * Asking questions
- * [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
- * [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
- * [@slickgrid on Twitter](http://twitter.com/slickgrid)
+    * [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
+    * [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
+    * [@slickgrid on Twitter](http://twitter.com/slickgrid)
 
 * Reporting bugs
- * [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
+    * [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
 
 When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
 
