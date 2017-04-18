@@ -1,6 +1,7 @@
 # SlickGrid Current Master Repository
 
 [download the latest SlickGrid official release](https://github.com/6pac/SlickGrid/releases)
+
 [download the latest repo version](https://github.com/6pac/SlickGrid)
 
 This is the acknowledged current master repository for SlickGrid since the MLeibman branch ceased being maintained.
@@ -13,7 +14,7 @@ Check out the [examples](https://github.com/6pac/SlickGrid/wiki/Examples) for ex
 
 Do you use SlickGrid? Add your site to the [[Used By]]!
 
-Want to show your appreciation?  Hit "Donate!":https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=michael%2eleibman%40gmail%2ecom&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted :)
+Want to show your appreciation?  Hit "Donate!" [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=michael%2eleibman%40gmail%2ecom&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 <h2>What it is</h2>
 
@@ -22,51 +23,54 @@ It is an advanced component and is going to be a bit more difficult to learn and
 
 Some highlights:
 
-    * Adaptive virtual scrolling (handle hundreds of thousands of rows with extreme responsiveness)
-    * Extremely fast rendering speed
-    * Supports jQuery UI Themes
-    * Background post-rendering for richer cells
-    * Configurable & customizable
-    * Column resize/reorder/show/hide
-    * Column autosizing & force-fit
-    * Pluggable cell formatters & editors
-    * Support for editing and creating new rows.
-    * Grouping, filtering, custom aggregators, and more!
-    * Advanced detached & multi-field editors with undo/redo support.
-    * "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data. 
+* Adaptive virtual scrolling (handle hundreds of thousands of rows with extreme responsiveness)
+* Extremely fast rendering speed
+* Supports jQuery UI Themes
+* Background post-rendering for richer cells
+* Configurable & customizable
+* Column resize/reorder/show/hide
+* Column autosizing & force-fit
+* Pluggable cell formatters & editors
+* Support for editing and creating new rows.
+* Grouping, filtering, custom aggregators, and more!
+* Advanced detached & multi-field editors with undo/redo support.
+* "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data. 
 
 <h2>Resources</h2>
 
 <h3>Dependencies</h3>
+
 * jQuery
 * jQueryUI Sortable (optional, only if column reordering is enabled)
 * jquery.event.drag - http://threedubmedia.com/code/event/drag
 * jquery.event.drop - http://threedubmedia.com/code/event/drop
 
 <h3>Documentation</h3>
+
 * [[Getting Started]] - A brief introduction to some of SlickGrid's basic concepts.
-* "Examples":https://github.com/mleibman/SlickGrid/wiki/Examples - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
-* "API Reference":https://github.com/mleibman/SlickGrid/wiki/API-Reference
+* [Examples](https://github.com/mleibman/SlickGrid/wiki/Examples) - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
+* [API Reference](https://github.com/mleibman/SlickGrid/wiki/API-Reference)
 * [[Handling selection]]
-* "All pages on this wiki":https://github.com/mleibman/SlickGrid/wiki/_pages
+* [All pages on this wiki](https://github.com/mleibman/SlickGrid/wiki/_pages)
 
 <h3>Contact/Support</h3>
+
 **GitHub Issues are for bug reports only. Please use the appropriate forum.**
-"Please see Rules of conduct":https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct
+[Please see Rules of conduct](https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct)
 
 * Asking questions
-** "SlickGrid questions on StackOverflow":http://stackoverflow.com/questions/tagged/slickgrid
-** "SlickGrid Google Group":https://groups.google.com/forum/#!forum/slickgrid - For support requests and conversation about SlickGrid.
-** "@slickgrid on Twitter":http://twitter.com/slickgrid
+** [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
+** [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
+** [@slickgrid on Twitter](http://twitter.com/slickgrid)
 
 * Reporting bugs
-** "SlickGrid GitHub issues page":https://github.com/mleibman/SlickGrid/issues
+** [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
 
 When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
 
 1. Include the version of SlickGrid.
 2. Include the reproduction steps. Describe about expected behavior & actual behavior.
-(If possible, post code on "jsfiddle.net":http://jsfiddle.net/).
+(If possible, post code on [jsfiddle.net](http://jsfiddle.net/) ).
 3. Use proper English that everybody can understand.
 
 <h2>What makes it different</h2>

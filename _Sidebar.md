@@ -2,14 +2,14 @@
 
 SlickGrid Repo
 * [[Home]]
-* [[The SlickGrid Manifesto|The-SlickGrid-Manifesto]]
-* [[The SlickGrid Community|The-SlickGrid-Community]]
-* [[BugFix List|BugFix-List]]
-* [[Enhancement List|Enhancement-List]]
+* [[The SlickGrid Manifesto]]
+* [[The SlickGrid Community]]
+* [[BugFix List]]
+* [[Enhancement List]]
 
-Critical
+Jump Start
 * [[Examples]]
-* [[Package Managers|Package-Managers]]
+* [[Package Managers]]
 
 Resources
 * [[API Reference]]
@@ -23,7 +23,7 @@ Resources
 * [[Plugins & Third-party packages]]
 
 Learning
-* [[Getting Started]]
+* [[Grid Introduction]]
 * [[Handling Selection]]
 * [[Data-Driven Grid Customization|Providing Data to the Grid]]
 * [[Writing Custom Cell Editors]]
