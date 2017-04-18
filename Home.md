@@ -59,8 +59,6 @@ Some highlights:
 
 * Asking questions
     * [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
-    * [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
-    * [@slickgrid on Twitter](http://twitter.com/slickgrid)
 
 * Reporting bugs
     * [SlickGrid GitHub issues page](https://github.com/6pac/SlickGrid/issues)
