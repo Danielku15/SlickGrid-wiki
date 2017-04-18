@@ -7,10 +7,10 @@ Options which you can apply to the columns objects.
 | cannotTriggerInsert | null | In the "Add New" row, determines whether clicking cells in this column can trigger row addition. If true, clicking on the cell in this column in the "Add New" row will not trigger row addition.
 | cssClass | "" | Accepts a string as a class name, applies that class to every row cell in the column. |
 | defaultSortAsc | true | When set to /true/, the first user click on the header will do a ascending sort. When set to /false/, the first user click on the header will do an descending sort. |
-| editor | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/mleibman/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
+| editor | null | The editor for cell edits {TextEditor, IntegerEditor, DateEditor...} See [[https://github.com/6pac/SlickGrid/blob/master/slick.editors.js][slick.editors.js]] |
 | field | "" | The property name in the data object to pull content from. (This is assumed to be on the root of the data object.) |
 | focusable | true | When set to /false/, clicking on a cell in this column will not select the row for that cell. The cells in this column will also be skipped during tab navigation.|
-| formatter | null | This accepts a function of the form /function(row, cell, value, columnDef, dataContext)/ and returns a formatted version of the data in each cell of this column. For example, setting /formatter/ to /function(r, c, v, cd, dc) { return "Hello!"; }/ would overwrite every value in the column with "Hello!" See /defaultFormatter/ in [[https://github.com/mleibman/SlickGrid/blob/master/slick.grid.js][slick.grid.js]] for an example formatter. |
+| formatter | null | This accepts a function of the form /function(row, cell, value, columnDef, dataContext)/ and returns a formatted version of the data in each cell of this column. For example, setting /formatter/ to /function(r, c, v, cd, dc) { return "Hello!"; }/ would overwrite every value in the column with "Hello!" See /defaultFormatter/ in [[https://github.com/6pac/SlickGrid/blob/master/slick.grid.js][slick.grid.js]] for an example formatter. |
 | headerCssClass | null | Accepts a string as a class name, applies that class to the cell for the column header. |
 | id | "" | A unique identifier for the column within the grid. |
 | maxWidth | null | Set the maximum allowable width of this column, in pixels. |

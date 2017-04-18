@@ -85,7 +85,7 @@ The editor constructor receives an `args` object which has the following fields:
 In most cases, there will be a one-to-one relationship between the fields of your data objects and cells in the grid.
 Occasionally, though, you may want to combine several fields into one cell in order to improve the usability of your application.  A custom formatter can easily pull information from multiple fields of your data object and present it in one cell.  SlickGrid handles edition those cells by using the `loadValue()`, `serializeValue()` and `applyValue()` methods of your editor.  While it may seem more complicated than a simple `getValue()` and `setValue()`, without them, compound editors would not have been possible.
 
-A sample compound editor is implemented in example 3a ([source](http://github.com/mleibman/SlickGrid/blob/master/examples/example3a-compound-editors.html), [demo](http://mleibman.github.com/SlickGrid/examples/example3a-compound-editors.html)).
+A sample compound editor is implemented in example 3a ([source](http://github.com/6pac/SlickGrid/blob/master/examples/example3a-compound-editors.html), [demo](http://6pac.github.com/SlickGrid/examples/example3a-compound-editors.html)).
 
 ## Intercepting cell edits
 You can easily use the `onCellChange` event to run some code after the cell has been edited.  You can also intercept all cell edits and have complete control over how and when those edits are committed by specifying a custom handler by setting the `editCommandHandler` grid option.  Due to the disconnected nature of `applyValue()` and `serializeValue()`, you can even undo your changes after you commit them.  This can be especially handy if you are editing a remote data source - you can apply the changes and make an AJAX call passing the undo callback as the error handler, so that your data doesn't get out of sync if the server cannot save the values.  You can also queue up the edit commands and implement undo/redo functionality in just a few lines of code.
@@ -102,4 +102,4 @@ The `editCommand` consists of:
 <li>`execute()`:  a callback to apply the changes using editor.applyValue(item,serializedValue) and update the row
 <li>`undo()`:  a callback to undo the changes using editor.applyValue(item,prevSerializedValue) and update the row
 
-A sample spreadsheet with undo is implemented in the example 3b ([source](http://github.com/mleibman/SlickGrid/blob/master/examples/example3b-editing-with-undo.html, "demo](http://mleibman.github.com/SlickGrid/examples/example3b-editing-with-undo.html)).
+A sample spreadsheet with undo is implemented in the example 3b ([source](http://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html, "demo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html)).

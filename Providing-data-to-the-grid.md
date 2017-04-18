@@ -58,4 +58,4 @@ When looking up a property, the grid checks in the following order:
 
 ## Examples
 
-See [colspan example](http://mleibman.github.com/SlickGrid/examples/example-colspan.html).
+See [colspan example](http://6pac.github.com/SlickGrid/examples/example-colspan.html).

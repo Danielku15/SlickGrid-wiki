@@ -47,15 +47,15 @@ Some highlights:
 <h3>Documentation</h3>
 
 * [[Getting Started]] - A brief introduction to some of SlickGrid's basic concepts.
-* [Examples](https://github.com/mleibman/SlickGrid/wiki/Examples) - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
-* [API Reference](https://github.com/mleibman/SlickGrid/wiki/API-Reference)
+* [Examples](https://github.com/6pac/SlickGrid/wiki/Examples) - A broad set of examples that demonstrate the most effective ways of using SlickGrid (probably the best place to learn how to use it).
+* [API Reference](https://github.com/6pac/SlickGrid/wiki/API-Reference)
 * [[Handling selection]]
-* [All pages on this wiki](https://github.com/mleibman/SlickGrid/wiki/_pages)
+* [All pages on this wiki](https://github.com/6pac/SlickGrid/wiki/_pages)
 
 <h3>Contact/Support</h3>
 
 **GitHub Issues are for bug reports only. Please use the appropriate forum.**
-[Please see Rules of conduct](https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct)
+[Please see Rules of conduct](https://github.com/6pac/SlickGrid/wiki/Rules-of-conduct)
 
 * Asking questions
     * [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
@@ -63,7 +63,7 @@ Some highlights:
     * [@slickgrid on Twitter](http://twitter.com/slickgrid)
 
 * Reporting bugs
-    * [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
+    * [SlickGrid GitHub issues page](https://github.com/6pac/SlickGrid/issues)
 
 When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
 

@@ -75,7 +75,7 @@
 
 Create an instance of the grid.
 
-Example usage, taken from [the basic Slickgrid example](http://mleibman.github.com/SlickGrid/examples/example1-simple.html):
+Example usage, taken from [the basic Slickgrid example](http://6pac.github.com/SlickGrid/examples/example1-simple.html):
 
 ```javascript
   var grid;
@@ -149,7 +149,7 @@ for (var i=0; i<grid.getDataLength() ; i++) {
 ```
 <a name="getOptions" href="Slick.Grid#wiki-getOptions">#</a> grid.<b>getOptions</b>(<i></i>)
 
-Returns an object containing all of the Grid options set on the grid. [See a list of Grid Options here](https://github.com/mleibman/SlickGrid/wiki/Grid-Options).
+Returns an object containing all of the Grid options set on the grid. [See a list of Grid Options here](https://github.com/6pac/SlickGrid/wiki/Grid-Options).
 ```javascript
 // Find all elements that are currently selected
 var $selectedCells = $('.' + grid.getOptions().selectedCellCssClass);
@@ -160,7 +160,7 @@ Returns an array of row indices corresponding to the currently selected rows.
 
 <a name="getSelectionModel" href="Slick.Grid#wiki-getSelectionModel">#</a> grid.<b>getSelectionModel</b>(<i></i>)
 
-Returns the current SelectionModel. [See here for more information about SelectionModels](https://github.com/mleibman/SlickGrid/wiki/Handling-selection).
+Returns the current SelectionModel. [See here for more information about SelectionModels](https://github.com/6pac/SlickGrid/wiki/Handling-selection).
 
 <a name="setOptions" href="Slick.Grid#wiki-setOptions">#</a> grid.<b>setOptions</b>(<i>options</i>)
 
@@ -188,9 +188,9 @@ grid.setSelectedRows([0, 1, 2]);
 ```
 <a name="setSelectionModel" href="Slick.Grid#wiki-setSelectionModel">#</a> grid.<b>setSelectionModel</b>(<i>selectionModel</i>)
 
-`selectionModel` - A [SelectionModel](https://github.com/mleibman/SlickGrid/wiki/Handling-selection).
+`selectionModel` - A [SelectionModel](https://github.com/6pac/SlickGrid/wiki/Handling-selection).
 
-Unregisters a current selection model and registers a new one. See [the definition of SelectionModel](https://github.com/mleibman/SlickGrid/wiki/Handling-selection) for more information.
+Unregisters a current selection model and registers a new one. See [the definition of SelectionModel](https://github.com/6pac/SlickGrid/wiki/Handling-selection) for more information.
 
 # <a name="header-columns" href="Slick.Grid#wiki-header-columns">#</a> Columns
 <a name="autosizeColumns" href="Slick.Grid#wiki-autosizeColumns">#</a> grid.<b>autosizeColumns</b>(<i></i>)
@@ -631,13 +631,13 @@ TODO
 
 <a name="getHeaderRow" href="Slick.Grid#wiki-getHeaderRow">#</a> grid.<b>getHeaderRow</b>(<i></i>)
 
-Returns the element of a DIV row beneath the actual column headers. For an example of how you might use this, see the [header row quick filter example](http://mleibman.github.com/SlickGrid/examples/example-header-row.html), which grabs the element, appends inputs, and delegates events to the inputs.
+Returns the element of a DIV row beneath the actual column headers. For an example of how you might use this, see the [header row quick filter example](http://6pac.github.com/SlickGrid/examples/example-header-row.html), which grabs the element, appends inputs, and delegates events to the inputs.
 
 <a name="getHeaderRowColumn" href="Slick.Grid#wiki-getHeaderRowColumn">#</a> grid.<b>getHeaderRowColumn</b>(<i>columnId</i>)
 
 >`columnId` - The `id` string of a column.
 
-If a header row is implemented and has one child for each column, as seen in the [header row quick filter example](http://mleibman.github.com/SlickGrid/examples/example-header-row.html), you may use this function to pass a columnId and get the individual cell from that header row. Returns a DIV element.
+If a header row is implemented and has one child for each column, as seen in the [header row quick filter example](http://6pac.github.com/SlickGrid/examples/example-header-row.html), you may use this function to pass a columnId and get the individual cell from that header row. Returns a DIV element.
 
 <a name="getSortColumns" href="Slick.Grid#wiki-getSortColumns">#</a> grid.<b>getSortColumns</b>(<i></i>)
 

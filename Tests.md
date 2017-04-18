@@ -1,1 +1,1 @@
-* [QUnit test runner](http://mleibman.github.com/SlickGrid/tests/index.html)
+* [QUnit test runner](http://6pac.github.com/SlickGrid/tests/index.html)
