@@ -32,6 +32,5 @@ Tests
 * [Unit Tests](http://6pac.github.com/SlickGrid/tests/index.html)
 
 Contact/Support
-* [Ask for Help](https://groups.google.com/forum/#!forum/slickgrid)
+* [Ask for Help](http://stackoverflow.com/questions/tagged/slickgrid)
 * [Report a Bug](https://github.com/6pac/SlickGrid/issues)
-* [SlickGrid on Twitter](http://twitter.com/slickgrid)
