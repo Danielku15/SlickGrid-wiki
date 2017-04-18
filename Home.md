@@ -1,7 +1,6 @@
 # SlickGrid Current Master Repository
 
-[download the latest SlickGrid official release](https://github.com/6pac/SlickGrid/releases)
-
+[download the latest SlickGrid official release](https://github.com/6pac/SlickGrid/releases)  
 [download the latest repo version](https://github.com/6pac/SlickGrid)
 
 This is the acknowledged current master repository for SlickGrid since the MLeibman branch ceased being maintained.
@@ -59,18 +58,18 @@ Some highlights:
 [Please see Rules of conduct](https://github.com/mleibman/SlickGrid/wiki/Rules-of-conduct)
 
 * Asking questions
-** [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
-** [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
-** [@slickgrid on Twitter](http://twitter.com/slickgrid)
+ * [SlickGrid questions on StackOverflow](http://stackoverflow.com/questions/tagged/slickgrid)
+ * [SlickGrid Google Group](https://groups.google.com/forum/#!forum/slickgrid) - For support requests and conversation about SlickGrid.
+ * [@slickgrid on Twitter](http://twitter.com/slickgrid)
 
 * Reporting bugs
-** [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
+ * [SlickGrid GitHub issues page](https://github.com/mleibman/SlickGrid/issues)
 
 When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
 
 1. Include the version of SlickGrid.
 2. Include the reproduction steps. Describe about expected behavior & actual behavior.
-(If possible, post code on [jsfiddle.net](http://jsfiddle.net/) ).
+(If possible, post code on [jsfiddle.net](http://jsfiddle.net/)).
 3. Use proper English that everybody can understand.
 
 <h2>What makes it different</h2>
