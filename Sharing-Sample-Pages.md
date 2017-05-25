@@ -16,9 +16,9 @@ In the past, there have been jsFiddle or jsBin sharings, and they could be regar
 However these tools are designed for small and simple javascript snippets, and aren't quite up to projects like SlickGrid with extensive CSS and images.  
 
 With all these tools, external script and css links must be specified. So, for example,  
-```<script src="../slick.grid.js"></script>```  
-must be changed to
-```<script src="https://6pac.github.io/SlickGrid/slick.grid.js"></script>```  
+     ```<script src="../slick.grid.js"></script>```   
+must be changed to  
+     ```<script src="https://6pac.github.io/SlickGrid/slick.grid.js"></script>```  
 See [here](https://jsbin.com/valigaz/edit?output) for a sample using jsBin.  
 
 Both have problems with dynamically constructed relative links (such as used in the Slick.Formatter images in the sample above).  jsFiddle also tampers with the page structure somewhat.
