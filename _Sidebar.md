@@ -6,6 +6,7 @@ SlickGrid Repo
 * [[The SlickGrid Community]]
 * [[BugFix List]]
 * [[Enhancement List]]
+* [[Sharing Sample Pages]]
 
 Jump Start
 * [[Examples]]
