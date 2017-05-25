@@ -1,5 +1,3 @@
-# Sharing Sample Pages
-
 Whether you are reporting a bug on GitHub or getting help with your issue on StackOverflow, with a tool as complex as SlickGrid it often comes down to needing to be able to *share your use case* with the people who are trying to help.
 
 The following steps are critical in being able to do this:
