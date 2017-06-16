@@ -10,6 +10,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Highlighting and flashing cells](http://6pac.github.com/SlickGrid/examples/example14-highlighting.html)
 
+* [Adding some formatting](http://6pac.github.com/SlickGrid/examples/example2-formatters-event.html)
+
 ## Editing
 
 * [Making it editable](http://6pac.github.com/SlickGrid/examples/example3-editing.html)
@@ -26,15 +28,21 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Spreadsheet: cell range selection, copy'n'paste and Excel-style formula editor](http://6pac.github.com/SlickGrid/examples/example-spreadsheet.html)
 
+* [Spreadsheet: features of the previous example plus Excel compatible copy and paste](http://6pac.github.com/SlickGrid/examples/example-excel-compatible-spreadsheet.html)
+
 * [No vertical scrolling (autoHeight)](http://6pac.github.com/SlickGrid/examples/example11-autoheight.html)
 
 * [Filling the whole window](http://6pac.github.com/SlickGrid/examples/example12-fillbrowser.html)
 
 * [Colspan](http://6pac.github.com/SlickGrid/examples/example-colspan.html)
 
+* [Column grouping](http://6pac.github.com/SlickGrid/examples/example-column-group.html)
+
 ## Data-Centric
 
 * [Implementing a totals row via a data provider](http://6pac.github.io/SlickGrid/examples/example-totals-via-data-provider.html)
+
+* [Footer totals row](http://6pac.github.io/SlickGrid/examples/example-footer-totals.html)
 
 * [(most comprehensive) Using a filtered data view to drive the grid](http://6pac.github.com/SlickGrid/examples/example4-model.html)
 
@@ -50,6 +58,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Multi-column sorting](http://6pac.github.com/SlickGrid/examples/example-multi-column-sort.html)
 
+* [Multi-column sorting using tristate numbered buttons](http://6pac.github.com/SlickGrid/examples/example-multi-column-tristate-numbered-sort.html)
+
 * [Using dataItemColumnValueExtractor option to specify a custom column value extractor](http://6pac.github.com/SlickGrid/examples/example-custom-column-value-extractor.html)
 
 ## Grouping
@@ -57,6 +67,10 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Interactive grouping and aggregates](http://6pac.github.com/SlickGrid/examples/example-grouping.html)
 
 * [Adding tree functionality (expand/collapse) to the grid](http://6pac.github.com/SlickGrid/examples/example5-collapsing.html)
+
+* [Adding grouping using column dragging and dropping](http://6pac.github.com/SlickGrid/examples/example-draggable-grouping.html)
+
+* [Checkbox row selection with grouping and checkbox to select rows in group](http://6pac.github.com/SlickGrid/examples/example-grouping-checkbox-row-select.html)
 
 ## Other Features
 
@@ -84,6 +98,10 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Select2 javascript drop-down editor](http://6pac.github.com/SlickGrid/examples/example-select2-editor.html)
 
+* [Select2 Multiselect javascript drop-down editor](http://6pac.github.com/SlickGrid/examples/example-select2-multiselect-editor.html)
+
+* [Multi-select javascript drop-down editor](http://6pac.github.com/SlickGrid/examples/example-multiselect-editor.html)
+
 ## Plugins
 
 * [Plugin:  Checkbox row selectors with CheckboxSelectColumn plugin](http://6pac.github.com/SlickGrid/examples/example-checkbox-row-select.html)
@@ -93,3 +111,6 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Plugin: Column header menu](http://6pac.github.com/SlickGrid/examples/example-plugin-headermenu.html)
 
 * [Plugin: Auto tooltips](http://6pac.github.com/SlickGrid/examples/example-autotooltips.html)
+
+* [Initialising header column sorting using an external function](http://6pac.github.com/SlickGrid/examples/example-external-headersort.html)
+
