@@ -38,7 +38,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Column grouping](http://6pac.github.com/SlickGrid/examples/example-column-group.html)
 
-* [Grid auto-resize on browser resize](https://github.com/6pac/SlickGrid/blob/master/examples/example15-auto-resize.html)
+* [Grid auto-resize on browser resize](http://6pac.github.com/SlickGrid/examples/example15-auto-resize.html)
 
 ## Data-Centric
 
