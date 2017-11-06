@@ -106,7 +106,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 ## Plugins / Controls
 
-* [Control: Grid Menu](http://6pac.github.com/SlickGrid/examples/example-grid-menu.html)
+* [Control: Grid Menu (hamburger menu)](http://6pac.github.com/SlickGrid/examples/example-grid-menu.html)
 * [Plugin:  Checkbox row selectors with CheckboxSelectColumn plugin](http://6pac.github.com/SlickGrid/examples/example-checkbox-row-select.html)
 
 * [Plugin: Column header buttons](http://6pac.github.com/SlickGrid/examples/example-plugin-headerbuttons.html)
