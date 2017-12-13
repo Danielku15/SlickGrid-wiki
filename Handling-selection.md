@@ -3,7 +3,7 @@ Selecting cells in SlickGrid is handled by a *selection model*.
 Selection models are controllers responsible for handling user interactions and notifying subscribers of the changes in the selection.
 Selection is represented as an array of Slick.Range objects.  
 
-You can get the current selection model from the grid by calling `getSelectionModel()` and set a different one using `setSelectionModel(selectionModel).`  By default, no selection model is set.
+You can get the current selection model from the grid by calling `getSelectionModel()` and set a different one using `setSelectionModel(selectionModel).`  By default, no selection model is set.  See [Row Selection](#row-selection) for an example of enabling it.
 
 The grid also provides two helper methods to simplify development - `getSelectedRows()` and `setSelectedRows(rowsArray)`, as well as an `onSelectedRowsChanged` event.
 
@@ -57,4 +57,22 @@ Below is a simplistic example of a single cell selection model that only reacts 
         self.onSelectedRangesChanged.notify([new Slick.Range(cell.row, cell.cell, cell.row, cell.cell)]);
       };
     }
+```
+
+## Row Selection
+
+To enable the included row selection plugin, do the following:
+
+```
+/* In your html head */
+<script src="path/to/SlickGrid/plugins/slick.rowselectionmodel.js"></script>
+
+/* In your javascript file */
+slickGrid.setSelectionModel(new Slick.RowSelectionModel());
+slickGrid.init();
+
+/* In your css file (or you can use a default theme that has this selector) */
+.slick-cell.selected {
+    background-color: #FBB;
+}
 ```
