@@ -6,7 +6,7 @@ The following steps are critical in being able to do this:
 
 Now you have several options for sharing this:
 - send the file to the email address on my or another contributor's [GitHub profile page](https://github.com/6pac)
-- OR, if this is related t a GitHub Issue, you may add the sample web page and any other modified files to a ZIP file, and add it to a GitHub issue comment, by dragging and dropping it onto the comment (or by clicking the link at the bottom of the comment).
+- OR, if this is related to a GitHub Issue, you may add the sample web page and any other modified files to a ZIP file, and add it to a GitHub issue comment, by dragging and dropping it onto the comment (or by clicking the link at the bottom of the comment).
 
 We can then download the page to our local repo. Because we are using the same repo as a starting point, we have a repeatable environment.
 
