@@ -19,6 +19,7 @@ SlickGrid exposes the following events:
 * onBeforeEditCell `({ row: number, cell: number, item: any, column: Object })` 
 * onBeforeCellEditorDestroy `({ editor: Object })` 
 * onHeaderCellRendered `({ node: Object, column: Object })`
+* onHeaderRowCellRendered `({ node: Object, column: Object, grid: Object })`
 * onBeforeHeaderCellDestroy `({ node: Object, column: Object })`
 * onBeforeDestroy `({})`  
 * onActiveCellChanged `({ row: number, cell: number }|null)`
