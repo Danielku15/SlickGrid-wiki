@@ -102,4 +102,4 @@ The `editCommand` consists of:
 <li>`execute()`:  a callback to apply the changes using editor.applyValue(item,serializedValue) and update the row
 <li>`undo()`:  a callback to undo the changes using editor.applyValue(item,prevSerializedValue) and update the row
 
-A sample spreadsheet with undo is implemented in the example 3b ([source](http://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html, "demo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html)).
+A sample spreadsheet with undo is implemented in the example 3b ([demo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html) / [source](http://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html)).
