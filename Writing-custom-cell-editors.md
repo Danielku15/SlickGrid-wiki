@@ -133,7 +133,7 @@ Previously, you had to click once to enter edit mode, then click again to check 
             $select.prop('checked', !$select.prop('checked'));
         };
 
-For this method to be called, the element being clicked must have the class ```Slick.preClickClassName``` (defaults to ```slick-edit-preclick```). This is most easily done in the formatter:
+For this method to be called, the element being clicked must have the class ```Slick.preClickClassName``` (defaults to ```"slick-edit-preclick"```). This is most easily done in the formatter:
 
     function CheckboxFormatter(row, cell, value, columnDef, dataContext) {
       return '<img class="slick-edit-preclick" src="../images/' + (value ? "CheckboxY" : "CheckboxN") + '.png">';
