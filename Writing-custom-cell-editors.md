@@ -103,3 +103,38 @@ The `editCommand` consists of:
 <li>`undo()`:  a callback to undo the changes using editor.applyValue(item,prevSerializedValue) and update the row
 
 A sample spreadsheet with undo is implemented in the example 3b ([demo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html) / [source](http://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html)).
+
+## Intercepting keypresses
+**Key Capture List**
+There is a keyCaptureList property on the editor that allows you to specify keys that will flow through to the editor rather than being captured by the grid: see [demo](6pac.github.io/SlickGrid/examples/example-autocomplete-editor.html)
+
+For example
+
+    function AutoCompleteEditor(args) {
+      var $input;
+      var defaultValue;
+      var scope = this;
+      var calendarOpen = false;
+      
+      this.keyCaptureList = [ Slick.keyCode.UP, Slick.keyCode.DOWN, Slick.keyCode.ENTER ];
+
+specifies that the grid will pass these keys through to the editor rather than processing them. This is particularly useful for complex javascript editors such as select lists and autocomplete.
+
+**PreClick mode*
+There also is a 'preClick' mode (should possibly be 'preSelect' or 'preEdit', since it can be triggered by key navigation too) that allows the editor to define an event to occur before/instead of edit mode being entered. This technique is used to allow the direct clicking of the right-hand checkbox row in [this demo](6pac.github.io/SlickGrid/examples/example4-model.html). 
+Previously, you had to click once to enter edit mode, then click again to check or uncheck the box.
+
+    function CheckboxEditor(args) {
+        ...
+    
+        this.preClick = function () {
+            $select.prop('checked', !$select.prop('checked'));
+        };
+
+For this to work, the element being clicked must have the class ```Slick.preClickClassName``` (defaults to ```slick-edit-preclick```). This is most easily done in the formatter:
+
+    function CheckboxFormatter(row, cell, value, columnDef, dataContext) {
+      return '<img class="slick-edit-preclick" src="../images/' + (value ? "CheckboxY" : "CheckboxN") + '.png">';
+    }
+
+To recap, the conditions are that (1) the editor must have a ```preClick``` method, and (2) the element being clicked must have the class ```Slick.preClickClassName```. Then the editor's ```preClick``` method will be called.
