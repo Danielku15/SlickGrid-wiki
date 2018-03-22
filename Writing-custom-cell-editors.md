@@ -119,7 +119,7 @@ For example
       
       this.keyCaptureList = [ Slick.keyCode.UP, Slick.keyCode.DOWN, Slick.keyCode.ENTER ];
 
-specifies that the grid will pass these keys through to the editor rather than processing them. This is particularly useful for complex javascript editors such as select lists and autocomplete.
+This is particularly useful for complex javascript editors such as select lists and autocomplete that process keys that might otherwise be used by the grid.
 
 **PreClick mode**
 
