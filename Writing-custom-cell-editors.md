@@ -123,7 +123,7 @@ This is particularly useful for complex javascript editors such as select lists 
 
 **PreClick mode**
 
-There also is a 'preClick' mode (should possibly be 'preSelect' or 'preEdit', since it can be triggered by key navigation too) that allows the editor to define an event to occur before/instead of edit mode being entered. This technique is used to allow the direct clicking of the right-hand checkbox row in [this demo](http://6pac.github.io/SlickGrid/examples/example4-model.html). 
+There also is a 'preClick' mode that allows the editor to define an event to occur before edit mode is entered as the result of a click on an element within the cell. This technique is used to allow the direct clicking of the right-hand checkbox row in [this demo](http://6pac.github.io/SlickGrid/examples/example4-model.html). 
 Previously, you had to click once to enter edit mode, then click again to check or uncheck the box.
 
     function CheckboxEditor(args) {
