@@ -107,7 +107,7 @@ A sample spreadsheet with undo is implemented in the example 3b ([demo](http://6
 ## Intercepting keypresses
 **Key Capture List**
 
-There is a keyCaptureList property on the editor that allows you to specify keys that will flow through to the editor rather than being captured by the grid: see [demo](6pac.github.io/SlickGrid/examples/example-autocomplete-editor.html)
+There is a keyCaptureList property on the editor that allows you to specify keys that will flow through to the editor rather than being captured by the grid: see [demo](http://6pac.github.io/SlickGrid/examples/example-autocomplete-editor.html)
 
 For example
 
