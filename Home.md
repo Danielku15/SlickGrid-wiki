@@ -42,7 +42,7 @@ Some highlights:
 * jQuery
 * jQueryUI Sortable (optional, only if column reordering is enabled)
 * jquery.event.drag - http://threedubmedia.com/code/event/drag
-* jquery.event.drop - http://threedubmedia.com/code/event/drop
+* jquery.event.drop - http://threedubmedia.com/code/event/drop  
  (the ThreeDub Media drag and drop libraries have been updated to support jQuery 1.x, 2.x and 3.x and have been updated to v2.3. this update was made by this project and is not supported externally)
 
 <h3>Documentation</h3>
@@ -67,8 +67,7 @@ Some highlights:
 When reporting bugs, please be specific (details are described in the above "Rules of conduct"):
 
 1. Include the version of SlickGrid.
-2. Include the reproduction steps. Describe about expected behavior & actual behavior.
-(If possible, post code on [jsfiddle.net](http://jsfiddle.net/)).
+2. Start with an existing example and customise it as sparingly as possible to reproduce the problem. Include the reproduction steps. Describe expected behavior & actual behavior. 
 3. Use proper English that everybody can understand.
 
 <h2>What makes it different</h2>
