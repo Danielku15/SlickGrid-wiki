@@ -43,6 +43,7 @@ Some highlights:
 * jQueryUI Sortable (optional, only if column reordering is enabled)
 * jquery.event.drag - http://threedubmedia.com/code/event/drag
 * jquery.event.drop - http://threedubmedia.com/code/event/drop
+ (the ThreeDub Media drag and drop libraries have been updated to support jQuery 1.x, 2.x and 3.x and have been updated to v2.3. this update was made by this project and is not supported externally)
 
 <h3>Documentation</h3>
 
