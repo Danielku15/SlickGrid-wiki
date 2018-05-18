@@ -1,5 +1,7 @@
 # SlickGrid Current Master Repository
 
+NEW SlickGrid Website! http://slickgrid.net/
+
 [download the latest SlickGrid official release](https://github.com/6pac/SlickGrid/releases)  
 [download the latest repo version](https://github.com/6pac/SlickGrid)
 
