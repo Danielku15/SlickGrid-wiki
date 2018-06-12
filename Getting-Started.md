@@ -1,4 +1,4 @@
-Although the source of the [first example](http://mleibman.github.com/SlickGrid/examples/example1-simple.html) is self-explanatory, it's worth pointing out the basics of SlickGrid. The following line:
+Although the source of the [first example](http://6pac.github.io/SlickGrid/examples/example1-simple.html) is self-explanatory, it's worth pointing out the basics of SlickGrid. The following line:
 
 `var slickgrid = new Slick.Grid(container, rows, columns, options);`
 
@@ -85,7 +85,7 @@ Example:
 
 **Options**
 
-`options` allows you to specify [additional options](https://github.com/mleibman/SlickGrid/wiki/Grid-Options).
+`options` allows you to specify [additional options](https://github.com/6pac/SlickGrid/wiki/Grid-Options).
 
 **Events**
 
@@ -97,7 +97,7 @@ An example:
         var args.item; // object containing name, field, id, etc
     });
 
-See the [events](https://github.com/mleibman/SlickGrid/wiki/Grid-Events) for the full list.
+See the [events](https://github.com/6pac/SlickGrid/wiki/Grid-Events) for the full list.
 
 **Basic sorting**
 
