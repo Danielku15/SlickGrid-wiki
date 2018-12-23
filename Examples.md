@@ -30,6 +30,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Spreadsheet: features of the previous example plus Excel compatible copy and paste](http://6pac.github.com/SlickGrid/examples/example-excel-compatible-spreadsheet.html)
 
+* [Spreadsheet: features of the previous example but using a DataView](http://6pac.github.com/SlickGrid/examples/example-excel-compatible-spreadsheet.html)
+
 * [No vertical scrolling (autoHeight)](http://6pac.github.com/SlickGrid/examples/example11-autoheight.html)
 
 * [Filling the whole window](http://6pac.github.com/SlickGrid/examples/example12-fillbrowser.html)
@@ -74,11 +76,15 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Checkbox row selection with grouping and checkbox to select rows in group](http://6pac.github.com/SlickGrid/examples/example-grouping-checkbox-row-select.html)
 
+* [Checkbox row selection with 'select all' checkbox in header](http://6pac.github.com/SlickGrid/examples/example-checkbox-header-row.html)
+
 ## Other Features
 
 * [Explicit initialization](http://6pac.github.com/SlickGrid/examples/example-explicit-initialization.html)
 
 * [Row selection & reordering](http://6pac.github.com/SlickGrid/examples/example9-row-reordering.html)
+
+* [Row reordering (simple example without delete)](http://6pac.github.com/SlickGrid/examples/example9-row-reordering-simple.html)
 
 * [Using background post-rendering to add graphs](http://6pac.github.com/SlickGrid/examples/example10-async-post-render.html)
 
