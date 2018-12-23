@@ -119,3 +119,11 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Initialising header column sorting using an external function](http://6pac.github.com/SlickGrid/examples/example-external-headersort.html)
 
+## Frozen Columns and Rows
+* [Frozen Columns (based on example4-model)](http://6pac.github.com/SlickGrid/examples/example-frozen-columns.html)
+* [Frozen Columns and Rows](http://6pac.github.com/SlickGrid/examples/example-frozen-columns-and-rows.html)
+* [Frozen Columns and Rows on spreadsheet](http://6pac.github.com/SlickGrid/examples/example-frozen-columns-and-rows-spreadsheet.html)
+* [Frozen Columns with auto height](http://6pac.github.com/SlickGrid/examples/example-frozen-columns-autoheight.html)
+* [Frozen Columns with tabs](http://6pac.github.com/SlickGrid/examples/example-frozen-columns-tabs.html)
+* [Frozen Columns with Reordering](http://6pac.github.com/SlickGrid/examples/example-frozen-row-reordering.html)
+* [Frozen Rows (based on example4-model)](http://6pac.github.com/SlickGrid/examples/example-frozen-rows.html)
