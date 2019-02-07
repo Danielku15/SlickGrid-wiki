@@ -5,6 +5,9 @@ NEW SlickGrid Website! http://slickgrid.net/
 [download the latest SlickGrid official release](https://github.com/6pac/SlickGrid/releases)  
 [download the latest repo version](https://github.com/6pac/SlickGrid)
 
+*** NEWS FLASH ***
+The frozen column and row code has been integrated into this repo from the X-Slickgrid and JLynch repos.
+
 This is the acknowledged current master repository for SlickGrid since the MLeibman branch ceased being maintained.
 It builds on the current state of the mleibman/SlickGrid master branch, keeping libraries up to date and applying small,
 safe core patches and enhancements _without_ turning into a personalised build. 
