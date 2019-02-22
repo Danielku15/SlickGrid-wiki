@@ -1,10 +1,49 @@
 
 | Event  | Description |
 |------- | ------------|
-| onPagingInfoChanged | |
-| onRowCountChanged | |
-| onRowsChanged | |
-| onRowsOrCountChanged| |
+| onPagingInfoChanged | Paging information has changed |
+| onRowCountChanged | On total row count changed |
+| onRowsChanged | On rows changed |
+| onRowsOrCountChanged| On rows or count changed (combines both previous events) |
+
+Example of handing an event:
+
+    dataView.onRowsChanged.subscribe(function (e, args) {
+      grid.invalidateRows(args.rows);
+      grid.render();
+    });
+
+The events are fired in the following order:
+
+```onPagingInfoChanged```  args: { pageSize, pageNum, totalRows, totalPages, dataView }
+
+(args are self explanatory - dataView is the calling dataView object)
+
+
+```onRowCountChanged```  args: { previous, current, dataView, callingOnRowsChanged }
+
+- previous: previous rowcount
+- current: current rowcount
+- dataView: the calling dataView object
+- callingOnRowsChanged: true if the ```onRowsChanged``` event is also going to be called
+
+
+```onRowsChanged```  args: { rows, dataView, calledOnRowCountChanged}
+
+- rows: the rows diff (list of changed rows)
+- dataView: the calling dataView object
+- calledOnRowCountChanged: true if the ```onRowCountChanged``` event is also going to be called
+
+
+```onRowsOrCountChanged```  args: { rows, previous, current, dataView}
+
+- rows: the rows diff (list of changed rows)
+- previousRowCount: previous rowcount
+- currentRowCount: current rowcount
+- dataView: the calling dataView object
+
+This event performs the function of *both* of the other events and SHOULD BE USED INSTEAD of the other events only.
+
 
 <h3>Responding to data source changes</h3>
 
@@ -19,31 +58,3 @@ UPDATE: New events and parameters added
 Although the above still stands in some more complex situations, in simpler cases both events are used simply to refresh the grid. The Issues list documents edge cases where this is necessary. The effect of this is that the refresh operation is run twice, because each event doesn't know if the other event will be fired. 
 
 For these reasons, a new ```onRowsOrCountChanged``` event rolling the two in to one has been added, and additional parameters have been added to each event to indicate whether the other event will be or has been fired, allowing the event handling code to be smarter in its responses to the events.  All these events are fired by the same section of code in the ```refresh``` method of the dataview, so information about which events are going to be fired is available.
-
-The events are fired in the following order:
-
-```onPagingInfoChanged```  args: { pageSize, pageNum, totalRows, totalPages, dataView }
-
-(args are self explanatory - dataView is the calling dataView object)
-
-```onRowCountChanged```  args: { previous, current, dataView, callingOnRowsChanged }
-
-- previous: previous rowcount
-- current: current rowcount
-- dataView: the calling dataView object
-- callingOnRowsChanged: true if the ```onRowsChanged``` event is also going to be called
-
-```onRowsChanged```  args: { rows, dataView, calledOnRowCountChanged}
-
-- rows: the rows diff (list of changed rows)
-- dataView: the calling dataView object
-- calledOnRowCountChanged: true if the ```onRowCountChanged``` event is also going to be called
-
-```onRowsOrCountChanged```  args: { rows, previous, current, dataView}
-
-- rows: the rows diff (list of changed rows)
-- previousRowCount: previous rowcount
-- currentRowCount: current rowcount
-- dataView: the calling dataView object
-
-This event performs the function of *both* of the other events and SHOULD BE USED INSTEAD of the other events only.
