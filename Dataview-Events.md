@@ -15,12 +15,12 @@ Example of handing an event:
 
 The events are fired in the following order.  All these events are fired by the same section of code in the ```refresh``` method of the dataView, so firing order is fixed, and information about which of the events are going to be fired is available to the firing code.
 
-```onPagingInfoChanged```  args: { pageSize, pageNum, totalRows, totalPages, dataView }
+```onPagingInfoChanged```  ```args: { pageSize, pageNum, totalRows, totalPages, dataView }```
 
 (args are self explanatory - dataView is the calling dataView object)
 
 
-```onRowCountChanged```  args: { previous, current, dataView, callingOnRowsChanged }
+```onRowCountChanged```  ```args: { previous, current, dataView, callingOnRowsChanged }```
 
 - previous: previous rowcount
 - current: current rowcount
@@ -28,14 +28,14 @@ The events are fired in the following order.  All these events are fired by the 
 - callingOnRowsChanged: true if the ```onRowsChanged``` event is also going to be called
 
 
-```onRowsChanged```  args: { rows, dataView, calledOnRowCountChanged}
+```onRowsChanged```  ```args: { rows, dataView, calledOnRowCountChanged}```
 
 - rows: the rows diff (list of changed rows)
 - dataView: the calling dataView object
 - calledOnRowCountChanged: true if the ```onRowCountChanged``` event is also going to be called
 
 
-```onRowsOrCountChanged```  args: { rowsDiff, previousRowCount, currentRowCount, dataView}
+```onRowsOrCountChanged```  ```args: { rowsDiff, previousRowCount, currentRowCount, dataView}```
 
 - rowsDiff: the rows diff (list of changed rows)
 - previousRowCount: previous rowcount
@@ -55,12 +55,12 @@ In our application we have spreadsheet component of a Gantt chart, and the Model
 
 NEW EVENTS AND PARAMETERS ADDED
 
-There has been some debate over whether two events are appropriate, as 
+There has been some debate over whether two events (```onRowsChanged```, ```onRowCountChanged```) are appropriate, as 
 - often both events need to do some common tasks
 - each event has no way of knowing if the other event will be fired
 - handling only one event often leads to hard-to-diagnose bugs 
-- this situation odten leads to repetition of the common tasks by both events
+- this situation often leads to repetition of the common tasks by both events
 
 This is why the ```onRowsOrCountChanged``` event, rolling the two in to one, has been added.
 
-As a workaround for the two-event scenario, additional parameters have been added to each event to indicate whether the other event will be or has been fired, allowing the event handling code to be smarter in its responses to the events. 
+As a workaround for the two-event scenario, additional parameters (```callingOnRowsChanged```, ```calledOnRowCountChanged```) have been added to each event to indicate whether the other event will be or has been fired, allowing the event handling code to be smarter in its responses to the events. 
