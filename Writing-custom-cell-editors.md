@@ -94,13 +94,13 @@ The `editCommandHandler` is called right after the editor's `destroy()` method h
 <pre>function editCommandHandler(item,column,editCommand) {}</pre>
 
 The `editCommand` consists of:
-<li>`row`:  the row of the cell being edited
-<li>`cell`:  the column of the cell being edited
-<li>`editor`:  a reference to the cell editor
-<li>`serializedValue`:  serialized value; the result of calling editor.serializeValue() right before destroying the editor
-<li>`prevSerializedValue`:  the result of calling editor.serializeValue() before the changes have been made by the user
-<li>`execute()`:  a callback to apply the changes using editor.applyValue(item,serializedValue) and update the row
-<li>`undo()`:  a callback to undo the changes using editor.applyValue(item,prevSerializedValue) and update the row
+* `row`:  the row of the cell being edited
+* `cell`:  the column of the cell being edited
+* `editor`:  a reference to the cell editor
+* `serializedValue`:  serialized value; the result of calling editor.serializeValue() right before destroying the editor
+* `prevSerializedValue`:  the result of calling editor.serializeValue() before the changes have been made by the user
+* `execute()`:  a callback to apply the changes using editor.applyValue(item,serializedValue) and update the row
+* `undo()`:  a callback to undo the changes using editor.applyValue(item,prevSerializedValue) and update the row
 
 A sample spreadsheet with undo is implemented in the example 3b ([demo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html) / [source](http://github.com/6pac/SlickGrid/blob/master/examples/example3b-editing-with-undo.html)).
 
