@@ -27,7 +27,7 @@ As included in the examples or described in stable releases:
 | forceFitColumns | false | Force column sizes to fit into the container (preventing horizontal scrolling). Effectively sets column width to be 1/Number of Columns which on small containers may not be desirable |
 | forceSyncScrolling | false ||
 | formatterFactory | null | A factory object responsible to creating a formatter for a given cell. Must implement getFormatter(column). |
-| fullWidthRows | false | Will expand the table row divs to the full width of the container, table cell divs will remain aligned to the left |
+| fullWidthRows | false | Will expand the grid row div to the full width of the container, grid cell divs will remain aligned to the left (so the row div now takes in any blank space between the grid columns and the right boundary of the viewport) |
 | headerRowHeight | 25 ||
 | leaveSpaceForNewRows | false ||
 | multiColumnSort | false | See: [Example: Multi-Column Sort](http://6pac.github.com/SlickGrid/examples/example-multi-column-sort.html) |

@@ -16,6 +16,7 @@ Resources
 * [[API Reference]]
 * [[Grid|Slick.Grid]]
 * [[Grid Options]]
+* [[Auto Column Sizing]]
 * [[Column Options]]
 * [[Grid Events]]
 * [[DataView]]
