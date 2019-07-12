@@ -100,7 +100,7 @@ These options are to be passed to the grid constructor. The defaults are shown i
 
     var options = {
       autosizeColsMode: Slick.GridAutosizeColsMode.None,
-      autosizeColPaddingPx: 2,
+      autosizeColPaddingPx: 4,
       autosizeTextAvgToMWidthRatio: 0.75,
       viewportSwitchToScrollModeWidthPercent: undefined,
       viewportMinWidthPx: undefined,

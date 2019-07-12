@@ -42,6 +42,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Grid auto-resize on browser resize](http://6pac.github.com/SlickGrid/examples/example15-auto-resize.html)
 
+* [Grid column size to content](http://6pac.github.com/SlickGrid/examples/example-size-to-content.html)
+
 ## Data-Centric
 
 * [Implementing a totals row via a data provider](http://6pac.github.io/SlickGrid/examples/example-totals-via-data-provider.html)
