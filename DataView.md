@@ -260,7 +260,31 @@ dataView.endUpdate();
 
 ## Filtering
 
+You can customize filtering on the DataView by using dataView.setFilter(someFunction). Here's an example of a custom filter that does a case-insensitive search of all the column fields based on an input text element:
 
+```
+dataView.setFilter(searchFilter);
+
+$('#textsearch').on('input', function () {
+    dataView.setFilterArgs({ searchString: $(this).val() });
+    dataView.refresh();
+});
+
+function searchFilter(item, args) {
+    if (_.get(args, 'searchString.length')) {
+        const values = Object.values(item);
+        let isMatch = false;
+        for (i = 0; i < values.length; i++) {
+            if (values[i] && values[i].toString().toLowerCase().indexOf(args.searchString.toLowerCase()) >= 0) {
+                isMatch = true;
+                break;
+            }
+        }
+        return isMatch;
+    }
+    return true;
+}
+```
 
 
 ## Paging
@@ -272,7 +296,7 @@ Use the GroupItemMetadataProvider plugin found in 'slick.groupitemmetadataprovid
 ```
 const groupItemMetadataProvider = new Slick.Data.GroupItemMetadataProvider();
 
-self.dataView = new Slick.Data.DataView({
+const dataView = new Slick.Data.DataView({
     groupItemMetadataProvider: groupItemMetadataProvider,
     inlineFilters: true
 });
@@ -294,7 +318,7 @@ const groupingDef = {
     lazyTotalsCalculation: true
 }
 
-self.dataView.setGrouping(groupingDef);
+dataView.setGrouping(groupingDef);
 
 self.grid.registerPlugin(groupItemMetadataProvider);
 ```
