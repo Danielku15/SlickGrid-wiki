@@ -14,7 +14,7 @@ SlickGrid exposes the following events:
 * onValidationError `({ editor: Object, cellNode: Object, validationResult: Object, row: number, cell: number, column: Object })`  
 * onViewportChanged `({})`
 * onColumnsReordered `({})`  
-* onColumnsResized `({})`
+* onColumnsResized `({triggeredByColumn: string})`
 * onCellChange `({ row: number, cell: number, item: any })` 
 * onBeforeEditCell `({ row: number, cell: number, item: any, column: Object })` 
 * onBeforeCellEditorDestroy `({ editor: Object })` 
