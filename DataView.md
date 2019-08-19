@@ -267,6 +267,68 @@ dataView.endUpdate();
 
 ## Grouping
 
+Use the GroupItemMetadataProvider plugin found in 'slick.groupitemmetadataprovider.js' and call dataView.setGrouping(groupingDef), as shown here:
+
+```
+const groupItemMetadataProvider = new Slick.Data.GroupItemMetadataProvider();
+
+self.dataView = new Slick.Data.DataView({
+    groupItemMetadataProvider: groupItemMetadataProvider,
+    inlineFilters: true
+});
+
+const groupingDef = {
+    getter: "duration",
+    formatter: function (g) {
+        return "Duration:  " + g.value + "  <span style='color:green'>(" + g.count + " items)</span>";
+    },
+    comparer: function (a, b) {
+        return a.count - b.count;
+    },
+    aggregators: [
+        new Slick.Data.Aggregators.Avg("percentComplete"),
+        new Slick.Data.Aggregators.Sum("cost"),
+        new Slick.Data.Aggregators.Count("cost")
+    ],
+    aggregateCollapsed: aggregateCollapsed,
+    lazyTotalsCalculation: true
+}
+
+self.dataView.setGrouping(groupingDef);
+
+self.grid.registerPlugin(groupItemMetadataProvider);
+```
+
+You can define custom aggregators like this:
+
+```
+...
+aggregators: [ new CustomAggregator('cost') ],
+...
+function CustomAggregator(field) {
+    this.field_ = field;
+
+    this.init = function () {
+        this.sum_ = null;
+    };
+
+    //accumulate iterates over the rows. If you do not define accumulate, then it will not iterate.
+    this.accumulate = function (item) {
+        var val = item[this.field_];
+        if (val != null && val !== "" && !isNaN(val)) {
+            this.sum_ += parseFloat(val);
+        }
+    };
+
+    this.storeResult = function (groupTotals) {
+        if (!groupTotals.sum) {
+            groupTotals.sum = {};
+        }
+        groupTotals.sum[this.field_] = this.sum_;
+    }
+}
+```
+
 ## Advanced topics
 
 ## API reference
