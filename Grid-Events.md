@@ -1,35 +1,38 @@
 SlickGrid exposes the following events:
 
-* onScroll `({ scrollLeft: number, scrollTop: number })`  
-* onSort `({ multiColumnSort: boolean, sortCol: Object, sortCols: Object[], sortAsc: boolean })`
-* onHeaderContextMenu `({ column: Object })`
-* onHeaderClick `({ column: Object })`
-* onMouseEnter `({})`
-* onMouseLeave `({})`
-* onClick `({ row: number, cell: number })`
-* onDblClick `({ row: number, cell: number })`
-* onContextMenu `({})` 
-* onKeyDown `({ row: number, cell: number })`
-* onAddNewRow `({ item: any, column: Object })`
-* onValidationError `({ editor: Object, cellNode: Object, validationResult: Object, row: number, cell: number, column: Object })`  
-* onViewportChanged `({})`
-* onColumnsReordered `({})`  
-* onColumnsResized `({triggeredByColumn: string})`
-* onCellChange `({ row: number, cell: number, item: any })` 
-* onBeforeEditCell `({ row: number, cell: number, item: any, column: Object })` 
-* onBeforeCellEditorDestroy `({ editor: Object })` 
-* onHeaderCellRendered `({ node: Object, column: Object })`
-* onHeaderRowCellRendered `({ node: Object, column: Object, grid: Object })`
-* onBeforeHeaderCellDestroy `({ node: Object, column: Object })`
-* onBeforeDestroy `({})`  
 * onActiveCellChanged `({ row: number, cell: number }|null)`
 * onActiveCellPositionChanged `({})`
-* onDragInit
-* onDragStart
+* onAddNewRow `({ item: any, column: Object })`
+* onBeforeCellEditorDestroy `({ editor: Object })` 
+* onBeforeDestroy `({})`  
+* onBeforeEditCell `({ row: number, cell: number, item: any, column: Object })` 
+* onBeforeHeaderCellDestroy `({ node: Object, column: Object })`
+* onCellChange `({ row: number, cell: number, item: any })` 
+* onCellCssStylesChanged `({ key: string, hash: Object })`
+* onClick `({ row: number, cell: number })`
+* onColumnsReordered `({})`  
+* onColumnsResized `({triggeredByColumn: string})`
+* onContextMenu `({})` 
+* onDblClick `({ row: number, cell: number })`
 * onDrag
 * onDragEnd
+* onDragInit
+* onDragStart
+* onFooterClick `({ column: Object })`
+* onFooterContextMenu `({ column: Object })`
+* onHeaderCellRendered `({ node: Object, column: Object })`
+* onHeaderClick `({ column: Object })`
+* onHeaderContextMenu `({ column: Object })`
+* onHeaderRowCellRendered `({ node: Object, column: Object, grid: Object })`
+* onKeyDown `({ row: number, cell: number })`
+* onMouseEnter `({})`
+* onMouseLeave `({})`
+* onScroll `({ scrollLeft: number, scrollTop: number })`  
 * onSelectedRowsChanged `({ rows: number[] })`
-* onCellCssStylesChanged `({ key: string, hash: Object })`
+* onSort `({ multiColumnSort: boolean, sortCol: Object, sortCols: Object[], sortAsc: boolean })`
+* onValidationError `({ editor: Object, cellNode: Object, validationResult: Object, row: number, cell: number, column: Object })`  
+* onViewportChanged `({})`
+
 
 You can subscribe to the above events using a syntax similar to:
 
