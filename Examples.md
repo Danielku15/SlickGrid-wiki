@@ -134,3 +134,4 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Frozen Columns with tabs](http://6pac.github.com/SlickGrid/examples/example-frozen-columns-tabs.html)
 * [Frozen Columns with Reordering](http://6pac.github.com/SlickGrid/examples/example-frozen-row-reordering.html)
 * [Frozen Rows (based on example4-model)](http://6pac.github.com/SlickGrid/examples/example-frozen-rows.html)
+* [Frozen Columns and Header Row Grouping Columns](http://6pac.github.io/SlickGrid/examples/example-frozen-columns-and-column-group.html)
