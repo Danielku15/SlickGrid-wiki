@@ -78,8 +78,6 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Checkbox row selection with grouping and checkbox to select rows in group](http://6pac.github.com/SlickGrid/examples/example-grouping-checkbox-row-select.html)
 
-* [Checkbox row selection with 'select all' checkbox in header](http://6pac.github.com/SlickGrid/examples/example-checkbox-header-row.html)
-
 ## Other Features
 
 * [Explicit initialization](http://6pac.github.com/SlickGrid/examples/example-explicit-initialization.html)
@@ -117,6 +115,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Control: Grid Menu (hamburger menu)](http://6pac.github.com/SlickGrid/examples/example-grid-menu.html)
 * [Plugin:  Checkbox row selectors with CheckboxSelectColumn plugin](http://6pac.github.com/SlickGrid/examples/example-checkbox-row-select.html)
 * [Plugin:  Checkbox row selectors with grouping levels](http://6pac.github.io/SlickGrid/examples/example-grouping-checkbox-row-select.html)
+* [Plugin:  Checkbox row selectors with 'select all' checkbox in header](http://6pac.github.com/SlickGrid/examples/example-checkbox-header-row.html)
 * [Plugin: Column header buttons](http://6pac.github.com/SlickGrid/examples/example-plugin-headerbuttons.html)
 
 * [Plugin: Column header menu](http://6pac.github.com/SlickGrid/examples/example-plugin-headermenu.html)
