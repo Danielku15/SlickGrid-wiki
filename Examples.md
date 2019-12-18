@@ -117,12 +117,10 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Plugin:  Checkbox row selectors with grouping levels](http://6pac.github.io/SlickGrid/examples/example-grouping-checkbox-row-select.html)
 * [Plugin:  Checkbox row selectors with 'select all' checkbox in header](http://6pac.github.com/SlickGrid/examples/example-checkbox-header-row.html)
 * [Plugin: Column header buttons](http://6pac.github.com/SlickGrid/examples/example-plugin-headerbuttons.html)
-
 * [Plugin: Column header menu](http://6pac.github.com/SlickGrid/examples/example-plugin-headermenu.html)
-
 * [Plugin: Auto tooltips](http://6pac.github.com/SlickGrid/examples/example-autotooltips.html)
-
 * [Plugin: Row Detail Panel](http://6pac.github.com/SlickGrid/examples/example16-row-detail.html)
+* [Plugin: Context Menu & Cell Menu](http://6pac.github.io/SlickGrid/examples/example-plugin-contextmenu.html)
 
 * [Initialising header column sorting using an external function](http://6pac.github.com/SlickGrid/examples/example-external-headersort.html)
 
