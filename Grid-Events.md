@@ -28,7 +28,7 @@ SlickGrid exposes the following events:
 * onMouseEnter `({})`
 * onMouseLeave `({})`
 * onScroll `({ scrollLeft: number, scrollTop: number })`  
-* onSelectedRowsChanged `({ rows: number[] })`
+* onSelectedRowsChanged `({ rows: number[], previousSelectedRows: number[] })`
 * onSort `({ multiColumnSort: boolean, sortCol: Object, sortCols: Object[], sortAsc: boolean })`
 * onValidationError `({ editor: Object, cellNode: Object, validationResult: Object, row: number, cell: number, column: Object })`  
 * onViewportChanged `({})`
