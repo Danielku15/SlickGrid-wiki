@@ -1,6 +1,7 @@
 
 | Event  | Description |
 |------- | ------------|
+| onBeforePagingInfoChanged | Before Paging Information Changes |
 | onPagingInfoChanged | Paging information has changed |
 | onRowCountChanged | On total row count changed |
 | onRowsChanged | On rows changed |
@@ -14,6 +15,8 @@ Example of handing an event:
     });
 
 The events are fired in the following order.  All these events are fired by the same section of code in the ```refresh``` method of the dataView, so firing order is fixed, and information about which of the events are going to be fired is available to the firing code.
+
+```onBeforePagingInfoChanged```  ```args: { pageSize, pageNum, totalRows, totalPages, dataView }```
 
 ```onPagingInfoChanged```  ```args: { pageSize, pageNum, totalRows, totalPages, dataView }```
 
