@@ -122,6 +122,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Plugin: Row Detail Panel](http://6pac.github.com/SlickGrid/examples/example16-row-detail.html)
 * [Plugin: Context Menu & Cell Menu](http://6pac.github.io/SlickGrid/examples/example-plugin-contextmenu.html)
 
+* [3 Plugins combo: RowDetail/RowMoveManager/RowMove](https://6pac.github.io/SlickGrid/examples/example-row-detail-selection-and-move.html)
+
 * [Initialising header column sorting using an external function](http://6pac.github.com/SlickGrid/examples/example-external-headersort.html)
 
 ## Frozen Columns and Rows
