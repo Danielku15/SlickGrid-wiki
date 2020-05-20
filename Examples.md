@@ -78,6 +78,8 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 
 * [Checkbox row selection with grouping and checkbox to select rows in group](http://6pac.github.com/SlickGrid/examples/example-grouping-checkbox-row-select.html)
 
+* [Row Group](https://6pac.github.io/SlickGrid/examples/example-grouping-groupcolumn.html)
+
 ## Other Features
 
 * [Explicit initialization](http://6pac.github.com/SlickGrid/examples/example-explicit-initialization.html)
