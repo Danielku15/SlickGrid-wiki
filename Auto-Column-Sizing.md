@@ -168,7 +168,7 @@ They are passed as part of the 'autosize' object property of the column. The def
         colValueArray: undefined,
         allowAddlPercent: undefined,
         formatterOverride: undefined,
-        autosizeMode: Slick.ColAutosizeMode.ContentIntelligent,
+        autosizeColsMode: Slick.ColAutosizeMode.ContentIntelligent,
         rowSelectionModeOnInit: undefined,
         rowSelectionMode: Slick.RowSelectionMode.FirstNRows,
         rowSelectionCount: 100,
