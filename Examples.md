@@ -123,7 +123,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Plugin: Auto tooltips](http://6pac.github.com/SlickGrid/examples/example-autotooltips.html)
 * [Plugin: Row Detail Panel](http://6pac.github.com/SlickGrid/examples/example16-row-detail.html)
 * [Plugin: Context Menu & Cell Menu](http://6pac.github.io/SlickGrid/examples/example-plugin-contextmenu.html)
-* [Plugin: Grid State](https://github.com/6pac/SlickGrid/blob/master/examples/example-0070-plugin-state.html)
+* [Plugin: Grid State](https://6pac.github.io/SlickGrid/examples/example-0070-plugin-state.html)
 * [3 Plugins combo: RowDetail / RowMoveManager / RowMove](https://6pac.github.io/SlickGrid/examples/example-row-detail-selection-and-move.html)
 * [Initialising header column sorting using an external function](http://6pac.github.com/SlickGrid/examples/example-external-headersort.html)
 
