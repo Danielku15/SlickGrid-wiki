@@ -21,7 +21,7 @@ This repo has significantly expanded the set of Examples from the mleibman repo
 * [Implementing undo](http://6pac.github.com/SlickGrid/examples/example3b-editing-with-undo.html)
 
 * [Using a CompositeEditor to implement detached item edit form](http://6pac.github.com/SlickGrid/examples/example-composite-editor-item-details.html)
-* [CompositeEditor (enhanced) to implemented detached modal to: Create / Edit / Mass-Update / Mass-Selection](https://6pac.github.io/SlickGrid/examples/example-composite-editor-modal-dialog.html)
+* [CompositeEditor (enhanced) implements detached modal to: Create / Edit / Mass-Update / Mass-Selection](https://6pac.github.io/SlickGrid/examples/example-composite-editor-modal-dialog.html)
 
 ## Layout
 
