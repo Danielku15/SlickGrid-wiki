@@ -240,6 +240,32 @@ dataView.updateItem('l4', item);
 
 Each one of these updates will fire change events and the grid will get updated automatically.
 
+If you have multiple items to be added, edited or deleted there are also dedicated update methods for that: 
+```javascript
+// Delete item with id 'l3' ('C#') and 'l4' ('Java').
+dataView.deleteItems(['l3', 'l4']);
+
+// Append items to the end.
+dataView.addItems([
+    {'id': 'l5', 'lang': 'CoffeeScript'},
+    {'id': 'l6', 'lang': 'TypeScript'}
+]);
+
+// Insert items at the beginning.
+dataView.insertItems(0, [
+    {'id': 'l7', 'lang': 'Go'},
+    {'id': 'l8', 'lang': 'Ruby'},
+]);
+
+// Update  existing item.
+dataView.updateItems(
+    ['l7', 'l8'],
+    [
+        {'id': 'l9', 'lang': 'C'},
+        {'id': 'l10', 'lang': 'C++'},        
+    ]
+);
+```
 
 ## Batching updates
 
@@ -257,6 +283,28 @@ dataView.sort(...);
 dataView.endUpdate();
 ```
 
+The DataView also support "bulk" update operations optimizing the operations even further by delaying certain operations
+to the `endUpdate` call. These bulk dates and more efficient operations come at cost of inconsistencies when accessing
+data while updating. It is recommended to only use this bulk update in case of clear update operations where data
+access to the intermediate updated state is not required. Another important part is to avoid inserting items with ids
+that have been marked for deletion.
+
+```javascript
+dataView.beginUpdate(true /* activates the bulk operations */);
+dataView.deleteItems(['l1', 'l2', 'l3']);
+dataView.addItems([
+    { 'id': 'l20', 'lang': 'Kotlin' },
+    { 'id': 'l21', 'lang': 'Swift' },
+    { 'id': 'l22', 'lang': 'Objective-C' }
+    // many more..
+]);
+dataView.insertItems(0, [
+    { 'id': 'l100', 'lang': 'Dart' },
+    { 'id': 'l101', 'lang': 'F#' },
+    { 'id': 'l102', 'lang': 'Fortran' }
+]);
+dataView.endUpdate();
+```
 
 ## Filtering
 
